@@ -1,0 +1,54 @@
+{
+    "-500875095": {
+        "key": -500875095, 
+        "value": "\u539a\u8840\u82f1\u96c4"
+    }, 
+    "831695979": {
+        "key": 831695979, 
+        "value": "\u8fd9\u662f\u4e00\u4e2a\u82f1\u96c4"
+    }, 
+    "$code_camp_referee": {
+        "key": "$code_camp_referee", 
+        "value": "\u88c1\u5224"
+    }, 
+    "$faction 1": {
+        "key": "$faction 1", 
+        "value": "\u9635\u8425 1"
+    }, 
+    "$faction 2": {
+        "key": "$faction 2", 
+        "value": "\u9635\u8425 2"
+    }, 
+    "$faction 9999": {
+        "key": "$faction 9999", 
+        "value": "\u4e2d\u7acb"
+    }, 
+    "$player 1": {
+        "key": "$player 1", 
+        "value": "\u73a9\u5bb6 1"
+    }, 
+    "$player 2": {
+        "key": "$player 2", 
+        "value": "\u73a9\u5bb6 2"
+    }, 
+    "$player 3": {
+        "key": "$player 3", 
+        "value": "\u73a9\u5bb6 3"
+    }, 
+    "$player 31": {
+        "key": "$player 31", 
+        "value": "\u4e2d\u7acb \u654c\u5bf9"
+    }, 
+    "$player 32": {
+        "key": "$player 32", 
+        "value": "\u4e2d\u7acb \u53cb\u5584"
+    }, 
+    "$player 4": {
+        "key": "$player 4", 
+        "value": "\u73a9\u5bb6 4"
+    }, 
+    "$referee 3": {
+        "key": "$referee 3", 
+        "value": "\u88c1\u5224 3"
+    }
+}

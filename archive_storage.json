@@ -1,0 +1,12 @@
+{
+    "hehehui": {
+        "role_id": 1, 
+        "archive": {}, 
+        "platform_prop": {}
+    }, 
+    "test_account1": {
+        "role_id": 3, 
+        "archive": {}, 
+        "platform_prop": {}
+    }
+}
