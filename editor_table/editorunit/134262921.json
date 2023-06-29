@@ -63,10 +63,32 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [
+        [
+            134276941, 
+            1
+        ], 
+        [
+            134275430, 
+            1
+        ], 
+        [
+            134267216, 
+            1
+        ], 
+        [
+            134260206, 
+            1
+        ], 
+        [
+            134262634, 
+            1
+        ], 
+        [
+            134259816, 
+            1
+        ]
+    ], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -120,27 +142,24 @@
     "healing_effect_grow": 0.0, 
     "height_num": 0, 
     "height_offset": 0, 
-    "hero_ability_list": {
-        "__tuple__": true, 
-        "items": [
-            [
-                134266361, 
-                0
-            ], 
-            [
-                134259237, 
-                0
-            ], 
-            [
-                134248641, 
-                0
-            ], 
-            [
-                134276941, 
-                0
-            ]
+    "hero_ability_list": [
+        [
+            134266361, 
+            0
+        ], 
+        [
+            134259237, 
+            0
+        ], 
+        [
+            134248641, 
+            0
+        ], 
+        [
+            134276941, 
+            1
         ]
-    }, 
+    ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
     "hp_max": 520.0, 
@@ -163,7 +182,52 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134262921, 
-    "kv": {}, 
+    "kv": {
+        "Attack1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 23, 
+            "key": "Attack1", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 7, 
+            "value": 134267216
+        }, 
+        "Attack2": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 23, 
+            "key": "Attack2", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 7, 
+            "value": 134260206
+        }, 
+        "Attack3": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 23, 
+            "key": "Attack3", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 7, 
+            "value": 134262634
+        }, 
+        "Num_attack": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "Num_attack", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 2, 
+            "value": 1
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
@@ -177,7 +241,7 @@
     "move_type": 40, 
     "mp_color": "Blue", 
     "mp_key": "MP", 
-    "mp_max": 280.0, 
+    "mp_max": 680.0, 
     "mp_max_grow": 45.0, 
     "mp_rec": 1.45, 
     "mp_rec_grow": 0.135, 
@@ -227,7 +291,7 @@
     "reward_exp": 0, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1, 
-    "rotate_speed": 15.0, 
+    "rotate_speed": 10.0, 
     "sell_list": {
         "__tuple__": true, 
         "items": []

@@ -3,15 +3,15 @@
         "1644036097": {
             "variable_dict": {
                 "PROJECTILE_ENTITY": {
-                    "Projectile": 0
+                    "\u6295\u5c04\u7269": 0
                 }, 
                 "UNIT_ENTITY": {
-                    "AttackTarget": 0
+                    "\u653b\u51fb\u76ee\u6807": 0
                 }
             }, 
             "variable_length_dict": {
-                "AttackTarget": 0, 
-                "Projectile": 0
+                "\u6295\u5c04\u7269": 0, 
+                "\u653b\u51fb\u76ee\u6807": 0
             }
         }
     }, 
@@ -29,20 +29,9 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                {
-                                    "arg_type": 100014, 
-                                    "args_list": [], 
-                                    "sub_type": "CUR_ABILITY"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "SpellAni"
-                                    ], 
-                                    "sub_type": 1
-                                }
+                                "attack1"
                             ], 
-                            "sub_type": "GET_STRING_KV"
+                            "sub_type": 1
                         }, 
                         {
                             "arg_type": 100000, 
@@ -137,7 +126,7 @@
             "group_id": 201385536, 
             "p_trigger_id": null, 
             "trigger_id": 925941762, 
-            "trigger_name": "AbilityPercastStarts", 
+            "trigger_name": "\u6280\u80fd\u524d\u6447\u5f00\u59cb", 
             "valid": true
         }, 
         "1644036097": {
@@ -150,7 +139,7 @@
                             "args_list": [
                                 [
                                     "PROJECTILE_ENTITY", 
-                                    "Projectile", 
+                                    "\u6295\u5c04\u7269", 
                                     "local"
                                 ], 
                                 null
@@ -226,7 +215,7 @@
                             "args_list": [
                                 [
                                     "UNIT_ENTITY", 
-                                    "AttackTarget", 
+                                    "\u653b\u51fb\u76ee\u6807", 
                                     "local"
                                 ]
                             ], 
@@ -256,7 +245,7 @@
                             "args_list": [
                                 [
                                     "PROJECTILE_ENTITY", 
-                                    "Projectile", 
+                                    "\u6295\u5c04\u7269", 
                                     "local"
                                 ], 
                                 null
@@ -268,7 +257,7 @@
                             "args_list": [
                                 [
                                     "UNIT_ENTITY", 
-                                    "AttackTarget", 
+                                    "\u653b\u51fb\u76ee\u6807", 
                                     "local"
                                 ], 
                                 null
@@ -317,7 +306,7 @@
                                             "args_list": [
                                                 [
                                                     "UNIT_ENTITY", 
-                                                    "AttackTarget", 
+                                                    "\u653b\u51fb\u76ee\u6807", 
                                                     "local"
                                                 ], 
                                                 null
@@ -417,7 +406,7 @@
                                             "args_list": [
                                                 [
                                                     "UNIT_ENTITY", 
-                                                    "AttackTarget", 
+                                                    "\u653b\u51fb\u76ee\u6807", 
                                                     "local"
                                                 ], 
                                                 null
@@ -476,7 +465,7 @@
                                             "args_list": [
                                                 [
                                                     "PROJECTILE_ENTITY", 
-                                                    "Projectile", 
+                                                    "\u6295\u5c04\u7269", 
                                                     "local"
                                                 ], 
                                                 null
@@ -602,7 +591,7 @@
             "group_id": 201385536, 
             "p_trigger_id": null, 
             "trigger_id": 1644036097, 
-            "trigger_name": "AbilityPercastEnds", 
+            "trigger_name": "\u6280\u80fd\u524d\u6447\u7ed3\u675f", 
             "valid": false
         }, 
         "1865752579": {
@@ -642,7 +631,7 @@
             "group_id": 201385536, 
             "p_trigger_id": null, 
             "trigger_id": 1865752579, 
-            "trigger_name": "AbilityEnds", 
+            "trigger_name": "\u6280\u80fd\u7ed3\u675f\uff08\u65e0\u8bba\u4f55\u79cd\u65b9\u5f0f\uff09", 
             "valid": true
         }
     }, 
@@ -652,15 +641,15 @@
             "group": [
                 [
                     925941762, 
-                    "AbilityPercastStarts"
+                    "\u6280\u80fd\u524d\u6447\u5f00\u59cb"
                 ], 
                 [
                     1644036097, 
-                    "AbilityPercastEnds"
+                    "\u6280\u80fd\u524d\u6447\u7ed3\u675f"
                 ], 
                 [
                     1865752579, 
-                    "AbilityEnds"
+                    "\u6280\u80fd\u7ed3\u675f\uff08\u65e0\u8bba\u4f55\u79cd\u65b9\u5f0f\uff09"
                 ]
             ], 
             "key": 201385536, 
