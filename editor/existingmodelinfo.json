@@ -2,41 +2,17 @@
  {
   "__tuple__": true, 
   "items": [
-   10000, 
-   "\u73a9\u5bb61\u51fa\u751f\u70b9", 
-   1024
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10001, 
-   "\u73a9\u5bb62\u51fa\u751f\u70b9", 
-   1024
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10002, 
-   "\u73a9\u5bb63\u51fa\u751f\u70b9", 
-   1024
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   10003, 
-   "\u73a9\u5bb64\u51fa\u751f\u70b9", 
-   1024
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    9999, 
    "\u521d\u59cb\u955c\u5934", 
    32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10004, 
+   "\u73a9\u5bb6\u751f\u6210\u533a", 
+   2048
   ]
  }
 ]
