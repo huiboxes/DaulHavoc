@@ -204,18 +204,6 @@
                 "unit": 0
             }
         }, 
-        "578609215": {
-            "variable_dict": {
-                "INTEGER": {
-                    "Loop": 0, 
-                    "Player ID": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "Loop": 0, 
-                "Player ID": 0
-            }
-        }, 
         "671428624": {
             "variable_dict": {
                 "DYNAMIC_TRIGGER_INSTANCE": {
@@ -633,6 +621,20 @@
             }, 
             "variable_length_dict": {
                 "dis": 0
+            }
+        }, 
+        "1674088511": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
             }
         }, 
         "1702682684": {

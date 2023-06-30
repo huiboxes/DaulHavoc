@@ -1,3 +1,75 @@
 {
-    "unit": {}
+    "unit": {
+        "1": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 31
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                4, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -6, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            1, 
+                            2251404867
+                        ]
+                    }
+                }
+            }, 
+            "entity_id": 134219849, 
+            "name": "\u53ef\u7834\u574f\u5899\u4f53", 
+            "type": 4, 
+            "unit_id": 1
+        }
+    }
 }

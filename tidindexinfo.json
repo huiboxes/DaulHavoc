@@ -1,4 +1,10 @@
 {
+    "-159846964": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134267216, 
+        "prop_key": "name"
+    }, 
     "1403271188": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
