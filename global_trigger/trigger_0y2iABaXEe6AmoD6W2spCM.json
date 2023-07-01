@@ -278,6 +278,141 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_NAME", 
+                                                        "HeroList", 
+                                                        "local"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                134232742
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1149034558762036, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "UNIT_NAME", 
+                                                    "HeroList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                134256016
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1149034558762038, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "UNIT_NAME", 
+                                                    "HeroList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        3
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                134227832
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1149034558762043, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "UNIT_NAME", 
+                                                    "HeroList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        4
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                134245000
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1149034558762048, 
+                                    "enable": true
+                                }, 
+                                {
                                     "action_type": "IF_THEN_ELSE", 
                                     "args_list": [
                                         {
@@ -426,9 +561,30 @@
                                                                 {
                                                                     "arg_type": 100116, 
                                                                     "args_list": [
-                                                                        134256016
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "UNIT_NAME", 
+                                                                                "HeroList", 
+                                                                                "local"
+                                                                            ]
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "INTEGER", 
+                                                                                        "Player ID", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
                                                                     ], 
-                                                                    "sub_type": 1
+                                                                    "sub_type": 2
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100004, 
@@ -727,42 +883,6 @@
                                                     "action_type"
                                                 ], 
                                                 {
-                                                    "action_type": "SET_ROLE_MOUSE_LEFT_CLICK", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100025, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100002, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "__tuple__": true, 
-                                                                            "items": [
-                                                                                "INTEGER", 
-                                                                                "Player ID", 
-                                                                                "local"
-                                                                            ]
-                                                                        }, 
-                                                                        null
-                                                                    ], 
-                                                                    "sub_type": 6
-                                                                }
-                                                            ], 
-                                                            "sub_type": "GET_ROLE_BY_INT"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100048, 
-                                                            "args_list": [
-                                                                false
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 1149034558000008, 
-                                                    "enable": true
-                                                }, 
-                                                {
                                                     "action_type": "SET_ROLE_MOUSE_MOVE_SELECT", 
                                                     "args_list": [
                                                         {
@@ -799,6 +919,42 @@
                                                     "enable": true
                                                 }, 
                                                 {
+                                                    "action_type": "SET_ROLE_MOUSE_LEFT_CLICK", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "Player ID", 
+                                                                                "local"
+                                                                            ]
+                                                                        }, 
+                                                                        null
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ROLE_BY_INT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100048, 
+                                                            "args_list": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1149034558000008, 
+                                                    "enable": true
+                                                }, 
+                                                {
                                                     "action_type": "SET_ROLE_MOUSE_WHEEL", 
                                                     "args_list": [
                                                         {
@@ -832,6 +988,54 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 1149034558000010, 
+                                                    "enable": true
+                                                }, 
+                                                [
+                                                    1444785262, 
+                                                    "\u4fee\u6539\u9f20\u6807\u6837\u5f0f\u4e3a\u7784\u51c6\u56fe\u6807", 
+                                                    1149034558, 
+                                                    "action_type"
+                                                ], 
+                                                {
+                                                    "action_type": "SET_ROLE_CURSOR_STATE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "Player ID", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ROLE_BY_INT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100289, 
+                                                            "args_list": [
+                                                                "nm_hover"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100288, 
+                                                            "args_list": [
+                                                                3000025
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1149034558762058, 
                                                     "enable": true
                                                 }, 
                                                 [

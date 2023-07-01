@@ -2,6 +2,10 @@
     "1": 1, 
     "5": 1, 
     "6": 0, 
+    "102": 0, 
+    "104": 500, 
+    "107": 0, 
+    "108": 100, 
     "_custom_": true, 
     "_ref_": 134267216, 
     "ability_break_cast_range": {
@@ -29,7 +33,7 @@
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage_range": {

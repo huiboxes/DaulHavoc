@@ -10,15 +10,16 @@
             "variable_dict": {
                 "FLOAT": {}, 
                 "MOVER_ENTITY": {
-                    "ShellLocomotorium": 0
+                    "BallLocomotorium": 0
                 }, 
+                "SFX_ENTITY": {}, 
                 "UNIT_ENTITY": {
-                    "shellA": 0
+                    "normalAtkBall": 0
                 }
             }, 
             "variable_length_dict": {
-                "ShellLocomotorium": 0, 
-                "shellA": 0
+                "BallLocomotorium": 0, 
+                "normalAtkBall": 0
             }
         }
     }, 
@@ -743,7 +744,7 @@
                                             "args_list": [
                                                 [
                                                     "UNIT_ENTITY", 
-                                                    "shellA", 
+                                                    "normalAtkBall", 
                                                     "local"
                                                 ]
                                             ], 
@@ -815,7 +816,7 @@
                                             "args_list": [
                                                 [
                                                     "UNIT_ENTITY", 
-                                                    "shellA", 
+                                                    "normalAtkBall", 
                                                     "local"
                                                 ]
                                             ], 
@@ -850,7 +851,7 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                0.7
+                                                0.3
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -920,7 +921,7 @@
                                             "args_list": [
                                                 [
                                                     "MOVER_ENTITY", 
-                                                    "ShellLocomotorium", 
+                                                    "BallLocomotorium", 
                                                     "local"
                                                 ]
                                             ], 
@@ -931,7 +932,7 @@
                                             "args_list": [
                                                 [
                                                     "UNIT_ENTITY", 
-                                                    "shellA", 
+                                                    "normalAtkBall", 
                                                     "local"
                                                 ]
                                             ], 
@@ -957,7 +958,7 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                1000.0
+                                                1200.0
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -986,7 +987,7 @@
                                                             "args_list": [
                                                                 [
                                                                     "MOVER_ENTITY", 
-                                                                    "ShellLocomotorium", 
+                                                                    "BallLocomotorium", 
                                                                     "local"
                                                                 ]
                                                             ], 
@@ -1016,7 +1017,7 @@
                                                             "args_list": [
                                                                 [
                                                                     "UNIT_ENTITY", 
-                                                                    "shellA", 
+                                                                    "normalAtkBall", 
                                                                     "local"
                                                                 ]
                                                             ], 
@@ -1039,7 +1040,7 @@
                                                         {
                                                             "arg_type": 100066, 
                                                             "args_list": [
-                                                                100532
+                                                                100164
                                                             ], 
                                                             "sub_type": 1
                                                         }, 
@@ -1051,7 +1052,7 @@
                                                                     "args_list": [
                                                                         [
                                                                             "UNIT_ENTITY", 
-                                                                            "shellA", 
+                                                                            "normalAtkBall", 
                                                                             "local"
                                                                         ]
                                                                     ], 
@@ -1066,7 +1067,13 @@
                                                     "enable": true, 
                                                     "op_arg": [
                                                         null, 
-                                                        null, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                0.2
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
                                                         null, 
                                                         {
                                                             "arg_type": 100000, 
@@ -1085,10 +1092,10 @@
                                                     ], 
                                                     "op_arg_enable": [
                                                         false, 
-                                                        false, 
+                                                        true, 
                                                         false, 
                                                         true, 
-                                                        false
+                                                        true
                                                     ]
                                                 }, 
                                                 {
@@ -1099,7 +1106,7 @@
                                                             "args_list": [
                                                                 [
                                                                     "MOVER_ENTITY", 
-                                                                    "ShellLocomotorium", 
+                                                                    "BallLocomotorium", 
                                                                     "local"
                                                                 ]
                                                             ], 
@@ -1229,7 +1236,7 @@
                                                                         {
                                                                             "arg_type": 100066, 
                                                                             "args_list": [
-                                                                                102923
+                                                                                100164
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }, 
@@ -1241,7 +1248,7 @@
                                                                                     "args_list": [
                                                                                         [
                                                                                             "UNIT_ENTITY", 
-                                                                                            "shellA", 
+                                                                                            "normalAtkBall", 
                                                                                             "local"
                                                                                         ]
                                                                                     ], 
@@ -1256,7 +1263,13 @@
                                                                     "enable": true, 
                                                                     "op_arg": [
                                                                         null, 
-                                                                        null, 
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                0.2
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
                                                                         null, 
                                                                         {
                                                                             "arg_type": 100000, 
@@ -1275,10 +1288,10 @@
                                                                     ], 
                                                                     "op_arg_enable": [
                                                                         false, 
-                                                                        false, 
+                                                                        true, 
                                                                         false, 
                                                                         true, 
-                                                                        false
+                                                                        true
                                                                     ]
                                                                 }, 
                                                                 {
@@ -1289,7 +1302,7 @@
                                                                             "args_list": [
                                                                                 [
                                                                                     "MOVER_ENTITY", 
-                                                                                    "ShellLocomotorium", 
+                                                                                    "BallLocomotorium", 
                                                                                     "local"
                                                                                 ]
                                                                             ], 
@@ -1360,7 +1373,7 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                100.0
+                                                20.0
                                             ], 
                                             "sub_type": 1
                                         }, 
