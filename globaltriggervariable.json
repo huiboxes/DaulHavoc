@@ -392,7 +392,8 @@
             "variable_dict": {
                 "INTEGER": {
                     "Player ID": 0
-                }
+                }, 
+                "UNIT_NAME": {}
             }, 
             "variable_length_dict": {
                 "Player ID": 0

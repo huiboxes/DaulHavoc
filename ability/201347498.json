@@ -14,9 +14,20 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "attack1"
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "SpellAni"
+                                    ], 
+                                    "sub_type": 1
+                                }
                             ], 
-                            "sub_type": 1
+                            "sub_type": "GET_STRING_KV"
                         }
                     ], 
                     "bp": false, 
@@ -38,7 +49,7 @@
             "group_id": 201347498, 
             "p_trigger_id": null, 
             "trigger_id": 679227395, 
-            "trigger_name": "\u6280\u80fd\u7ed3\u675f\uff08\u65e0\u8bba\u4f55\u79cd\u65b9\u5f0f\uff09", 
+            "trigger_name": "AbilityEnds", 
             "valid": true
         }, 
         "813318145": {
@@ -54,9 +65,20 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "attack1"
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "SpellAni"
+                                    ], 
+                                    "sub_type": 1
+                                }
                             ], 
-                            "sub_type": 1
+                            "sub_type": "GET_STRING_KV"
                         }, 
                         {
                             "arg_type": 100000, 
@@ -151,7 +173,7 @@
             "group_id": 201347498, 
             "p_trigger_id": null, 
             "trigger_id": 813318145, 
-            "trigger_name": "\u6280\u80fd\u524d\u6447\u5f00\u59cb", 
+            "trigger_name": "AbilityPercastStarts", 
             "valid": true
         }, 
         "1568333826": {
@@ -273,7 +295,7 @@
             "group_id": 201347498, 
             "p_trigger_id": null, 
             "trigger_id": 1568333826, 
-            "trigger_name": "\u6280\u80fd\u524d\u6447\u7ed3\u675f", 
+            "trigger_name": "AbilityPercastEnds", 
             "valid": true
         }
     }, 
@@ -283,15 +305,15 @@
             "group": [
                 [
                     679227395, 
-                    "\u6280\u80fd\u7ed3\u675f\uff08\u65e0\u8bba\u4f55\u79cd\u65b9\u5f0f\uff09"
+                    "AbilityEnds"
                 ], 
                 [
                     813318145, 
-                    "\u6280\u80fd\u524d\u6447\u5f00\u59cb"
+                    "AbilityPercastStarts"
                 ], 
                 [
                     1568333826, 
-                    "\u6280\u80fd\u524d\u6447\u7ed3\u675f"
+                    "AbilityPercastEnds"
                 ]
             ], 
             "key": 201347498, 
