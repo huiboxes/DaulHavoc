@@ -854,6 +854,54 @@
                                                     "enable": true
                                                 }, 
                                                 [
+                                                    1481599367, 
+                                                    "\u9690\u85cf\u73a9\u5bb6\u5355\u4f4d\u9009\u62e9\u5708", 
+                                                    588525634, 
+                                                    "action_type"
+                                                ], 
+                                                {
+                                                    "action_type": "SET_UNIT_SELECT_EFFECT_VISIBLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "UNIT_ENTITY", 
+                                                                        "Player Unit"
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "Player ID", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 588525634879769, 
+                                                    "enable": true
+                                                }, 
+                                                [
                                                     1999138797, 
                                                     "\u663e\u793a\u6307\u5357\u63d0\u793a", 
                                                     588525634, 
