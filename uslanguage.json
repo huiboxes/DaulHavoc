@@ -38,9 +38,5 @@
     "$player 4": {
         "key": "$player 4", 
         "value": "Player 4"
-    }, 
-    "$referee 3": {
-        "key": "$referee 3", 
-        "value": "Observer 3"
     }
 }

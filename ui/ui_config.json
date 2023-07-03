@@ -245,8 +245,240 @@
                 "type": 4
             }, 
             "name": "hero"
+        }, 
+        "c3facf4f-ec49-4533-93e4-d39a035f2254": {
+            "data": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [], 
+                                "comp_anims": [], 
+                                "event_list": [], 
+                                "name": "\u88c5\u5907\u56fe\u50cf", 
+                                "pos": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        23.5, 
+                                        23.5
+                                    ]
+                                }, 
+                                "size": {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        38.0, 
+                                        38.0
+                                    ]
+                                }, 
+                                "type": 4
+                            }
+                        ], 
+                        "comp_anims": [], 
+                        "event_list": [], 
+                        "image": 107174, 
+                        "name": "\u88c5\u5907\u56fe\u50cf\u6846", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                38.0, 
+                                38.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                15.702479338842975, 
+                                50.0
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                47.0, 
+                                47.0
+                            ]
+                        }, 
+                        "type": 4
+                    }, 
+                    {
+                        "children": [], 
+                        "comp_anims": [], 
+                        "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "MSYH", 
+                                16
+                            ]
+                        }, 
+                        "name": "\u88c5\u5907\u540d", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                125.0, 
+                                53.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                51.652892561983464, 
+                                69.73684210526315
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                100.0, 
+                                18.0
+                            ]
+                        }, 
+                        "text": {
+                            "__tuple__": true, 
+                            "items": [
+                                "\u88c5\u5907\u540d\u516d\u4e2a\u5b57", 
+                                false
+                            ]
+                        }, 
+                        "type": 3
+                    }, 
+                    {
+                        "children": [], 
+                        "comp_anims": [], 
+                        "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "MSYH", 
+                                15
+                            ]
+                        }, 
+                        "name": "\u88c5\u5907\u4ecb\u7ecd", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                24.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                61.98347107438017, 
+                                31.57894736842105
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                18.0
+                            ]
+                        }, 
+                        "text": {
+                            "__tuple__": true, 
+                            "items": [
+                                "\u88c5\u5907\u7684\u7b80\u8981\u63cf\u8ff0\u5341\u4e2a\u5b57", 
+                                false
+                            ]
+                        }, 
+                        "type": 3
+                    }, 
+                    {
+                        "adapter_option": [
+                            true, 
+                            false, 
+                            false, 
+                            true, 
+                            6.0, 
+                            50.0, 
+                            190.0, 
+                            12.0
+                        ], 
+                        "alignment": {
+                            "__tuple__": true, 
+                            "items": [
+                                4, 
+                                8
+                            ]
+                        }, 
+                        "children": [], 
+                        "comp_anims": [], 
+                        "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "MSYH", 
+                                16
+                            ]
+                        }, 
+                        "font_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                247, 
+                                207, 
+                                47, 
+                                255
+                            ]
+                        }, 
+                        "name": "\u88c5\u5907\u4ef7\u683c", 
+                        "open_adapter": true, 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                210.0, 
+                                60.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                86.77685950413223, 
+                                78.94736842105263
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                40.0, 
+                                20.0
+                            ]
+                        }, 
+                        "text": {
+                            "__tuple__": true, 
+                            "items": [
+                                "9999", 
+                                false
+                            ]
+                        }, 
+                        "type": 3
+                    }
+                ], 
+                "comp_anims": [], 
+                "custom_kv": {}, 
+                "event_list": [], 
+                "name": "\u5546\u54c1", 
+                "normal_picture": 107192, 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "prefab_key": "c3facf4f-ec49-4533-93e4-d39a035f2254", 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        242.0, 
+                        76.0
+                    ]
+                }, 
+                "type": 1
+            }, 
+            "name": "\u5546\u54c1"
         }
     }, 
-    "ui_template_id": 2, 
+    "ui_template_id": 1, 
     "uid_version": true
 }
