@@ -174,7 +174,7 @@
     "mp_rec_grow": 2, 
     "name": -231025341, 
     "ori_bits": 0, 
-    "ori_speed": 2.0, 
+    "ori_speed": 5.0, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 

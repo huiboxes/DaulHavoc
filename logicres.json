@@ -18,24 +18,24 @@
     "8192": {}, 
     "32768": {
         "9999": {
-            "camera_dist": 21.99999400301878, 
+            "camera_dist": 22.00000023229156, 
             "far": 1000.0, 
             "focus_max_dist": 400.0, 
             "focus_min_dist": 10.0, 
-            "focus_x": -0.9449462890625, 
+            "focus_x": -0.9399999976158142, 
             "focus_y": 0.0, 
-            "focus_z": 4.27667236328125, 
+            "focus_z": 4.260000228881836, 
             "fov": 35.0, 
             "fov_disabled": true, 
             "id": 9999, 
             "is_origin_cam": true, 
             "is_ortho": false, 
             "name": "\u521d\u59cb\u955c\u5934", 
-            "pitch": 0.888584376468829, 
+            "pitch": 1.2400564473168167, 
             "roll": 0.0, 
-            "set_camera_conf_realtime": null, 
+            "set_camera_conf_realtime": false, 
             "type": 32768, 
-            "yaw": 6.27838531633639
+            "yaw": 6.278298420215937
         }
     }, 
     "65536": {}, 

@@ -141,6 +141,20 @@
                 "y": 0
             }
         }, 
+        "413655107": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "Unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0, 
+                "Unit": 0
+            }
+        }, 
         "444342298": {
             "variable_dict": {
                 "DYNAMIC_TRIGGER_INSTANCE": {}, 
