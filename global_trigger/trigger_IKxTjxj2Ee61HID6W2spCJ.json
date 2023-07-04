@@ -465,6 +465,67 @@
                                                     "element_id": 588525634000009, 
                                                     "enable": true
                                                 }, 
+                                                [
+                                                    1678671354, 
+                                                    "\u7ed1\u5b9a\u73a9\u5bb6\u5355\u4f4d UI", 
+                                                    588525634, 
+                                                    "action_type"
+                                                ], 
+                                                {
+                                                    "action_type": "SELECT_UNIT", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "Player ID", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ROLE_BY_INT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "UNIT_ENTITY", 
+                                                                        "Player Unit"
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "Player ID", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 588525634879802, 
+                                                    "enable": true
+                                                }, 
                                                 {
                                                     "action_type": "CALL_TRIGGER_FUNC", 
                                                     "args_list": [
@@ -956,7 +1017,7 @@
                                                         {
                                                             "arg_type": 100001, 
                                                             "args_list": [
-                                                                true
+                                                                false
                                                             ], 
                                                             "sub_type": 1
                                                         }
