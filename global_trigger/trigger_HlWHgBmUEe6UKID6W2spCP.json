@@ -531,7 +531,7 @@
             ], 
             "call_enabled": true, 
             "condition": [], 
-            "enabled": true, 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [], 
@@ -1448,7 +1448,7 @@
             ], 
             "call_enabled": true, 
             "condition": [], 
-            "enabled": true, 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [], 
@@ -1772,7 +1772,7 @@
                     "enable": true
                 }
             ], 
-            "enabled": true, 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [], 
@@ -2806,7 +2806,7 @@
             ], 
             "call_enabled": true, 
             "condition": [], 
-            "enabled": true, 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [], 
@@ -2883,15 +2883,15 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    945233976, 
-                    "\u6280\u80fd\u53d8\u66f4\u4e8b\u4ef6"
+                    2095947833, 
+                    "\u9009\u4e2d\u7269\u54c1/\u53ef\u7834\u574f\u7269"
                 ]
             }, 
             {
                 "__tuple__": true, 
                 "items": [
-                    2095947833, 
-                    "\u9009\u4e2d\u7269\u54c1/\u53ef\u7834\u574f\u7269"
+                    945233976, 
+                    "\u6280\u80fd\u53d8\u66f4\u4e8b\u4ef6"
                 ]
             }
         ], 
