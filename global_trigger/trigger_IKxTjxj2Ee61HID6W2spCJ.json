@@ -892,7 +892,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 588525634000014, 
-                                                    "enable": false
+                                                    "enable": true
                                                 }, 
                                                 {
                                                     "action_type": "SET_ROLE_MOUSE_WHEEL", 

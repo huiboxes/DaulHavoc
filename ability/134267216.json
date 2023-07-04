@@ -343,7 +343,7 @@
             "group_id": 134267216, 
             "p_trigger_id": null, 
             "trigger_id": 268054531, 
-            "trigger_name": "TRIGGER", 
+            "trigger_name": "stage1", 
             "valid": true
         }, 
         "850415619": {
@@ -1187,7 +1187,7 @@
                                                                         {
                                                                             "arg_type": 100001, 
                                                                             "args_list": [
-                                                                                false
+                                                                                true
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }
@@ -1222,7 +1222,7 @@
                                                                         null
                                                                     ], 
                                                                     "op_arg_enable": [
-                                                                        false, 
+                                                                        true, 
                                                                         false, 
                                                                         false, 
                                                                         false, 
@@ -1465,7 +1465,7 @@
             "group_id": 134267216, 
             "p_trigger_id": null, 
             "trigger_id": 850415619, 
-            "trigger_name": "TRIGGER_2", 
+            "trigger_name": "stage2", 
             "valid": true
         }
     }, 
@@ -1475,11 +1475,11 @@
             "group": [
                 [
                     268054531, 
-                    "TRIGGER"
+                    "stage1"
                 ], 
                 [
                     850415619, 
-                    "TRIGGER_2"
+                    "stage2"
                 ]
             ], 
             "key": 134267216, 
