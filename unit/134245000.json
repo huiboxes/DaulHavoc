@@ -1,0 +1,89 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "483389441": {
+            "action": [
+                {
+                    "action_type": "NEW_CAMERA_SHAKE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_UNIT"
+                                }
+                            ], 
+                            "sub_type": "OWNER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.03
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                4.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.4
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100218, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1279647746900044, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 483389441000002, 
+                    "enable": true, 
+                    "event_type": "UNIT_BE_HURT"
+                }
+            ], 
+            "group_id": 134245000, 
+            "p_trigger_id": null, 
+            "trigger_id": 483389441, 
+            "trigger_name": "BeHurt", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    483389441, 
+                    "BeHurt"
+                ]
+            ], 
+            "key": 134245000, 
+            "name": "134245000"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}
