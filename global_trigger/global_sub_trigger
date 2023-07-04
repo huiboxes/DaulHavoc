@@ -4673,6 +4673,460 @@
         "trigger_name": "\u79fb\u5165\u7269\u54c1\u680f_2", 
         "valid": true
     }, 
+    "1578909761": {
+        "action": [
+            {
+                "action_type": "STORAGE_BOX", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "IF_THEN_ELSE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100021, 
+                                        "args_list": [
+                                            {
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100001, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "BOOLEAN", 
+                                                                    "BoolDebug"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": "VARIABLE"
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100035, 
+                                                        "args_list": [
+                                                            "=="
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100001, 
+                                                        "args_list": [
+                                                            true
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "condition_type": "BOOL_COMPARE", 
+                                                "element_id": 1578909761000001, 
+                                                "enable": true
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100022, 
+                                        "args_list": [], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100022, 
+                                        "args_list": [
+                                            {
+                                                "action_type": "RETURN", 
+                                                "args_list": [], 
+                                                "bp": false, 
+                                                "element_id": 1578909761000002, 
+                                                "enable": true
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 1578909761000003, 
+                                "enable": true, 
+                                "fake_op": [
+                                    2
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u622a\u65ad"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1578909761000004, 
+                "enable": true
+            }, 
+            {
+                "action_type": "STORAGE_BOX", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "message", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            "Debug\uff08time\uff1b"
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            {
+                                                                "arg_type": 100002, 
+                                                                "args_list": [], 
+                                                                "sub_type": "GET_LOCAL_TIME_STAMP"
+                                                            }
+                                                        ], 
+                                                        "sub_type": "ANY_VAR_TO_STR"
+                                                    }
+                                                ], 
+                                                "op_arg": [
+                                                    null, 
+                                                    null, 
+                                                    null, 
+                                                    null, 
+                                                    null, 
+                                                    null, 
+                                                    null, 
+                                                    null
+                                                ], 
+                                                "op_arg_enable": [
+                                                    false, 
+                                                    false, 
+                                                    false, 
+                                                    false, 
+                                                    false, 
+                                                    false, 
+                                                    false, 
+                                                    false
+                                                ], 
+                                                "sub_type": "STR_JOIN"
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\uff09\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 1578909761000005, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "message", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "message", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "str", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 1578909761000006, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u5408\u6210"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1578909761000007, 
+                "enable": true
+            }, 
+            {
+                "action_type": "STORAGE_BOX", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100027, 
+                                        "args_list": [], 
+                                        "sub_type": "ALL_PLAYER"
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "message", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100001, 
+                                        "args_list": [
+                                            false
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 1578909761000008, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100175, 
+                                        "args_list": [
+                                            3
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "message", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 1578909761000009, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "do"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1578909761000010, 
+                "enable": true
+            }, 
+            {
+                "action_type": "STORAGE_BOX", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "box"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1578909761000011, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": true, 
+        "event": [], 
+        "func_des": "\u3010X01\u3011Debug\u5b57\u7b26\u4e32\u4fe1\u606f\uff1a{str}", 
+        "func_id": "623ae2e18b3411ed94a470b5e84281ea", 
+        "func_name": "Debug\u4fe1\u606f", 
+        "func_param_list": [
+            [
+                "str", 
+                true
+            ]
+        ], 
+        "group_id": "VsFYzxp9Ee6suYD6W2spCL", 
+        "is_func": true, 
+        "is_official_func": false, 
+        "p_trigger_id": null, 
+        "trigger_id": 1578909761, 
+        "trigger_name": "Debug\u4fe1\u606f", 
+        "valid": true
+    }, 
     "1632432171": {
         "action": [
             {

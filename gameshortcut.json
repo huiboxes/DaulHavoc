@@ -119,7 +119,7 @@
     "lock_cursor": {
         "__tuple__": true, 
         "items": [
-            false, 
+            true, 
             [
                 "F11"
             ]

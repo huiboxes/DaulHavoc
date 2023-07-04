@@ -1,5 +1,41 @@
 {
     "local_variable": {
+        "18628677": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
+            }
+        }, 
+        "85737539": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "PROJECTILE": {
+                    "projectType": 0
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "project": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "project": 0, 
+                "projectType": 0, 
+                "unit": 0
+            }
+        }, 
         "99549217": {
             "variable_dict": {
                 "PLAYER": {
@@ -116,6 +152,20 @@
                 "\u73a9\u5bb6": 0
             }
         }, 
+        "354172999": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
+            }
+        }, 
         "370421818": {
             "variable_dict": {
                 "ANGLE": {
@@ -147,20 +197,6 @@
                 "Player ID": 0, 
                 "x": 0, 
                 "y": 0
-            }
-        }, 
-        "413655107": {
-            "variable_dict": {
-                "INTEGER": {
-                    "Player ID": 0
-                }, 
-                "UNIT_ENTITY": {
-                    "Unit": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "Player ID": 0, 
-                "Unit": 0
             }
         }, 
         "444342298": {
@@ -390,6 +426,20 @@
                 "\u9009\u4e2d\u5355\u4f4d": 0
             }
         }, 
+        "756826182": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
+            }
+        }, 
         "811716643": {
             "variable_dict": {
                 "FLOAT": {
@@ -438,18 +488,6 @@
                 "\u9009\u4e2d\u5355\u4f4d": 0
             }
         }, 
-        "882499599": {
-            "variable_dict": {
-                "BOOLEAN": {
-                    "\u9009\u4e2d": false
-                }, 
-                "NEW_TIMER": {}, 
-                "UNIT_ENTITY": {}
-            }, 
-            "variable_length_dict": {
-                "\u9009\u4e2d": 0
-            }
-        }, 
         "890515519": {
             "variable_dict": {
                 "INTEGER": {
@@ -462,6 +500,16 @@
             "variable_length_dict": {
                 "Player ID": 0, 
                 "Unit": 0
+            }
+        }, 
+        "924598345": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0
             }
         }, 
         "938496034": {
@@ -685,6 +733,43 @@
                 "\u7ecf\u9a8c\u53d8\u5316\u89e6\u53d1": 0
             }
         }, 
+        "1226588226": {
+            "variable_dict": {
+                "FLOAT": {
+                    "realDistance": 0.0
+                }, 
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "POINT": {
+                    "pointUnit": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "projectAim": 0
+                }, 
+                "PROJECTILE_GROUP": {
+                    "projectGroup": []
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "pointUnit": 0, 
+                "projectAim": 0, 
+                "projectGroup": 0, 
+                "realDistance": 0, 
+                "unit": 0
+            }
+        }, 
         "1259614267": {
             "variable_dict": {
                 "FLOAT": {
@@ -791,6 +876,18 @@
                 "\u9009\u4e2dID": 0, 
                 "\u9009\u4e2d\u7269\u54c1\u8868": 0, 
                 "\u9009\u4e2d\u9875\u6570": 0
+            }
+        }, 
+        "1578909761": {
+            "variable_dict": {
+                "STRING": {
+                    "message": "", 
+                    "str": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "message": 0, 
+                "str": 0
             }
         }, 
         "1645490240": {
@@ -901,6 +998,24 @@
                 "lv": 0
             }
         }, 
+        "1780236362": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "project": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "Unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0, 
+                "Unit": 0, 
+                "project": 0
+            }
+        }, 
         "1783373882": {
             "variable_dict": {
                 "PLAYER": {
@@ -955,6 +1070,20 @@
                 "\u65f6\u95f4": 0, 
                 "\u65f6\u95f4_\u5206": 0, 
                 "\u65f6\u95f4_\u65f6": 0
+            }
+        }, 
+        "1888632906": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
             }
         }, 
         "1891225617": {
@@ -1050,14 +1179,18 @@
                 "Player ID": 0
             }
         }, 
-        "2095947833": {
+        "2082226244": {
             "variable_dict": {
                 "PLAYER": {
-                    "\u73a9\u5bb6": 0
+                    "player": 0
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "project": 0
                 }
             }, 
             "variable_length_dict": {
-                "\u73a9\u5bb6": 0
+                "player": 0, 
+                "project": 0
             }
         }, 
         "2132029502": {
@@ -1073,7 +1206,9 @@
     }, 
     "variable_comments": {}, 
     "variable_dict": {
-        "BOOLEAN": {}, 
+        "BOOLEAN": {
+            "BoolDebug": false
+        }, 
         "FLOAT": {
             "tips_scale": 0.0
         }, 
@@ -1081,6 +1216,7 @@
             "Left": 0
         }, 
         "NEW_TIMER": {}, 
+        "PLAYER": {}, 
         "TABLE": {
             "BUFF_UI_table": null, 
             "Equip_UI_table": null, 
@@ -1088,7 +1224,8 @@
             "Skill_UI_table": null
         }, 
         "UNIT_ENTITY": {
-            "Player Unit": 0
+            "Player Unit": 0, 
+            "UnitLead": 0
         }, 
         "UNIT_NAME": {}
     }, 
@@ -1141,15 +1278,31 @@
                 "Left", 
                 "Left"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "BoolDebug", 
+                "BoolDebug"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "UnitLead", 
+                "UnitLead"
+            ]
         }
     ], 
     "variable_length_dict": {
         "BUFF_UI_table": 0, 
+        "BoolDebug": 0, 
         "Equip_UI_table": 0, 
         "Left": 0, 
         "Player Unit": 10, 
         "Shop_UI_table": 0, 
         "Skill_UI_table": 0, 
+        "UnitLead": 0, 
         "tips_scale": 10
     }
 }

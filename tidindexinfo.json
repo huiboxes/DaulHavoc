@@ -1,1 +1,14 @@
-{}
+{
+    "1723887239": {
+        "editor_type": "projectile_all", 
+        "index_type": "object_editor", 
+        "item_key": 134257719, 
+        "prop_key": "desc"
+    }, 
+    "1791483211": {
+        "editor_type": "projectile_all", 
+        "index_type": "object_editor", 
+        "item_key": 134257719, 
+        "prop_key": "name"
+    }
+}

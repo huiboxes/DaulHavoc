@@ -1,76 +1,79 @@
 {
     "trigger_dict": {}, 
     "trigger_group_info": {
+        "_function_": true, 
         "_trigger_group_": true, 
         "group": [
             {
+                "_function_": true, 
                 "_trigger_group_": true, 
                 "group": [
                     {
                         "__tuple__": true, 
                         "items": [
-                            478867458, 
-                            "\u9009\u4e2d\u5546\u5e97"
+                            1226588226, 
+                            "Y01\uff1a\u83b7\u53d6\u53ef\u4e92\u52a8"
                         ]
                     }, 
                     {
                         "__tuple__": true, 
                         "items": [
-                            546029571, 
-                            "\u6ce8\u518cUI\u4e8b\u4ef6"
+                            85737539, 
+                            "Y02\uff1a\u4e92\u52a8\u6295\u5c04\u7269"
                         ]
                     }, 
                     {
                         "__tuple__": true, 
                         "items": [
-                            1777578020, 
-                            "\u6280\u80fd\u5347\u7ea7\u4e8b\u4ef6"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            247672871, 
-                            "\u9f20\u6807\u79fb\u52a8"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1859448887, 
-                            "\u663c\u591c\u65f6\u95f4"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            945233976, 
-                            "\u6280\u80fd\u53d8\u66f4\u4e8b\u4ef6"
+                            2082226244, 
+                            "Y03\uff1a\u5237\u65b0UI"
                         ]
                     }
                 ], 
                 "is_sub_folder": true, 
-                "key": "HlWHgBmUEe6UKID6W2spCP", 
-                "name": "Base"
+                "key": "VsGm7hp9Ee6yc4D6W2spCO", 
+                "name": "Y\uff1a\u6838\u5fc3"
             }, 
             {
+                "_function_": true, 
                 "_trigger_group_": true, 
                 "group": [
                     {
                         "__tuple__": true, 
                         "items": [
-                            151711774, 
-                            "\u5355\u4f4d\u5c5e\u6027\u7ed1\u5b9a"
+                            18628677, 
+                            "W01\uff1a\u7269\u54c1A"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            756826182, 
+                            "W02\uff1a\u7269\u54c1B"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            354172999, 
+                            "W03\uff1a\u7269\u54c1C"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1888632906, 
+                            "W04\uff1a\u706b\u7403"
                         ]
                     }
                 ], 
                 "is_sub_folder": true, 
-                "key": "KUt3zxmUEe6TGYD6W2spCL", 
-                "name": "Extends"
+                "key": "VsK4Yhp9Ee6yGYD6W2spCC", 
+                "name": "W\uff1a\u6267\u884c"
             }
         ], 
         "is_sub_folder": false, 
-        "key": "kZQn3s4eEe2y+TDQQuUV9l", 
-        "name": "UI"
+        "key": "0P0WABp-Ee6eq4D6W2spCK", 
+        "name": "\u62fe\u53d6\u9053\u5177"
     }
 }

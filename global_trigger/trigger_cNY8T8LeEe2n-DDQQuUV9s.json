@@ -469,7 +469,7 @@
                     ]
                 }
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
@@ -643,7 +643,7 @@
                     "enable": true
                 }
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
@@ -1093,7 +1093,7 @@
                     ]
                 }
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
@@ -4012,7 +4012,7 @@
                     "action_type"
                 ]
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
@@ -5041,7 +5041,7 @@
                     ]
                 }
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
@@ -5332,7 +5332,7 @@
                     "enable": true
                 }
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
@@ -6438,7 +6438,7 @@
                     "enable": true
                 }
             ], 
-            "call_enabled": true, 
+            "call_enabled": false, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
