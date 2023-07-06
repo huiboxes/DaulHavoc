@@ -1,6 +1,6 @@
 {
     "trigger_dict": {
-        "85737539": {
+        "435724348": {
             "action": [
                 {
                     "action_type": "STORAGE_BOX", 
@@ -52,7 +52,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000001, 
+                                    "element_id": 435724348000001, 
                                     "enable": true
                                 }, 
                                 {
@@ -94,7 +94,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000002, 
+                                    "element_id": 435724348000002, 
                                     "enable": true, 
                                     "op_arg": [
                                         null, 
@@ -144,7 +144,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000003, 
+                                    "element_id": 435724348000003, 
                                     "enable": true, 
                                     "op_arg": [
                                         {
@@ -156,6 +156,50 @@
                                         }
                                     ], 
                                     "op_arg_enable": [
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "PLAY_SOUND_FOR_PLAYER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PLAYER", 
+                                                        "player", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100084, 
+                                            "args_list": [
+                                                134236174
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 435724348000004, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
                                         false
                                     ]
                                 }
@@ -176,7 +220,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 85737539000004, 
+                    "element_id": 435724348000005, 
                     "enable": true
                 }, 
                 {
@@ -228,7 +272,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "PROJECTILE_TYPE_COMPARE", 
-                                                    "element_id": 85737539000005, 
+                                                    "element_id": 435724348000006, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -279,7 +323,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 85737539000006, 
+                                                    "element_id": 435724348000007, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -292,7 +336,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000007, 
+                                    "element_id": 435724348000008, 
                                     "enable": true, 
                                     "fake_op": []
                                 }, 
@@ -334,7 +378,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "PROJECTILE_TYPE_COMPARE", 
-                                                    "element_id": 85737539000008, 
+                                                    "element_id": 435724348000009, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -385,7 +429,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 85737539000009, 
+                                                    "element_id": 435724348000010, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -398,7 +442,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000010, 
+                                    "element_id": 435724348000011, 
                                     "enable": true, 
                                     "fake_op": []
                                 }, 
@@ -440,7 +484,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "PROJECTILE_TYPE_COMPARE", 
-                                                    "element_id": 85737539000011, 
+                                                    "element_id": 435724348000012, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -491,7 +535,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 85737539000012, 
+                                                    "element_id": 435724348000013, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -504,7 +548,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000013, 
+                                    "element_id": 435724348000014, 
                                     "enable": true, 
                                     "fake_op": []
                                 }, 
@@ -546,7 +590,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "PROJECTILE_TYPE_COMPARE", 
-                                                    "element_id": 85737539000041, 
+                                                    "element_id": 435724348000015, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -597,7 +641,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 85737539000058, 
+                                                    "element_id": 435724348000016, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -610,7 +654,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 85737539000018, 
+                                    "element_id": 435724348000017, 
                                     "enable": true, 
                                     "fake_op": []
                                 }
@@ -631,7 +675,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 85737539000014, 
+                    "element_id": 435724348000018, 
                     "enable": true
                 }, 
                 {
@@ -661,7 +705,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 85737539000015, 
+                    "element_id": 435724348000019, 
                     "enable": true
                 }
             ], 
@@ -695,601 +739,15 @@
                     ]
                 }
             ], 
-            "group_id": "VsGm7hp9Ee6yc4D6W2spCO", 
+            "group_id": "PHXAIRtEEe6YzYD6W2spCD", 
             "is_func": true, 
             "is_official_func": false, 
             "p_trigger_id": null, 
-            "trigger_id": 85737539, 
+            "trigger_id": 435724348, 
             "trigger_name": "Y02\uff1a\u4e92\u52a8\u6295\u5c04\u7269", 
             "valid": true
         }, 
-        "1226588226": {
-            "action": [
-                {
-                    "action_type": "STORAGE_BOX", 
-                    "args_list": [
-                        {
-                            "arg_type": 100021, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "POINT", 
-                                                        "pointUnit", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100004, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100006, 
-                                                    "args_list": [
-                                                        {
-                                                            "__tuple__": true, 
-                                                            "items": [
-                                                                "UNIT_ENTITY", 
-                                                                "unit", 
-                                                                "local"
-                                                            ]
-                                                        }
-                                                    ], 
-                                                    "sub_type": 11
-                                                }
-                                            ], 
-                                            "sub_type": "UNIT_ENTITY_POINT"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1226588226000001, 
-                                    "enable": true
-                                }, 
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "PROJECTILE_GROUP", 
-                                                        "projectGroup", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100203, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100004, 
-                                                    "args_list": [
-                                                        {
-                                                            "__tuple__": true, 
-                                                            "items": [
-                                                                "POINT", 
-                                                                "pointUnit", 
-                                                                "local"
-                                                            ]
-                                                        }
-                                                    ], 
-                                                    "sub_type": 19
-                                                }, 
-                                                {
-                                                    "arg_type": 100211, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100000, 
-                                                            "args_list": [
-                                                                100.0
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "sub_type": "CONST_CIRCULAR_SHAPE"
-                                                }
-                                            ], 
-                                            "op_arg": [
-                                                null
-                                            ], 
-                                            "op_arg_enable": [
-                                                false
-                                            ], 
-                                            "sub_type": "PROJECTILE_LIST_IN_SHAPE"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1226588226000002, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "\u83b7\u53d6\u6295\u5c04\u7269\u7ec4"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1226588226000003, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "STORAGE_BOX", 
-                    "args_list": [
-                        {
-                            "arg_type": 100021, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "PROJECTILE_ENTITY", 
-                                                        "projectAim", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100077, 
-                                            "args_list": [], 
-                                            "sub_type": "NONE_PROJECTILE"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1226588226000004, 
-                                    "enable": true
-                                }, 
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "FLOAT", 
-                                                        "realDistance", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100000, 
-                                            "args_list": [
-                                                999.0
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1226588226000005, 
-                                    "enable": true
-                                }, 
-                                {
-                                    "action_type": "PICK_PROJECTILE_DO_ACTION", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100203, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "PROJECTILE_GROUP", 
-                                                        "projectGroup", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 14
-                                        }, 
-                                        {
-                                            "arg_type": 100022, 
-                                            "args_list": [
-                                                {
-                                                    "action_type": "IF_THEN_ELSE", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100021, 
-                                                            "args_list": [
-                                                                {
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100021, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "arg_type": 100000, 
-                                                                                            "args_list": [
-                                                                                                {
-                                                                                                    "arg_type": 100004, 
-                                                                                                    "args_list": [
-                                                                                                        {
-                                                                                                            "__tuple__": true, 
-                                                                                                            "items": [
-                                                                                                                "POINT", 
-                                                                                                                "pointUnit", 
-                                                                                                                "local"
-                                                                                                            ]
-                                                                                                        }
-                                                                                                    ], 
-                                                                                                    "sub_type": 19
-                                                                                                }, 
-                                                                                                {
-                                                                                                    "arg_type": 100004, 
-                                                                                                    "args_list": [
-                                                                                                        {
-                                                                                                            "arg_type": 100077, 
-                                                                                                            "args_list": [], 
-                                                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
-                                                                                                        }
-                                                                                                    ], 
-                                                                                                    "sub_type": "PROJECTILE_ENTITY_POINT"
-                                                                                                }
-                                                                                            ], 
-                                                                                            "sub_type": "GET_POINTS_DIS"
-                                                                                        }, 
-                                                                                        {
-                                                                                            "arg_type": 100015, 
-                                                                                            "args_list": [
-                                                                                                "<"
-                                                                                            ], 
-                                                                                            "sub_type": 1
-                                                                                        }, 
-                                                                                        {
-                                                                                            "arg_type": 100000, 
-                                                                                            "args_list": [
-                                                                                                {
-                                                                                                    "__tuple__": true, 
-                                                                                                    "items": [
-                                                                                                        "FLOAT", 
-                                                                                                        "realDistance", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                }
-                                                                                            ], 
-                                                                                            "sub_type": 2
-                                                                                        }
-                                                                                    ], 
-                                                                                    "condition_type": "FLOAT_COMPARE", 
-                                                                                    "element_id": 1226588226000006, 
-                                                                                    "enable": true
-                                                                                }, 
-                                                                                {
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "arg_type": 100077, 
-                                                                                            "args_list": [], 
-                                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
-                                                                                        }, 
-                                                                                        {
-                                                                                            "arg_type": 100003, 
-                                                                                            "args_list": [
-                                                                                                "interact"
-                                                                                            ], 
-                                                                                            "sub_type": 1
-                                                                                        }
-                                                                                    ], 
-                                                                                    "condition_type": "MODIFIER_HAS_TAG", 
-                                                                                    "element_id": 1226588226000007, 
-                                                                                    "enable": true
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }
-                                                                    ], 
-                                                                    "condition_type": "AND", 
-                                                                    "element_id": 1226588226000008, 
-                                                                    "enable": true
-                                                                }
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100022, 
-                                                            "args_list": [
-                                                                {
-                                                                    "action_type": "SET_VARIABLE", 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100030, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "PROJECTILE_ENTITY", 
-                                                                                        "projectAim", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100077, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
-                                                                        }
-                                                                    ], 
-                                                                    "bp": false, 
-                                                                    "element_id": 1226588226000009, 
-                                                                    "enable": true
-                                                                }, 
-                                                                {
-                                                                    "action_type": "SET_VARIABLE", 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100030, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "FLOAT", 
-                                                                                        "realDistance", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100000, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100004, 
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "__tuple__": true, 
-                                                                                            "items": [
-                                                                                                "POINT", 
-                                                                                                "pointUnit", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        }
-                                                                                    ], 
-                                                                                    "sub_type": 19
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100004, 
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "arg_type": 100077, 
-                                                                                            "args_list": [], 
-                                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
-                                                                                        }
-                                                                                    ], 
-                                                                                    "sub_type": "PROJECTILE_ENTITY_POINT"
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": "GET_POINTS_DIS"
-                                                                        }
-                                                                    ], 
-                                                                    "bp": false, 
-                                                                    "element_id": 1226588226000010, 
-                                                                    "enable": true
-                                                                }
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100022, 
-                                                            "args_list": [], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 1226588226000011, 
-                                                    "enable": true, 
-                                                    "fake_op": [
-                                                        2
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1226588226000012, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "\u7b5b\u9009\u51fa\u8ddd\u79bb\u6700\u8fd1\u7684"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1226588226000013, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "STORAGE_BOX", 
-                    "args_list": [
-                        {
-                            "arg_type": 100021, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_ENTITY_KV", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "PLAYER", 
-                                                        "player", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": "VARIABLE"
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "ProjectInteract"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100077, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "PROJECTILE_ENTITY", 
-                                                        "projectAim", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": "VARIABLE"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1226588226000014, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "\u5199\u5165\u5230\u5168\u5c40"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1226588226000015, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "STORAGE_BOX", 
-                    "args_list": [
-                        {
-                            "arg_type": 100021, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "box"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1226588226000016, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [], 
-            "func_des": "\u3010Y01\u3011\u5237\u65b0\u73a9\u5bb6\uff1a{player}\u5728\u5355\u4f4d\uff1a{unit}\u5468\u56f4\u7684\u53ef\u4e92\u52a8\u6295\u5c04\u7269", 
-            "func_id": "b25a4421159311eebd3870b5e84281ea", 
-            "func_name": "Y01\uff1a\u83b7\u53d6\u53ef\u4e92\u52a8", 
-            "func_param_list": [
-                {
-                    "__tuple__": true, 
-                    "items": [
-                        "player", 
-                        true
-                    ]
-                }, 
-                {
-                    "__tuple__": true, 
-                    "items": [
-                        "unit", 
-                        true
-                    ]
-                }
-            ], 
-            "group_id": "VsGm7hp9Ee6yc4D6W2spCO", 
-            "is_func": true, 
-            "is_official_func": false, 
-            "p_trigger_id": null, 
-            "trigger_id": 1226588226, 
-            "trigger_name": "Y01\uff1a\u83b7\u53d6\u53ef\u4e92\u52a8", 
-            "valid": true
-        }, 
-        "2082226244": {
+        "553164861": {
             "action": [
                 {
                     "action_type": "STORAGE_BOX", 
@@ -1348,7 +806,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 2082226244000001, 
+                                    "element_id": 553164861000001, 
                                     "enable": true
                                 }, 
                                 {
@@ -1375,7 +833,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "TYPE_IS_EXIST", 
-                                                    "element_id": 2082226244000002, 
+                                                    "element_id": 553164861000002, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -1493,7 +951,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 2082226244000003, 
+                                                                    "element_id": 553164861000003, 
                                                                     "enable": true
                                                                 }, 
                                                                 {
@@ -1529,7 +987,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 2082226244000004, 
+                                                                    "element_id": 553164861000004, 
                                                                     "enable": true
                                                                 }
                                                             ], 
@@ -1549,7 +1007,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 2082226244000005, 
+                                                    "element_id": 553164861000005, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -1602,7 +1060,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 2082226244000006, 
+                                                                    "element_id": 553164861000006, 
                                                                     "enable": true
                                                                 }
                                                             ], 
@@ -1622,7 +1080,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 2082226244000007, 
+                                                    "element_id": 553164861000007, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -1630,7 +1088,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 2082226244000008, 
+                                    "element_id": 553164861000008, 
                                     "enable": true, 
                                     "fake_op": [
                                         2
@@ -1653,7 +1111,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 2082226244000009, 
+                    "element_id": 553164861000009, 
                     "enable": true
                 }
             ], 
@@ -1673,12 +1131,598 @@
                     ]
                 }
             ], 
-            "group_id": "VsGm7hp9Ee6yc4D6W2spCO", 
+            "group_id": "PHXAIRtEEe6YzYD6W2spCD", 
             "is_func": true, 
             "is_official_func": false, 
             "p_trigger_id": null, 
-            "trigger_id": 2082226244, 
+            "trigger_id": 553164861, 
             "trigger_name": "Y03\uff1a\u5237\u65b0UI", 
+            "valid": true
+        }, 
+        "1828233275": {
+            "action": [
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "pointUnit", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "unit", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_ENTITY_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1828233275000001, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PROJECTILE_GROUP", 
+                                                        "projectGroup", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100203, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "POINT", 
+                                                                "pointUnit", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 19
+                                                }, 
+                                                {
+                                                    "arg_type": 100211, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                100.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "CONST_CIRCULAR_SHAPE"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ], 
+                                            "sub_type": "PROJECTILE_LIST_IN_SHAPE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1828233275000002, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u83b7\u53d6\u6295\u5c04\u7269\u7ec4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1828233275000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PROJECTILE_ENTITY", 
+                                                        "projectAim", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100077, 
+                                            "args_list": [], 
+                                            "sub_type": "NONE_PROJECTILE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1828233275000004, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "FLOAT", 
+                                                        "realDistance", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                999.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1828233275000005, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "PICK_PROJECTILE_DO_ACTION", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100203, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PROJECTILE_GROUP", 
+                                                        "projectGroup", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 14
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "IF_THEN_ELSE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100021, 
+                                                            "args_list": [
+                                                                {
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100021, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100004, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "__tuple__": true, 
+                                                                                                            "items": [
+                                                                                                                "POINT", 
+                                                                                                                "pointUnit", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": 19
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100004, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "arg_type": 100077, 
+                                                                                                            "args_list": [], 
+                                                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": "PROJECTILE_ENTITY_POINT"
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "GET_POINTS_DIS"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100015, 
+                                                                                            "args_list": [
+                                                                                                "<"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "__tuple__": true, 
+                                                                                                    "items": [
+                                                                                                        "FLOAT", 
+                                                                                                        "realDistance", 
+                                                                                                        "local"
+                                                                                                    ]
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": 2
+                                                                                        }
+                                                                                    ], 
+                                                                                    "condition_type": "FLOAT_COMPARE", 
+                                                                                    "element_id": 1828233275000006, 
+                                                                                    "enable": true
+                                                                                }, 
+                                                                                {
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100077, 
+                                                                                            "args_list": [], 
+                                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100003, 
+                                                                                            "args_list": [
+                                                                                                "interact"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "condition_type": "MODIFIER_HAS_TAG", 
+                                                                                    "element_id": 1828233275000007, 
+                                                                                    "enable": true
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "condition_type": "AND", 
+                                                                    "element_id": 1828233275000008, 
+                                                                    "enable": true
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100022, 
+                                                            "args_list": [
+                                                                {
+                                                                    "action_type": "SET_VARIABLE", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100030, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "PROJECTILE_ENTITY", 
+                                                                                        "projectAim", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100077, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1828233275000009, 
+                                                                    "enable": true
+                                                                }, 
+                                                                {
+                                                                    "action_type": "SET_VARIABLE", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100030, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "FLOAT", 
+                                                                                        "realDistance", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100004, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "POINT", 
+                                                                                                "pointUnit", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 19
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100004, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100077, 
+                                                                                            "args_list": [], 
+                                                                                            "sub_type": "FOR_EACH_SELECTED_PROJECTILE"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "PROJECTILE_ENTITY_POINT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_POINTS_DIS"
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1828233275000010, 
+                                                                    "enable": true
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100022, 
+                                                            "args_list": [], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1828233275000011, 
+                                                    "enable": true, 
+                                                    "fake_op": [
+                                                        2
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1828233275000012, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u7b5b\u9009\u51fa\u8ddd\u79bb\u6700\u8fd1\u7684"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1828233275000013, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_ENTITY_KV", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PLAYER", 
+                                                        "player", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "ProjectInteract"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100077, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PROJECTILE_ENTITY", 
+                                                        "projectAim", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1828233275000014, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u5199\u5165\u5230\u5168\u5c40"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1828233275000015, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "box"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1828233275000016, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_des": "\u3010Y01\u3011\u5237\u65b0\u73a9\u5bb6\uff1a{player}\u5728\u5355\u4f4d\uff1a{unit}\u5468\u56f4\u7684\u53ef\u4e92\u52a8\u6295\u5c04\u7269", 
+            "func_id": "b25a4421159311eebd3870b5e84281ea", 
+            "func_name": "Y01\uff1a\u83b7\u53d6\u53ef\u4e92\u52a8", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "player", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "unit", 
+                        true
+                    ]
+                }
+            ], 
+            "group_id": "PHXAIRtEEe6YzYD6W2spCD", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1828233275, 
+            "trigger_name": "Y01\uff1a\u83b7\u53d6\u53ef\u4e92\u52a8", 
             "valid": true
         }
     }, 
@@ -1689,27 +1733,27 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    1226588226, 
+                    1828233275, 
                     "Y01\uff1a\u83b7\u53d6\u53ef\u4e92\u52a8"
                 ]
             }, 
             {
                 "__tuple__": true, 
                 "items": [
-                    85737539, 
+                    435724348, 
                     "Y02\uff1a\u4e92\u52a8\u6295\u5c04\u7269"
                 ]
             }, 
             {
                 "__tuple__": true, 
                 "items": [
-                    2082226244, 
+                    553164861, 
                     "Y03\uff1a\u5237\u65b0UI"
                 ]
             }
         ], 
         "is_sub_folder": true, 
-        "key": "VsGm7hp9Ee6yc4D6W2spCO", 
+        "key": "PHXAIRtEEe6YzYD6W2spCD", 
         "name": "Y\uff1a\u6838\u5fc3"
     }
 }

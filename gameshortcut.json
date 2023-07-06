@@ -92,7 +92,7 @@
     "edit_msg": {
         "__tuple__": true, 
         "items": [
-            false, 
+            true, 
             [
                 "Enter"
             ]
@@ -101,7 +101,7 @@
     "edit_msg_for_all": {
         "__tuple__": true, 
         "items": [
-            false, 
+            true, 
             [
                 "Shift+Enter"
             ]

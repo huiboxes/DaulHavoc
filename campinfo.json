@@ -58,7 +58,7 @@
             "role_name": "$player 2", 
             "role_name_en": "Player 2", 
             "role_name_zh": "\u73a9\u5bb6 2", 
-            "role_type": 2
+            "role_type": 5
         }, 
         "3": {
             "camp_id": 2, 
@@ -66,7 +66,7 @@
             "role_name": "$player 3", 
             "role_name_en": "Player 3", 
             "role_name_zh": "\u73a9\u5bb6 3", 
-            "role_type": 2
+            "role_type": 5
         }, 
         "4": {
             "camp_id": 2, 
@@ -106,11 +106,11 @@
                     "desc": "gold", 
                     "icon_id": 100000, 
                     "is_coin": true, 
-                    "is_editored": true, 
+                    "is_editored": false, 
                     "key": "official_res_1", 
                     "maximun": [
-                        1073758208, 
-                        1073741824
+                        2141857058, 
+                        1610612736
                     ], 
                     "minimun": [
                         0, 

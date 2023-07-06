@@ -2,196 +2,280 @@
     "group": [], 
     "key": -1, 
     "key_order": {
-        "+pY-gNLOEe2RyjDQQuUV9u": 0, 
-        "0P0WABp-Ee6eq4D6W2spCK": 31, 
-        "HlWHgBmUEe6UKID6W2spCP": 36, 
-        "IKtCHhj2Ee6rA4D6W2spCI": 29, 
-        "IKxTjxj2Ee61HID6W2spCJ": 30, 
-        "KUt3zxmUEe6TGYD6W2spCL": 37, 
-        "PLr4QMSZEe2qyjDQQuUV9s": 34, 
-        "VsGm7hp9Ee6yc4D6W2spCO": 38, 
-        "VsK4Yhp9Ee6yGYD6W2spCC": 39, 
-        "ZhdBz8OfEe2-DjDQQuUV9l": 8, 
-        "bRLLsMLeEe2oWDDQQuUV9l": 1, 
-        "cNY8T8LeEe2n-DDQQuUV9s": 32, 
-        "ij1bsMbpEe28OTDQQuUV9m": 35, 
-        "jP0LcMPJEe2ENjDQQuUV9j": 33, 
-        "kZQn3s4eEe2y+TDQQuUV9l": 22
+        "KF0OsLKSEe2XPAD-+E6xse": 1, 
+        "PHPrXhtEEe6U+4D6W2spCM": 37, 
+        "PHXAIRtEEe6YzYD6W2spCD": 44, 
+        "PHb4nhtEEe6jyID6W2spCG": 38, 
+        "PHb4nxtEEe6wWID6W2spCI": 45, 
+        "PHgxIRtEEe6hMoD6W2spCB": 42, 
+        "PHm3wBtEEe6-GID6W2spCP": 43, 
+        "k-yOwLG2Ee2YRwD-+E6xsS": 0
     }, 
     "name": "trigger", 
     "sub_trigger": {
         "2": {
             "__tuple__": true, 
             "items": [
-                1435222020, 
-                "ShopUI\u5173\u95ed"
+                1257107466, 
+                "Select Unit"
             ]
         }, 
         "3": {
             "__tuple__": true, 
             "items": [
-                9248777, 
-                "UI\u4e8b\u4ef6_\u70b9\u51fb"
+                435048459, 
+                "Select Unit Group"
             ]
         }, 
         "4": {
             "__tuple__": true, 
             "items": [
-                491200521, 
-                "UI\u4e8b\u4ef6_\u79fb\u5165"
+                1743675404, 
+                "Select Item"
             ]
         }, 
         "5": {
             "__tuple__": true, 
             "items": [
-                810799114, 
-                "UI\u4e8b\u4ef6_\u70b9\u51fb_3"
+                602828813, 
+                "Select Destructible"
             ]
         }, 
         "6": {
             "__tuple__": true, 
             "items": [
-                894758923, 
-                "UI\u4e8b\u4ef6_\u79fb\u51fa"
+                2096021518, 
+                "Open Bag"
             ]
         }, 
         "7": {
             "__tuple__": true, 
             "items": [
-                984981520, 
-                "\u70b9\u51fb\u8d2d\u4e70"
+                384389137, 
+                "MOUSE MOVE"
+            ]
+        }, 
+        "8": {
+            "__tuple__": true, 
+            "items": [
+                1023295507, 
+                "on_hero_create"
             ]
         }, 
         "9": {
             "__tuple__": true, 
             "items": [
-                1682063384, 
-                "\u7269\u54c1\u680f\u76d1\u542c"
+                2132029460, 
+                "on_hero_delete"
             ]
         }, 
         "10": {
             "__tuple__": true, 
             "items": [
-                1951690780, 
-                "\u70b9\u51fb\u5546\u5e97\u7269\u54c1\u680f"
+                499355669, 
+                "\u5b50\u89e6\u53d1\u5668"
             ]
         }, 
         "11": {
             "__tuple__": true, 
             "items": [
-                832122909, 
-                "\u70b9\u51fb\u51fa\u552e"
+                383975446, 
+                "on_hero_reborn"
             ]
         }, 
         "12": {
             "__tuple__": true, 
             "items": [
-                248954912, 
-                "\u5355\u4f4d\u5c5e\u6027"
+                2081886231, 
+                "on_hero_dead"
             ]
         }, 
         "13": {
             "__tuple__": true, 
             "items": [
-                2047660069, 
-                "\u6280\u80fd\u5347\u7ea7"
+                72462362, 
+                "change main unit"
             ]
         }, 
         "14": {
             "__tuple__": true, 
             "items": [
-                2084933672, 
-                "\u79fb\u5165\u7269\u54c1\u680f"
+                1872433179, 
+                "t1"
             ]
         }, 
         "15": {
             "__tuple__": true, 
             "items": [
-                1128636457, 
-                "\u79fb\u51fa\u7269\u54c1\u680f"
+                2094870556, 
+                "t2"
             ]
         }, 
         "16": {
             "__tuple__": true, 
             "items": [
-                961265706, 
-                "\u79fb\u5165\u6280\u80fd"
+                503767069, 
+                "t1_2"
             ]
         }, 
         "17": {
             "__tuple__": true, 
             "items": [
-                1632432171, 
-                "\u79fb\u51fa\u6280\u80fd"
+                36646942, 
+                "change main unit by hotkey"
             ]
         }, 
         "18": {
             "__tuple__": true, 
             "items": [
-                1973796910, 
-                "\u79fb\u51fa\u7269\u54c1\u680f_2"
+                291192863, 
+                "focu_on_select_unit"
             ]
         }, 
         "19": {
             "__tuple__": true, 
             "items": [
-                1436938287, 
-                "\u79fb\u5165\u7269\u54c1\u680f_2"
+                459735072, 
+                "release_listener"
             ]
         }, 
         "20": {
             "__tuple__": true, 
             "items": [
-                780664882, 
-                "\u79fb\u51fa\u7269\u54c1\u680f_3"
+                1302442017, 
+                "main_unit_skill_list_value_change"
             ]
         }, 
         "21": {
             "__tuple__": true, 
             "items": [
-                260575282, 
-                "\u79fb\u5165\u7269\u54c1\u680f_3"
+                651300900, 
+                "show_skill_tips"
+            ]
+        }, 
+        "22": {
+            "__tuple__": true, 
+            "items": [
+                1859280934, 
+                "show_inventory_tips"
             ]
         }, 
         "23": {
             "__tuple__": true, 
             "items": [
-                1783373882, 
-                "\u7ecf\u9a8c\u76d1\u542c"
+                416448551, 
+                "hide_tips"
             ]
         }, 
         "24": {
             "__tuple__": true, 
             "items": [
-                1134522426, 
-                "\u653b\u51fb\u901f\u5ea6"
+                649699366, 
+                "show_modifier_tips"
             ]
         }, 
         "25": {
             "__tuple__": true, 
             "items": [
-                370421818, 
-                "\u5237\u65b0\u73a9\u5bb6\u7684\u79fb\u52a8\u72b6\u6001"
+                978677801, 
+                "show_store_tips"
             ]
         }, 
         "26": {
             "__tuple__": true, 
             "items": [
-                1259614267, 
-                "\u53d1\u5c04\u706b\u7403"
+                1665630250, 
+                "sell_item"
             ]
         }, 
         "27": {
             "__tuple__": true, 
             "items": [
-                1175728188, 
-                "\u53d1\u5c04\u9b54\u6cd5\u7403\uff08\u666e\u901a\u653b\u51fb\uff09"
+                863993900, 
+                "buy_item"
             ]
         }, 
         "28": {
             "__tuple__": true, 
             "items": [
-                1578909761, 
+                2010271789, 
+                "store_tab_click"
+            ]
+        }, 
+        "29": {
+            "__tuple__": true, 
+            "items": [
+                1523929134, 
+                "store_tab_down"
+            ]
+        }, 
+        "30": {
+            "__tuple__": true, 
+            "items": [
+                366354479, 
+                "store_tab_up"
+            ]
+        }, 
+        "31": {
+            "__tuple__": true, 
+            "items": [
+                1913552945, 
+                "minimap_btn1"
+            ]
+        }, 
+        "32": {
+            "__tuple__": true, 
+            "items": [
+                1897074738, 
+                "minimap_btn2"
+            ]
+        }, 
+        "33": {
+            "__tuple__": true, 
+            "items": [
+                2064273458, 
+                "show_bag_tips"
+            ]
+        }, 
+        "34": {
+            "__tuple__": true, 
+            "items": [
+                990195764, 
+                "fresh_sell_list"
+            ]
+        }, 
+        "35": {
+            "__tuple__": true, 
+            "items": [
+                524156982, 
+                "on_unit_dead"
+            ]
+        }, 
+        "36": {
+            "__tuple__": true, 
+            "items": [
+                210653238, 
+                "on_unit_delete"
+            ]
+        }, 
+        "39": {
+            "__tuple__": true, 
+            "items": [
+                1962451010, 
+                "\u53d1\u5c04\u706b\u7403"
+            ]
+        }, 
+        "40": {
+            "__tuple__": true, 
+            "items": [
+                972595267, 
+                "\u53d1\u5c04\u9b54\u6cd5\u7403\uff08\u666e\u901a\u653b\u51fb\uff09"
+            ]
+        }, 
+        "41": {
+            "__tuple__": true, 
+            "items": [
+                385392708, 
                 "Debug\u4fe1\u606f"
             ]
         }

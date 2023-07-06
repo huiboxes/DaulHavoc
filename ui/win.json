@@ -2,96 +2,71 @@
     "adapt_mode": 2, 
     "children": [
         {
-            "adapter_option": [
-                true, 
-                true, 
-                true, 
-                true, 
-                0.0, 
-                0.0, 
-                0.0, 
-                0.0
-            ], 
-            "background_type": 0, 
             "children": [], 
-            "disabled_color": null, 
-            "disabled_picture": null, 
-            "event_list": [
-                {
-                    "action_list": [
-                        {
-                            "anim_duration": 1.0, 
-                            "anim_id": null, 
-                            "anim_type": 0, 
-                            "comp": "7c9e14d3-ee30-47bc-a09d-4b70a5fd98bc", 
-                            "ease_type": 0, 
-                            "name": "BackToHall_3", 
-                            "open_timeline": true, 
-                            "type": 5
-                        }
-                    ], 
-                    "enabled": true, 
-                    "name": "button_2_0", 
-                    "sound_id": null, 
-                    "type": 1
-                }
-            ], 
-            "name": "button_2", 
-            "normal_color": {
-                "__tuple__": true, 
-                "items": [
-                    0, 
-                    0, 
-                    0, 
-                    255
-                ]
-            }, 
-            "normal_picture": 120051, 
-            "opacity": 0.3, 
-            "open_adapter": true, 
+            "event_list": [], 
+            "image": 106330, 
+            "name": "image_8", 
             "pos": {
                 "__tuple__": true, 
                 "items": [
                     960.0, 
-                    540.0
+                    637.0
                 ]
             }, 
-            "press_color": null, 
-            "press_picture": null, 
-            "size": {
+            "pos_percent": {
                 "__tuple__": true, 
                 "items": [
-                    1920.0, 
-                    1080.0
+                    50.0, 
+                    58.98148148148148
                 ]
             }, 
-            "suspend_color": null, 
-            "suspend_picture": 0, 
-            "swallow_touches": true, 
-            "type": 1, 
-            "uid": "cad39405-8b51-42f9-8bad-a3c505a91423"
+            "size": [
+                695.0625, 
+                418.5
+            ], 
+            "type": 4, 
+            "uid": "cda48d2c-2946-4226-9022-90b64cb13609"
         }, 
         {
             "children": [], 
-            "event_list": [], 
-            "image": 107738, 
-            "name": "win", 
+            "event_list": [
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "Victory_Back_Hall", 
+                    "sound_id": null, 
+                    "type": 11
+                }
+            ], 
+            "name": "button_6", 
+            "normal_picture": 100372, 
+            "normal_text": {
+                "__tuple__": true, 
+                "items": [
+                    "Continue", 
+                    false
+                ]
+            }, 
             "pos": {
                 "__tuple__": true, 
                 "items": [
                     960.0, 
-                    540.0
+                    429.0
                 ]
             }, 
-            "size": {
+            "pos_percent": {
                 "__tuple__": true, 
                 "items": [
-                    552.0, 
-                    303.0
+                    50.0, 
+                    39.72222222222222
                 ]
             }, 
-            "type": 4, 
-            "uid": "230b4166-5c4f-4009-9e3a-cbe1130cf152"
+            "touch_scale": [
+                0.9, 
+                0.9
+            ], 
+            "type": 1, 
+            "uid": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9"
         }
     ], 
     "name": "win", 
@@ -99,6 +74,6 @@
     "type": 2, 
     "ui_anims": [], 
     "uid": "d4c01f64-7413-4c8e-b0e5-4297d4a59c7a", 
-    "visible": true, 
+    "visible": false, 
     "zorder": 400
 }
