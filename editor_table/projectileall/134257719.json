@@ -132,7 +132,19 @@
     ], 
     "icon": 101909, 
     "key": 134257719, 
-    "kv": {}, 
+    "kv": {
+        "name": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "name", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "\u6280\u80fd\u9053\u5177"
+        }
+    }, 
     "max_duration": 60.0, 
     "move_channel": 0, 
     "move_limitation": 3, 

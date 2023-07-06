@@ -119,319 +119,12 @@
         "2079891521": {
             "action": [
                 {
-                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
-                            "arg_type": 100177, 
+                            "arg_type": 100021, 
                             "args_list": [
                                 {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u5b66\u4e60\u6280\u80fd\uff08\u5bd2\u51b0\u4e4b\u8def\uff09"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
-                        }
-                    ], 
-                    "bp": false, 
-                    "call_rt_arg_idxes": [], 
-                    "element_id": 2079891521000001, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "ADD_UNIT_ABILITY_POINT", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100025, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "PLAYER", 
-                                                "player", 
-                                                "local"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u5355\u4f4d"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_UNIT_ENTITY_KV"
-                        }, 
-                        {
-                            "arg_type": 100002, 
-                            "args_list": [
-                                1000
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 2079891521000002, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "SET_VARIABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100014, 
-                            "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "ABILITY", 
-                                        "yyy", 
-                                        "local"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": 2
-                        }, 
-                        {
-                            "arg_type": 100014, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "PLAYER", 
-                                                        "player", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": "VARIABLE"
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "\u5355\u4f4d"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_UNIT_ENTITY_KV"
-                                }, 
-                                {
-                                    "arg_type": 100182, 
-                                    "args_list": [
-                                        2
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100039, 
-                                    "args_list": [
-                                        134271963
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "op_arg": [
-                                null, 
-                                null
-                            ], 
-                            "op_arg_enable": [
-                                false, 
-                                false
-                            ], 
-                            "sub_type": "UNIT_ADD_ABILITY"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 2079891521000003, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "UNIT_ADD_ABILITY", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100025, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "PLAYER", 
-                                                "player", 
-                                                "local"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u5355\u4f4d"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_UNIT_ENTITY_KV"
-                        }, 
-                        {
-                            "arg_type": 100182, 
-                            "args_list": [
-                                2
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100039, 
-                            "args_list": [
-                                134233122
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 2079891521000004, 
-                    "enable": true, 
-                    "op_arg": [
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false
-                    ]
-                }, 
-                {
-                    "action_type": "UNIT_ADD_ABILITY", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100025, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "PLAYER", 
-                                                "player", 
-                                                "local"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u5355\u4f4d"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_UNIT_ENTITY_KV"
-                        }, 
-                        {
-                            "arg_type": 100182, 
-                            "args_list": [
-                                2
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100039, 
-                            "args_list": [
-                                134264067
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 2079891521000005, 
-                    "enable": true, 
-                    "op_arg": [
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false
-                    ]
-                }, 
-                {
-                    "action_type": "UNIT_LEARN_ABILITY", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100025, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "PLAYER", 
-                                                "player", 
-                                                "local"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u5355\u4f4d"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_UNIT_ENTITY_KV"
-                        }, 
-                        {
-                            "arg_type": 100039, 
-                            "args_list": [
-                                134264067
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 2079891521000006, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                3.0
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "UNIT_LEARN_ABILITY", 
                                     "args_list": [
                                         {
                                             "arg_type": 100006, 
@@ -463,14 +156,178 @@
                                         {
                                             "arg_type": 100039, 
                                             "args_list": [
-                                                134233122
+                                                134271963
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "CHECK_HAS_ABILITY_TYPE", 
+                                    "element_id": 2079891521000065, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "ADD_UNIT_ABILITY_POINT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "PLAYER", 
+                                                                "player", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u5355\u4f4d"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_UNIT_ENTITY_KV"
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 2079891521000007, 
+                                    "element_id": 2079891521000002, 
                                     "enable": true
+                                }, 
+                                {
+                                    "action_type": "UNIT_ADD_ABILITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "PLAYER", 
+                                                                "player", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u5355\u4f4d"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_UNIT_ENTITY_KV"
+                                        }, 
+                                        {
+                                            "arg_type": 100182, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100039, 
+                                            "args_list": [
+                                                134271963
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2079891521000003, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "UNIT_ADD_ABILITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        [
+                                                            "PLAYER", 
+                                                            "player", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u5355\u4f4d"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_UNIT_ENTITY_KV"
+                                        }, 
+                                        {
+                                            "arg_type": 100182, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100039, 
+                                            "args_list": [
+                                                134261711
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2079891521000067, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false
+                                    ]
                                 }, 
                                 {
                                     "action_type": "UNIT_LEARN_ABILITY", 
@@ -513,21 +370,56 @@
                                     "bp": false, 
                                     "element_id": 2079891521000008, 
                                     "enable": true
+                                }, 
+                                {
+                                    "action_type": "UNIT_LEARN_ABILITY", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        [
+                                                            "PLAYER", 
+                                                            "player", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u5355\u4f4d"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_UNIT_ENTITY_KV"
+                                        }, 
+                                        {
+                                            "arg_type": 100039, 
+                                            "args_list": [
+                                                134261711
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2079891521000074, 
+                                    "enable": true
                                 }
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 2079891521000009, 
+                    "element_id": 2079891521000044, 
                     "enable": true, 
-                    "local_var": {
-                        "__tuple__": true, 
-                        "items": [
-                            {}, 
-                            {}
-                        ]
-                    }
+                    "fake_op": [
+                        2
+                    ]
                 }
             ], 
             "call_enabled": true, 
