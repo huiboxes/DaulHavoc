@@ -1,0 +1,186 @@
+{
+    "local_variable": {}, 
+    "trigger_dict": {
+        "1498087425": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100077, 
+                            "args_list": [
+                                [
+                                    "PROJECTILE_ENTITY", 
+                                    "tsw", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100077, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100062, 
+                                    "args_list": [
+                                        134255455
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100077, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PROJECTILE"
+                                        }
+                                    ], 
+                                    "sub_type": "PROJECTILE_ENTITY_POINT"
+                                }, 
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        32
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        20.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                true, 
+                                false, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "CREATE_PROJECTILE_NEW"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1498087425000006, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1498087425000001, 
+                    "enable": true, 
+                    "event_type": "PRODUCE_PROJECTILE"
+                }
+            ], 
+            "group_id": 134257719, 
+            "p_trigger_id": null, 
+            "trigger_id": 1498087425, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
+        "1901801474": {
+            "action": [
+                {
+                    "action_type": "PROJECTILE_DELETE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100077, 
+                            "args_list": [
+                                [
+                                    "PROJECTILE_ENTITY", 
+                                    "tsw", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1901801474000006, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1901801474000002, 
+                    "enable": true, 
+                    "event_type": "DEATH_PROJECTILE"
+                }
+            ], 
+            "group_id": 134257719, 
+            "p_trigger_id": null, 
+            "trigger_id": 1901801474, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                [
+                    1498087425, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ], 
+                [
+                    1901801474, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ]
+            ], 
+            "key": 134257719, 
+            "name": "134257719"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "PROJECTILE_ENTITY": {
+            "tsw": 0
+        }
+    }, 
+    "variable_group_info": [
+        [
+            "tsw", 
+            "tsw"
+        ]
+    ], 
+    "variable_length_dict": {
+        "tsw": 0
+    }
+}

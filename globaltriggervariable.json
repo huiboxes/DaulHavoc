@@ -884,8 +884,12 @@
         }, 
         "2079891521": {
             "variable_dict": {
-                "ABILITY": {
-                    "yyy": null
+                "ABILITY": {}, 
+                "ABILITY_NAME": {
+                    "CurrentSkill": 0
+                }, 
+                "INTEGER": {
+                    "index": 0
                 }, 
                 "PLAYER": {
                     "player": 0
@@ -895,9 +899,10 @@
                 }
             }, 
             "variable_length_dict": {
+                "CurrentSkill": 0, 
+                "index": 0, 
                 "player": 0, 
-                "unit": 0, 
-                "yyy": 0
+                "unit": 0
             }
         }, 
         "2096668734": {
@@ -917,11 +922,17 @@
     }, 
     "variable_comments": {}, 
     "variable_dict": {
+        "ABILITY_NAME": {
+            "SkillList": 0
+        }, 
         "BOOLEAN": {
             "BoolDebug": false
         }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0
+        }, 
+        "RANDOM_POOL": {
+            "SkillPool": null
         }, 
         "TABLE": {
             "Skill_UI_table": null, 
@@ -967,12 +978,28 @@
                 "Skill_UI_table", 
                 "Skill_UI_table"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "SkillList", 
+                "SkillList"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "SkillPool", 
+                "SkillPool"
+            ]
         }
     ], 
     "variable_length_dict": {
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "Player Unit": 10, 
+        "SkillList": 10, 
+        "SkillPool": 0, 
         "Skill_UI_table": 0, 
         "UI_Manager": 0
     }
