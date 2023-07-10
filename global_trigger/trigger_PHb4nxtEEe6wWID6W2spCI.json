@@ -278,13 +278,13 @@
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                "\u5df2\u7ecf\u62e5\u6709\u6280\u80fd\uff1a"
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
+                                                        "\u5df2\u7ecf\u62e5\u6709\u8be5\u6280\u80fd\uff08"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
                                                         {
                                                             "arg_type": 100003, 
                                                             "args_list": [
@@ -303,14 +303,21 @@
                                                                     "sub_type": "VARIABLE"
                                                                 }, 
                                                                 {
-                                                                    "arg_type": 100003, 
+                                                                    "arg_type": 100221, 
                                                                     "args_list": [
-                                                                        "AbilityName"
+                                                                        "name"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
                                                             ], 
-                                                            "sub_type": "GET_STRING_KV"
+                                                            "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "\uff09"
+                                                            ], 
+                                                            "sub_type": 1
                                                         }
                                                     ], 
                                                     "op_arg": [
@@ -336,7 +343,27 @@
                                                     "sub_type": "STR_JOIN"
                                                 }
                                             ], 
-                                            "sub_type": "GET_TEXT_CONFIG"
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
                                         }, 
                                         {
                                             "arg_type": 100000, 

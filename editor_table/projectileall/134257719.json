@@ -5,12 +5,12 @@
     "description": 1723887239, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        102136, 
+        100572, 
         {
             "__tuple__": true, 
             "items": [
                 0.0, 
-                0.0, 
+                0.8, 
                 0.0
             ]
         }, 
@@ -41,13 +41,13 @@
                 0.5
             ], 
             "is_loop": true, 
-            "model": 201918, 
+            "model": 206217, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
                 "items": [
                     0.0, 
-                    0.0, 
+                    0.1, 
                     0.0
                 ]
             }, 
@@ -62,21 +62,21 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    0.0, 
-                    0.0, 
-                    0.0
+                    2.0, 
+                    2.0, 
+                    2.0
                 ]
             }, 
             "use_base_tint_color": false
         }
     ], 
     "effect_friend": [
-        102136, 
+        100572, 
         {
             "__tuple__": true, 
             "items": [
                 0.0, 
-                0.0, 
+                0.8, 
                 0.0
             ]
         }, 
@@ -107,13 +107,13 @@
                 0.5
             ], 
             "is_loop": true, 
-            "model": 201918, 
+            "model": 206217, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
                 "items": [
                     0.0, 
-                    0.0, 
+                    0.1, 
                     0.0
                 ]
             }, 
@@ -128,9 +128,9 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    0.0, 
-                    0.0, 
-                    0.0
+                    2.0, 
+                    2.0, 
+                    2.0
                 ]
             }, 
             "use_base_tint_color": false

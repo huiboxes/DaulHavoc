@@ -42,7 +42,7 @@
         ]
     }, 
     "ability_icon": 106871, 
-    "ability_max_level": 5, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "15"
+            "3.0"
         ]
     }, 
     "collection_animation": "", 
@@ -166,8 +166,9 @@
             "key": "shortdec", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 0, 
             "type": 0, 
-            "value": "\u5bf9\u654c\u4eba\u4f7f\u7528\u8bf1\u654c\uff0c\u628a\u654c\u4eba\u7275\u5f15\u81f3\u8d3e\u8be9\u9762\u524d\uff0c\u5e76\u4ea7\u751f\u51cf\u901f\u3002"
+            "value": "\u5bf9\u654c\u4eba\u4f7f\u7528\u8bf1\u654c\uff0c\u628a\u654c\u4eba\u7275\u5f15\u81f3\u9762\u524d\uff0c\u5e76\u4ea7\u751f\u51cf\u901f\u3002"
         }, 
         "\u51cf\u901f\u5e45\u5ea6": {
             "annotation": "", 
@@ -176,6 +177,7 @@
             "key": "\u51cf\u901f\u5e45\u5ea6", 
             "prop_cls": "PInt", 
             "remark": "", 
+            "sort": 1, 
             "type": 24, 
             "value": {
                 "__tuple__": true, 
@@ -250,16 +252,9 @@
                 ]
             ]
         }, 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                3, 
-                5, 
-                7, 
-                9
-            ]
-        }
+        "required_levels": [
+            1
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

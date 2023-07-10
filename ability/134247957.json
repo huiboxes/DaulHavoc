@@ -55,7 +55,7 @@
                         {
                             "arg_type": 100064, 
                             "args_list": [
-                                1
+                                2
                             ], 
                             "sub_type": 1
                         }, 
@@ -207,7 +207,7 @@
                                         {
                                             "arg_type": 100064, 
                                             "args_list": [
-                                                1
+                                                2
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -306,7 +306,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 7120691210011, 
-                    "enable": true, 
+                    "enable": false, 
                     "fake_op": [
                         2
                     ]
@@ -863,7 +863,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "ability_2"
+                                "attack1"
                             ], 
                             "sub_type": 1
                         }, 

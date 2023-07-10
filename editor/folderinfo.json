@@ -1082,7 +1082,7 @@
     "__tuple__": true, 
     "items": [
      "/2147483647", 
-     2, 
+     1, 
      "9s-24R4IEe6ulYD6W2spCK", 
      "NormalAttack"
     ]
@@ -1101,6 +1101,13 @@
     "items": [
      "717sTx5wEe6XToD6W2spCD", 
      1
+    ]
+   }, 
+   "134242303": {
+    "__tuple__": true, 
+    "items": [
+     "717sTx5wEe6XToD6W2spCD", 
+     2
     ]
    }, 
    "134227891": {
@@ -1122,13 +1129,6 @@
     "items": [
      "uMmI0R5wEe6LD4D6W2spCE", 
      2
-    ]
-   }, 
-   "134277545": {
-    "__tuple__": true, 
-    "items": [
-     "uMmI0R5wEe6LD4D6W2spCE", 
-     3
     ]
    }, 
    "134247957": {
@@ -1171,20 +1171,6 @@
     "items": [
      "JmM5gB4JEe6W-YD6W2spCC", 
      2
-    ]
-   }, 
-   "134239861": {
-    "__tuple__": true, 
-    "items": [
-     "JmM5gB4JEe6W-YD6W2spCC", 
-     3
-    ]
-   }, 
-   "134242303": {
-    "__tuple__": true, 
-    "items": [
-     2147483647, 
-     1
     ]
    }, 
    "134267216": {

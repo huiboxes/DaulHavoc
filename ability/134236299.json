@@ -1,8 +1,50 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "448450561": {
+            "variable_dict": {
+                "ABILITY_NAME": {
+                    "CurrentSkill": 0
+                }, 
+                "PLAYER": {}
+            }, 
+            "variable_length_dict": {
+                "CurrentSkill": 0
+            }
+        }
+    }, 
     "trigger_dict": {
         "448450561": {
             "action": [
+                {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }
+                                    ], 
+                                    "sub_type": "UNIT_ENTITY_POINT"
+                                }
+                            ], 
+                            "sub_type": "UNIT_COMMAND_HOLD"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1820372995000124, 
+                    "enable": true
+                }, 
                 {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
@@ -86,36 +128,6 @@
                         false, 
                         false
                     ]
-                }, 
-                {
-                    "action_type": "UNIT_RELEASE_COMMAND", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
-                        }, 
-                        {
-                            "arg_type": 100216, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100004, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }
-                                    ], 
-                                    "sub_type": "UNIT_ENTITY_POINT"
-                                }
-                            ], 
-                            "sub_type": "UNIT_COMMAND_HOLD"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1820372995000124, 
-                    "enable": true
                 }
             ], 
             "call_enabled": true, 
@@ -133,53 +145,6 @@
             "p_trigger_id": null, 
             "trigger_id": 448450561, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
-            "valid": true
-        }, 
-        "569999363": {
-            "action": [
-                {
-                    "action_type": "ADD_ABILITY_FLOAT_ATTR", 
-                    "args_list": [
-                        {
-                            "arg_type": 100014, 
-                            "args_list": [], 
-                            "sub_type": "CUR_ABILITY"
-                        }, 
-                        {
-                            "arg_type": 100078, 
-                            "args_list": [
-                                "ability_cast_range"
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                25.0
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 569999363000006, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [
-                {
-                    "args_list": [], 
-                    "element_id": 569999363000002, 
-                    "enable": true, 
-                    "event_type": "ABILITY_LEVEL_CHANGED"
-                }
-            ], 
-            "group_id": 134236299, 
-            "p_trigger_id": null, 
-            "trigger_id": 569999363, 
-            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_3", 
             "valid": true
         }, 
         "1285562373": {
@@ -379,7 +344,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                10.0
+                                1.0
                             ], 
                             "sub_type": 1
                         }, 
@@ -405,7 +370,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "ability_3"
+                                "attack1"
                             ], 
                             "sub_type": 1
                         }, 
@@ -475,10 +440,6 @@
                 [
                     448450561, 
                     "\u65b0\u5efa\u89e6\u53d1\u5668"
-                ], 
-                [
-                    569999363, 
-                    "\u65b0\u5efa\u89e6\u53d1\u5668_3"
                 ], 
                 [
                     1285562373, 

@@ -39,7 +39,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "ability_4_loop"
+                                "attack1"
                             ], 
                             "sub_type": 1
                         }, 
@@ -94,7 +94,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "ability_4_loop"
+                                "attack1"
                             ], 
                             "sub_type": 1
                         }, 
@@ -108,7 +108,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 550764546420078, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "CHANGE_UNIT_ANIMATION", 
@@ -121,7 +121,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "ability_4_loop"
+                                "attack1"
                             ], 
                             "sub_type": 1
                         }, 
@@ -135,7 +135,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 550764546420102, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "CHANGE_UNIT_ANIMATION", 
@@ -148,7 +148,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "ability_4_loop"
+                                "attack1"
                             ], 
                             "sub_type": 1
                         }, 
@@ -162,7 +162,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 550764546420097, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "ADD_STATE", 
@@ -696,7 +696,7 @@
                                                                                         {
                                                                                             "arg_type": 100064, 
                                                                                             "args_list": [
-                                                                                                0
+                                                                                                2
                                                                                             ], 
                                                                                             "sub_type": 1
                                                                                         }, 
@@ -1193,7 +1193,7 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 468496386000005, 
-                                    "enable": true
+                                    "enable": false
                                 }, 
                                 {
                                     "action_type": "CANCEL_CHANGE_UNIT_ANIMATION", 
@@ -1220,7 +1220,7 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 468496386000024, 
-                                    "enable": true
+                                    "enable": false
                                 }, 
                                 {
                                     "action_type": "CANCEL_CHANGE_UNIT_ANIMATION", 
@@ -1247,7 +1247,7 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 468496386000007, 
-                                    "enable": true
+                                    "enable": false
                                 }, 
                                 {
                                     "action_type": "PLAY_ANIMATION", 
@@ -1260,7 +1260,7 @@
                                         {
                                             "arg_type": 100003, 
                                             "args_list": [
-                                                "ability_4_end"
+                                                "attack1"
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -1302,7 +1302,7 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 550764546420104, 
-                                    "enable": true
+                                    "enable": false
                                 }
                             ], 
                             "sub_type": 1

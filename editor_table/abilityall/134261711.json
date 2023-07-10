@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            " 9-(ability_level-1)"
+            "8"
         ]
     }, 
     "collection_animation": "", 
@@ -123,6 +123,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": -1853832637, 
     "description": -1853832637, 
     "end_sfx_list": {
         "__tuple__": true, 

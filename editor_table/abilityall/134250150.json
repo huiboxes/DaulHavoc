@@ -42,7 +42,7 @@
         ]
     }, 
     "ability_icon": 107050, 
-    "ability_max_level": 5, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -87,14 +87,14 @@
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_bs_interrupt": true, 
+    "can_bs_interrupt": false, 
     "can_cache": true, 
     "can_cast_interrupt": true, 
     "can_cast_when_hp_insufficient": false, 
     "can_cost_hp": false, 
     "can_interrupt_others": true, 
-    "can_prepare_interrupt": true, 
-    "can_ps_interrupt": true, 
+    "can_prepare_interrupt": false, 
+    "can_ps_interrupt": false, 
     "circle_radius": {
         "__tuple__": true, 
         "items": [
@@ -123,6 +123,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": -1755510834, 
     "description": -1755510834, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -151,8 +152,8 @@
         "items": []
     }, 
     "influenced_by_cd_reduce": true, 
-    "influenced_by_move": false, 
-    "is_autocast": false, 
+    "influenced_by_move": true, 
+    "is_autocast": true, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
@@ -293,16 +294,9 @@
                 ]
             ]
         }, 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                3, 
-                5, 
-                7, 
-                9
-            ]
-        }
+        "required_levels": [
+            1
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

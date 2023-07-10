@@ -1778,7 +1778,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 603496524986254, 
-                                                    "enable": true
+                                                    "enable": false
                                                 }, 
                                                 {
                                                     "action_type": "SET_VARIABLE", 
@@ -1906,7 +1906,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 603496524986274, 
-                                                    "enable": true
+                                                    "enable": false
                                                 }, 
                                                 {
                                                     "action_type": "SET_VARIABLE", 
@@ -2255,7 +2255,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 603496524986319, 
-                                                    "enable": true
+                                                    "enable": false
                                                 }, 
                                                 {
                                                     "action_type": "SET_RANDOM_POOL_VALUE", 
@@ -2383,7 +2383,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 603496524986339, 
-                                                    "enable": true
+                                                    "enable": false
                                                 }
                                             ], 
                                             "sub_type": 1

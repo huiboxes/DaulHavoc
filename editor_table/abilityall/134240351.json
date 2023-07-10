@@ -42,7 +42,7 @@
         ]
     }, 
     "ability_icon": 106797, 
-    "ability_max_level": 5, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            " 11-ability_level"
+            "8"
         ]
     }, 
     "collection_animation": "", 
@@ -123,6 +123,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": -232345446, 
     "description": -232345446, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -165,6 +166,7 @@
             "key": "animation", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 0, 
             "type": 0, 
             "value": "ability_1"
         }, 
@@ -175,6 +177,7 @@
             "key": "heal", 
             "prop_cls": "PInt", 
             "remark": "", 
+            "sort": 1, 
             "type": 24, 
             "value": {
                 "__tuple__": true, 
@@ -222,6 +225,7 @@
             "key": "shortdec", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 2, 
             "type": 0, 
             "value": "\u5e03\u4e0b\u4e00\u4e2a\u5929\u9003\u9635\uff0c\u56de\u590d\u8303\u56f4\u5185\u53cb\u519b\u6c14\u8840\u503c\u3002"
         }
@@ -273,16 +277,9 @@
                 ]
             ]
         }, 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                3, 
-                5, 
-                7, 
-                9
-            ]
-        }
+        "required_levels": [
+            1
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 
@@ -298,16 +295,7 @@
     }, 
     "show_building_attack_range": false, 
     "sight_type": 3, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": [
-            [
-                "ABILITY_SP_END", 
-                134224070, 
-                11
-            ]
-        ]
-    }, 
+    "sound_event_list": [], 
     "sp_count_down": false, 
     "sp_sfx_list": {
         "__tuple__": true, 

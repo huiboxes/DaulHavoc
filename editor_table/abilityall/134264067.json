@@ -26,7 +26,7 @@
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            " ability_level * 50 + 250"
+            "120"
         ]
     }, 
     "ability_damage_range": {
@@ -42,7 +42,7 @@
         ]
     }, 
     "ability_icon": 102125, 
-    "ability_max_level": 6, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -87,14 +87,14 @@
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_bs_interrupt": true, 
+    "can_bs_interrupt": false, 
     "can_cache": true, 
     "can_cast_interrupt": false, 
     "can_cast_when_hp_insufficient": false, 
     "can_cost_hp": false, 
-    "can_interrupt_others": true, 
+    "can_interrupt_others": false, 
     "can_prepare_interrupt": false, 
-    "can_ps_interrupt": true, 
+    "can_ps_interrupt": false, 
     "circle_radius": {
         "__tuple__": true, 
         "items": [
@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "8"
         ]
     }, 
     "collection_animation": "", 
@@ -120,6 +120,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": -783067666, 
     "description": -783067666, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -142,7 +143,7 @@
         "items": []
     }, 
     "influenced_by_cd_reduce": true, 
-    "influenced_by_move": true, 
+    "influenced_by_move": false, 
     "is_autocast": false, 
     "is_charge_ability": false, 
     "is_immediate": false, 
@@ -172,17 +173,9 @@
     "release_immediately_out_of_range": false, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                2, 
-                3, 
-                4, 
-                5, 
-                6
-            ]
-        }
+        "required_levels": [
+            1
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

@@ -45,7 +45,7 @@
         ]
     }, 
     "ability_icon": 106858, 
-    "ability_max_level": 5, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -126,6 +126,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": 926814533, 
     "description": 926814533, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -266,16 +267,9 @@
                 ]
             ]
         }, 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                3, 
-                5, 
-                7, 
-                9
-            ]
-        }
+        "required_levels": [
+            1
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 
@@ -291,16 +285,7 @@
     }, 
     "show_building_attack_range": false, 
     "sight_type": 4, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": [
-            [
-                "ABILITY_SP_END", 
-                134264626, 
-                11
-            ]
-        ]
-    }, 
+    "sound_event_list": [], 
     "sp_count_down": false, 
     "sp_sfx_list": {
         "__tuple__": true, 
