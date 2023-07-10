@@ -283,8 +283,82 @@
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_4", 
             "valid": true
         }, 
+        "1742577669": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "is_sp_attack"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 850415619623547, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1742577669000002, 
+                    "enable": true, 
+                    "event_type": "ABILITY_CST_END"
+                }
+            ], 
+            "group_id": 134236299, 
+            "p_trigger_id": null, 
+            "trigger_id": 1742577669, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_3", 
+            "valid": true
+        }, 
         "1970413570": {
             "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "is_sp_attack"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 850415619623547, 
+                    "enable": true
+                }, 
                 {
                     "action_type": "REMOVE_BUFF_TYPE", 
                     "args_list": [
@@ -452,6 +526,10 @@
                 [
                     1970413570, 
                     "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ], 
+                [
+                    1742577669, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_3"
                 ]
             ], 
             "key": 134236299, 

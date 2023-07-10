@@ -5992,6 +5992,76 @@
         "trigger_name": "buy_item", 
         "valid": true
     }, 
+    "874438733": {
+        "action": [
+            {
+                "action_type": "UNIT_REMOVE_ABILITY", 
+                "args_list": [
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_ENTITY", 
+                                    "Player Unit"
+                                ]
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    1
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": 11
+                    }, 
+                    {
+                        "arg_type": 100182, 
+                        "args_list": [
+                            2
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            0
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 874438733000006, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": true, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 200220, 
+                        "args_list": [
+                            20
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "element_id": 874438733000002, 
+                "enable": true, 
+                "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "p_trigger_id": null, 
+        "trigger_id": 874438733, 
+        "trigger_name": "\u6309T\u79fb\u9664\u6280\u80fd0", 
+        "valid": true
+    }, 
     "972595267": {
         "action": [
             {

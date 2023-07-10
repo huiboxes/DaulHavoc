@@ -89,11 +89,11 @@
     "camp_priority_self": 1, 
     "can_bs_interrupt": false, 
     "can_cache": true, 
-    "can_cast_interrupt": false, 
+    "can_cast_interrupt": true, 
     "can_cast_when_hp_insufficient": false, 
     "can_cost_hp": false, 
     "can_interrupt_others": true, 
-    "can_prepare_interrupt": true, 
+    "can_prepare_interrupt": false, 
     "can_ps_interrupt": false, 
     "circle_radius": {
         "__tuple__": true, 
@@ -152,7 +152,7 @@
         "items": []
     }, 
     "influenced_by_cd_reduce": true, 
-    "influenced_by_move": true, 
+    "influenced_by_move": false, 
     "is_autocast": false, 
     "is_charge_ability": false, 
     "is_immediate": false, 

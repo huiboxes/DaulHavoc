@@ -889,6 +889,8 @@
                     "CurrentSkill": 0
                 }, 
                 "INTEGER": {
+                    "ExistedSkillNum": 0, 
+                    "Player ID": 0, 
                     "index": 0
                 }, 
                 "PLAYER": {
@@ -900,6 +902,8 @@
             }, 
             "variable_length_dict": {
                 "CurrentSkill": 0, 
+                "ExistedSkillNum": 0, 
+                "Player ID": 0, 
                 "index": 0, 
                 "player": 0, 
                 "unit": 0
@@ -915,6 +919,30 @@
                 }
             }, 
             "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
+            }
+        }, 
+        "2145988684": {
+            "variable_dict": {
+                "ABILITY_NAME": {
+                    "CurrentSkill": 0
+                }, 
+                "INTEGER": {
+                    "ExistedSkillNum": 0, 
+                    "Player ID": 0
+                }, 
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "CurrentSkill": 0, 
+                "ExistedSkillNum": 0, 
+                "Player ID": 0, 
                 "player": 0, 
                 "unit": 0
             }

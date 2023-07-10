@@ -29,6 +29,33 @@
         "550764546": {
             "action": [
                 {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "is_sp_attack"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 850415619623547, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "PLAY_ANIMATION", 
                     "args_list": [
                         {
@@ -1408,6 +1435,53 @@
             "trigger_id": 1376571393, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
             "valid": true
+        }, 
+        "1457238019": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "is_sp_attack"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 850415619623547, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1457238019000003, 
+                    "enable": true, 
+                    "event_type": "ABILITY_CST_END"
+                }
+            ], 
+            "group_id": 134244071, 
+            "p_trigger_id": null, 
+            "trigger_id": 1457238019, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
         }
     }, 
     "trigger_group_info": [
@@ -1421,6 +1495,10 @@
                 [
                     1376571393, 
                     "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ], 
+                [
+                    1457238019, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
                 ]
             ], 
             "key": 134244071, 
