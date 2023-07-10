@@ -2,6 +2,9 @@
     "game_modes": {
         "1001": {
             "desc": "default"
+        }, 
+        "1002": {
+            "desc": "\u65b0\u6a21\u5f0f"
         }
     }
 }

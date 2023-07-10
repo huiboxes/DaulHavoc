@@ -92,7 +92,7 @@
     "can_cast_interrupt": false, 
     "can_cast_when_hp_insufficient": false, 
     "can_cost_hp": false, 
-    "can_interrupt_others": false, 
+    "can_interrupt_others": true, 
     "can_prepare_interrupt": false, 
     "can_ps_interrupt": false, 
     "circle_radius": {
