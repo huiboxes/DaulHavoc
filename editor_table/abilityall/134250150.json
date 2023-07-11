@@ -166,6 +166,7 @@
             "key": "AbsorbDamage", 
             "prop_cls": "PInt", 
             "remark": "", 
+            "sort": 0, 
             "type": 24, 
             "value": {
                 "__tuple__": true, 
@@ -213,6 +214,7 @@
             "key": "ExistTime", 
             "prop_cls": "PFloat", 
             "remark": "", 
+            "sort": 1, 
             "type": 1, 
             "value": 4.0
         }, 
@@ -223,6 +225,7 @@
             "key": "Range", 
             "prop_cls": "PFloat", 
             "remark": "", 
+            "sort": 2, 
             "type": 1, 
             "value": 400.0
         }, 
@@ -233,8 +236,20 @@
             "key": "SpeedUp", 
             "prop_cls": "PFloat", 
             "remark": "", 
+            "sort": 3, 
             "type": 1, 
             "value": 35.0
+        }, 
+        "attr": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attr", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 5, 
+            "type": 0, 
+            "value": "forest"
         }, 
         "shortdec": {
             "annotation": "", 
@@ -243,6 +258,7 @@
             "key": "shortdec", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 4, 
             "type": 0, 
             "value": "\u5728\u539f\u5730\u53ec\u5524\u4e00\u4e2a\u5c01\u9b54\u76fe\u5438\u6536\u8303\u56f4\u5185\u53cb\u519b\u53d7\u5230\u7684\u4f24\u5bb3\u3002"
         }

@@ -159,6 +159,17 @@
     "is_meele": false, 
     "key": 134236299, 
     "kv": {
+        "attr": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attr", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 0, 
+            "value": "wind"
+        }, 
         "shortdec": {
             "annotation": "", 
             "desc": "", 

@@ -165,6 +165,34 @@
                 "unit": 0
             }
         }, 
+        "503685198": {
+            "variable_dict": {
+                "ABILITY": {
+                    "skill": null
+                }, 
+                "INTEGER": {
+                    "Player ID": 0, 
+                    "UnitSpeed": 0
+                }, 
+                "STRING": {
+                    "CurrentAtkAttr": "", 
+                    "LastAtkAttr": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "recipient": 0, 
+                    "releaser": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "CurrentAtkAttr": 0, 
+                "LastAtkAttr": 0, 
+                "Player ID": 0, 
+                "UnitSpeed": 0, 
+                "recipient": 0, 
+                "releaser": 0, 
+                "skill": 0
+            }
+        }, 
         "503767069": {
             "variable_dict": {
                 "ITEM_ENTITY": {

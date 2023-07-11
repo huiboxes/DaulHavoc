@@ -149,7 +149,19 @@
     "is_immediate": false, 
     "is_meele": false, 
     "key": 134264067, 
-    "kv": {}, 
+    "kv": {
+        "attr": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attr", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "ice"
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []

@@ -166,8 +166,20 @@
             "key": "animation", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 0, 
             "type": 0, 
             "value": "ability_1"
+        }, 
+        "attr": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attr", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 0, 
+            "value": "fire"
         }, 
         "damage": {
             "annotation": "", 
@@ -176,6 +188,7 @@
             "key": "damage", 
             "prop_cls": "PInt", 
             "remark": "", 
+            "sort": 1, 
             "type": 24, 
             "value": {
                 "__tuple__": true, 
@@ -232,6 +245,7 @@
             "key": "shortdec", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 2, 
             "type": 0, 
             "value": "\u5411\u6307\u5b9a\u533a\u57df\u91ca\u653e\u7bad\u96e8\uff0c\u5bf9\u8303\u56f4\u5185\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u5e76\u51cf\u901f\u3002"
         }

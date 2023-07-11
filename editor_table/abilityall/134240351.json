@@ -170,6 +170,17 @@
             "type": 0, 
             "value": "ability_1"
         }, 
+        "attr": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attr", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 0, 
+            "value": "forest"
+        }, 
         "heal": {
             "annotation": "", 
             "desc": "", 

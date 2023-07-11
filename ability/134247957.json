@@ -124,6 +124,44 @@
                     ]
                 }, 
                 {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "ABILITY_OWNER"
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100014, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_ABILITY"
+                                        }
+                                    ], 
+                                    "sub_type": "TARGET_UNIT_IN_ABILITY"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "3f1827401fa011ee8dc680fa5b6b2908"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1742577669623550, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
@@ -525,7 +563,7 @@
                                                         {
                                                             "arg_type": 100046, 
                                                             "args_list": [
-                                                                134241345
+                                                                134217762
                                                             ], 
                                                             "sub_type": 1
                                                         }
@@ -547,7 +585,7 @@
                                                         {
                                                             "arg_type": 100000, 
                                                             "args_list": [
-                                                                0.75
+                                                                1.0
                                                             ], 
                                                             "sub_type": 1
                                                         }, 

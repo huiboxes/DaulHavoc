@@ -623,6 +623,38 @@
                                                         false, 
                                                         false
                                                     ]
+                                                }, 
+                                                {
+                                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100177, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100014, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "CUR_ABILITY"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "ABILITY_OWNER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "MOVER_COLLIDE_UNIT"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [], 
+                                                            "op_arg_enable": [], 
+                                                            "sub_type": "3f1827401fa011ee8dc680fa5b6b2908"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "call_rt_arg_idxes": [], 
+                                                    "element_id": 1742577669623550, 
+                                                    "enable": true
                                                 }
                                             ], 
                                             "sub_type": 1
@@ -813,6 +845,25 @@
             "trigger_id": 1688190978, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_2", 
             "valid": true
+        }, 
+        "1719410691": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1719410691000002, 
+                    "enable": true, 
+                    "event_type": "ABILITY_CST_END"
+                }
+            ], 
+            "group_id": 134227891, 
+            "p_trigger_id": null, 
+            "trigger_id": 1719410691, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_3", 
+            "valid": true
         }
     }, 
     "trigger_group_info": [
@@ -826,6 +877,10 @@
                 [
                     1688190978, 
                     "\u65b0\u5efa\u89e6\u53d1\u5668_2"
+                ], 
+                [
+                    1719410691, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668_3"
                 ]
             ], 
             "key": 134227891, 

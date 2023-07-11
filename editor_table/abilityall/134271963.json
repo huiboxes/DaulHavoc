@@ -123,6 +123,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": 1229246732, 
     "description": 1229246732, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -165,6 +166,7 @@
             "key": "Damage", 
             "prop_cls": "PInt", 
             "remark": "", 
+            "sort": 0, 
             "type": 24, 
             "value": [
                 "lambda unit: Fix32(60)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(35) +Fix32(unit.ability_source.api_get_float_attr('attack_mag'))*Fix32(0.35)", 
@@ -209,6 +211,7 @@
             "key": "FrozenTime", 
             "prop_cls": "PFloat", 
             "remark": "", 
+            "sort": 1, 
             "type": 1, 
             "value": 1.5
         }, 
@@ -219,8 +222,9 @@
             "key": "PathExistTIme", 
             "prop_cls": "PFloat", 
             "remark": "", 
+            "sort": 2, 
             "type": 1, 
-            "value": 6.0
+            "value": 4.0
         }, 
         "SpeedDown": {
             "annotation": "", 
@@ -229,6 +233,7 @@
             "key": "SpeedDown", 
             "prop_cls": "PInt", 
             "remark": "", 
+            "sort": 3, 
             "type": 24, 
             "value": [
                 "lambda unit: Fix32(30)+(Fix32(unit.ability_level)-Fix32(1))*Fix32(15)", 
@@ -252,6 +257,17 @@
                 ]
             ]
         }, 
+        "attr": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attr", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 5, 
+            "type": 0, 
+            "value": "ice"
+        }, 
         "shortdec": {
             "annotation": "", 
             "desc": "", 
@@ -259,6 +275,7 @@
             "key": "shortdec", 
             "prop_cls": "PText", 
             "remark": "", 
+            "sort": 4, 
             "type": 0, 
             "value": "\u5411\u524d\u65b9\u91ca\u653e\u5bd2\u51b0\u8def\u5f84\uff0c\u5bf9\u78b0\u89e6\u5230\u7684\u654c\u4eba\u9020\u6210\u51b0\u51bb\u6548\u679c\u3002"
         }
