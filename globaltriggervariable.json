@@ -563,6 +563,26 @@
                 "unit": 0
             }
         }, 
+        "1307955278": {
+            "variable_dict": {
+                "INTEGER": {
+                    "delay": 2
+                }, 
+                "STRING": {
+                    "reportText": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "recipient": 0, 
+                    "releaser": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "delay": 0, 
+                "recipient": 0, 
+                "releaser": 0, 
+                "reportText": 0
+            }
+        }, 
         "1325858865": {
             "variable_dict": {
                 "INTEGER": {

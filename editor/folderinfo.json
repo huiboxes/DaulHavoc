@@ -1465,9 +1465,75 @@
      2147483647, 
      "code_explorer_custom_root_folder_name"
     ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "/2147483647", 
+     0, 
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     "avatar"
+    ]
    }
   ], 
-  "d": {}
+  "d": {
+   "134223383": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     0
+    ]
+   }, 
+   "134255475": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     1
+    ]
+   }, 
+   "134272301": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     2
+    ]
+   }, 
+   "134263560": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     3
+    ]
+   }, 
+   "134218696": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     4
+    ]
+   }, 
+   "134270476": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     5
+    ]
+   }, 
+   "134230231": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     6
+    ]
+   }, 
+   "134230462": {
+    "__tuple__": true, 
+    "items": [
+     "7Z8hTx-YEe6YaYD6W2spCO", 
+     7
+    ]
+   }
+  }
  }, 
  "editor_sound": {
   "f": [

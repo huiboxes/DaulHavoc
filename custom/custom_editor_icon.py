@@ -1,4 +1,5 @@
 # -*- encoding:utf-8 -*-
 _reload_all = True
 
-data = {}
+
+data = {134223383: {'path': 'ui/134223383', 'describe': '', 'name': u'datiangou', 'key': 134223383, 'uid': '134223383', 'size': '420X420'}, 134255475: {'path': 'ui/134255475', 'describe': '', 'name': u'huang', 'key': 134255475, 'uid': '134255475', 'size': '420X420'}, 134272301: {'path': 'ui/134272301', 'describe': '', 'name': u'snowWomen', 'key': 134272301, 'uid': '134272301', 'size': '420X420'}, 134263560: {'path': 'ui/134263560', 'describe': '', 'name': u'yaodaoji', 'key': 134263560, 'uid': '134263560', 'size': '420X420'}, 134218696: {'path': 'ui/134218696', 'describe': '', 'name': u'datiangou-circle', 'key': 134218696, 'uid': '134218696', 'size': '432X432'}, 134270476: {'path': 'ui/134270476', 'describe': '', 'name': u'huang-circle', 'key': 134270476, 'uid': '134270476', 'size': '432X432'}, 134230231: {'path': 'ui/134230231', 'describe': '', 'name': u'snowWomen-circle', 'key': 134230231, 'uid': '134230231', 'size': '432X432'}, 134230462: {'path': 'ui/134230462', 'describe': '', 'name': u'yaodaoji-circle', 'key': 134230462, 'uid': '134230462', 'size': '432X432'}}

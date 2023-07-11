@@ -114,7 +114,7 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
-    "icon": 106742, 
+    "icon": 134255475, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
@@ -152,6 +152,17 @@
             "sort": 1, 
             "type": 2, 
             "value": 1
+        }, 
+        "avatar": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 20, 
+            "key": "avatar", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 14, 
+            "value": 134270476
         }
     }, 
     "level": 1, 
@@ -172,7 +183,7 @@
     "mp_rec": 10, 
     "mp_rec_grow": 2, 
     "name": 485204408, 
-    "need_preview_billboard": true, 
+    "need_preview_billboard": false, 
     "ori_bits": 0, 
     "ori_speed": 4.5, 
     "ori_speed_grow": 0.0, 

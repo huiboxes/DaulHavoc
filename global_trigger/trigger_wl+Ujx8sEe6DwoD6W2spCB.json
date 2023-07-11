@@ -245,55 +245,6 @@
                                             "arg_type": 100022, 
                                             "args_list": [
                                                 {
-                                                    "action_type": "SEND_TO_ROLE_GROUP_TEXT_TIME", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100025, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "__tuple__": true, 
-                                                                            "items": [
-                                                                                "UNIT_ENTITY", 
-                                                                                "releaser", 
-                                                                                "local"
-                                                                            ]
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": 11
-                                                                }
-                                                            ], 
-                                                            "sub_type": "OWNER_PLAYER"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                "\u89e6\u53d1\u4e86\u76f8\u540c\u6280\u80fd\u589e\u76ca"
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100000, 
-                                                            "args_list": [
-                                                                3.0
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100001, 
-                                                            "args_list": [
-                                                                true
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 1928896584000008, 
-                                                    "enable": true
-                                                }, 
-                                                {
                                                     "action_type": "ADD_CUR_HP", 
                                                     "args_list": [
                                                         {
@@ -353,6 +304,62 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 503685198930073, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100177, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "UNIT_ENTITY", 
+                                                                                "releaser", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "UNIT_ENTITY", 
+                                                                                "recipient", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u540c\u5c5e\u6027Combo"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "call_rt_arg_idxes": [], 
+                                                    "element_id": 503685198930259, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -561,21 +568,47 @@
                                                             "arg_type": 100177, 
                                                             "args_list": [
                                                                 {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "releaser", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "recipient", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "\u89e6\u53d1\u4e86 \u98ce + \u706b \u6280\u80fd\u589e\u76ca"
+                                                                        "\u5c5e\u6027Combo\uff1a\u98ce\u4e0e\u706b"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
                                                             ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
                                                         }
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 503685198000674, 
+                                                    "element_id": 503685198930262, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -882,6 +915,56 @@
                                         {
                                             "arg_type": 100022, 
                                             "args_list": [
+                                                {
+                                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100177, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "releaser", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "recipient", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u5c5e\u6027Combo\uff1a\u98ce\u4e0e\u6797"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "call_rt_arg_idxes": [], 
+                                                    "element_id": 503685198930268, 
+                                                    "enable": true
+                                                }, 
                                                 {
                                                     "action_type": "CALL_TRIGGER_FUNC", 
                                                     "args_list": [
@@ -1313,21 +1396,47 @@
                                                             "arg_type": 100177, 
                                                             "args_list": [
                                                                 {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "releaser", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "recipient", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "\u89e6\u53d1\u4e86 \u6797 + \u706b \u6280\u80fd\u589e\u76ca"
+                                                                        "\u5c5e\u6027Combo\uff1a\u98ce\u4e0e\u51b0"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
                                                             ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
                                                         }
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 503685198000666, 
+                                                    "element_id": 503685198930274, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -1733,6 +1842,56 @@
                                         {
                                             "arg_type": 100022, 
                                             "args_list": [
+                                                {
+                                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100177, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "releaser", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "recipient", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u5c5e\u6027Combo\uff1a\u6797\u4e0e\u706b"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "call_rt_arg_idxes": [], 
+                                                    "element_id": 503685198930280, 
+                                                    "enable": true
+                                                }, 
                                                 {
                                                     "action_type": "CALL_TRIGGER_FUNC", 
                                                     "args_list": [
@@ -2164,21 +2323,47 @@
                                                             "arg_type": 100177, 
                                                             "args_list": [
                                                                 {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "releaser", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "recipient", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "\u89e6\u53d1\u4e86 \u51b0 + \u706b \u6280\u80fd\u589e\u76ca"
+                                                                        "\u5c5e\u6027Combo\uff1a\u51b0\u4e0e\u706b"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
                                                             ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
                                                         }
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 503685198000658, 
+                                                    "element_id": 503685198930286, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -2588,21 +2773,47 @@
                                                             "arg_type": 100177, 
                                                             "args_list": [
                                                                 {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "releaser", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "UNIT_ENTITY", 
+                                                                            "recipient", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 11
+                                                                }, 
+                                                                {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "\u89e6\u53d1\u4e86 \u6797 + \u51b0 \u6280\u80fd\u589e\u76ca"
+                                                                        "\u5c5e\u6027Combo\uff1a\u6797\u4e0e\u51b0"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
                                                             ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                                                            "op_arg": [
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "77c4d1611ff511ee908f80fa5b6b2908"
                                                         }
                                                     ], 
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
-                                                    "element_id": 503685198000662, 
+                                                    "element_id": 503685198930292, 
                                                     "enable": true
                                                 }, 
                                                 {

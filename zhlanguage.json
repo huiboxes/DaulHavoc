@@ -1383,6 +1383,10 @@
         "key": "#33a1ca3f-6605-4e21-9cca-29df7772345c#text", 
         "value": "default-text"
     }, 
+    "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text": {
+        "key": "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text", 
+        "value": "combo: \u81ea\u7136\u4e4b\u529b\n"
+    }, 
     "$code_camp_referee": {
         "key": "$code_camp_referee", 
         "value": "\u88c1\u5224"
