@@ -966,30 +966,6 @@
                                                     "enable": true
                                                 }, 
                                                 {
-                                                    "action_type": "CALL_TRIGGER_FUNC", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100177, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100003, 
-                                                                    "args_list": [
-                                                                        "\u89e6\u53d1\u4e86 \u6797 + \u98ce \u6280\u80fd\u589e\u76ca"
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }
-                                                            ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "call_rt_arg_idxes": [], 
-                                                    "element_id": 503685198000670, 
-                                                    "enable": true
-                                                }, 
-                                                {
                                                     "action_type": "APPLY_DAMAGE", 
                                                     "args_list": [
                                                         {
@@ -1890,30 +1866,6 @@
                                                     "bp": false, 
                                                     "call_rt_arg_idxes": [], 
                                                     "element_id": 503685198930280, 
-                                                    "enable": true
-                                                }, 
-                                                {
-                                                    "action_type": "CALL_TRIGGER_FUNC", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100177, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100003, 
-                                                                    "args_list": [
-                                                                        "\u89e6\u53d1\u4e86 \u6797 + \u706b \u6280\u80fd\u589e\u76ca"
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }
-                                                            ], 
-                                                            "op_arg": [], 
-                                                            "op_arg_enable": [], 
-                                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "call_rt_arg_idxes": [], 
-                                                    "element_id": 503685198000651, 
                                                     "enable": true
                                                 }, 
                                                 {

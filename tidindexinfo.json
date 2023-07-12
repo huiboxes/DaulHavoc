@@ -155,6 +155,12 @@
         "item_key": 134242303, 
         "prop_key": "name"
     }, 
+    "1561428393": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134267216, 
+        "prop_key": "desc"
+    }, 
     "1568109812": {
         "editor_type": "modifier_all", 
         "index_type": "object_editor", 

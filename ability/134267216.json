@@ -144,61 +144,6 @@
                         true
                     ]
                 }, 
-                {
-                    "action_type": "PLAY_ANIMATION", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "attack1"
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                1.0
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                0.0
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                -1.0
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                false
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                true
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 34123777000005, 
-                    "enable": true
-                }, 
                 [
                     2680545310037, 
                     "\u9ed8\u8ba4\u5355\u4f4d\u653b\u51fb\u6b21\u6570\u4e3a1\uff0c\u5355\u4f4d\u5fc5\u987b\u5728\u7b2c\u4e00\u6b21\u653b\u51fb\u540e\u8fdb\u884c\u7b2c\u4e8c\u6b21\u653b\u51fb", 
@@ -737,6 +682,61 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
+                                    "action_type": "PLAY_ANIMATION", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "attack1"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                -1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 34123777000005, 
+                                    "enable": true
+                                }, 
+                                {
                                     "action_type": "SET_VARIABLE", 
                                     "args_list": [
                                         {
@@ -958,14 +958,14 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                1200.0
+                                                1500.0
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                800.0
+                                                1000.0
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -1351,14 +1351,14 @@
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                50.0
+                                                60.0
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
                                             "arg_type": 100000, 
                                             "args_list": [
-                                                50.0
+                                                60.0
                                             ], 
                                             "sub_type": 1
                                         }, 

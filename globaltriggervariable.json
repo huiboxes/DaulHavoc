@@ -566,7 +566,7 @@
         "1307955278": {
             "variable_dict": {
                 "INTEGER": {
-                    "delay": 2
+                    "delay": 1
                 }, 
                 "STRING": {
                     "reportText": ""
