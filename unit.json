@@ -14,7 +14,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 32
                 }, 
                 "display": {
                     "real_scale": [
@@ -61,7 +61,7 @@
                         "__tuple__": true, 
                         "items": [
                             0, 
-                            64424509
+                            64466736
                         ]
                     }
                 }
@@ -70,77 +70,6 @@
             "name": "\u796d\u7940\u53f0", 
             "type": 2, 
             "unit_id": 2
-        }, 
-        "4": {
-            "components": {
-                "__attr": {
-                    "hp_percent": 100, 
-                    "level": 1, 
-                    "mp_percent": 100
-                }, 
-                "ability": {
-                    "0_1": [
-                        134267216, 
-                        1
-                    ]
-                }, 
-                "camp": {
-                    "role_id": 1
-                }, 
-                "display": {
-                    "real_scale": [
-                        1.0, 
-                        1.0, 
-                        1.0
-                    ]
-                }, 
-                "drop_item": null, 
-                "item": {}, 
-                "movement": {
-                    "pitch": {
-                        "__tuple__": true, 
-                        "items": [
-                            0, 
-                            0
-                        ]
-                    }, 
-                    "position": {
-                        "__tuple__": true, 
-                        "items": [
-                            [
-                                19, 
-                                1243119616
-                            ], 
-                            [
-                                0, 
-                                0
-                            ], 
-                            [
-                                19, 
-                                1060093952
-                            ]
-                        ]
-                    }, 
-                    "roll": {
-                        "__tuple__": true, 
-                        "items": [
-                            0, 
-                            0
-                        ]
-                    }, 
-                    "yaw": {
-                        "__tuple__": true, 
-                        "items": [
-                            0, 
-                            0
-                        ]
-                    }
-                }
-            }, 
-            "entity_id": 134256016, 
-            "name": "\u8352", 
-            "type": 1, 
-            "unit_id": 4
         }
     }
 }

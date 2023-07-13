@@ -93,6 +93,20 @@
                 "Unit": 0
             }
         }, 
+        "280154191": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_NAME": {
+                    "HeroList": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "HeroList": 10, 
+                "Player ID": 0
+            }
+        }, 
         "333193219": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -519,7 +533,8 @@
                             0
                         ]
                     }
-                }
+                }, 
+                "UNIT_ENTITY": {}
             }, 
             "variable_length_dict": {
                 "Aim Point": 0, 

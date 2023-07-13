@@ -1,11 +1,6 @@
 {
-    "100": 55.0, 
-    "102": 0, 
-    "104": 500, 
-    "107": 0, 
-    "108": 100, 
     "_custom_": true, 
-    "_ref_": 134265856, 
+    "_ref_": 134235479, 
     "attach_models": {
         "__tuple__": true, 
         "items": []
@@ -50,12 +45,12 @@
         "__tuple__": true, 
         "items": [
             [
-                -8, 
-                -3
+                -5, 
+                -5
             ], 
             [
-                9, 
-                4
+                6, 
+                6
             ], 
             [
                 0, 
@@ -112,17 +107,19 @@
                 0, 
                 0, 
                 0, 
+                0, 
+                0, 
+                0, 
+                0, 
                 1824, 
                 1824, 
-                1824, 
-                1824, 
-                1824, 
-                1824, 
-                1824, 
-                1824, 
-                1824, 
-                1824, 
-                1824, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
                 0, 
                 0, 
                 0, 
@@ -181,7 +178,7 @@
             1.0
         ]
     }, 
-    "description": -522847524, 
+    "description": 1246043526, 
     "effect_list": {
         "__tuple__": true, 
         "items": []
@@ -197,12 +194,12 @@
     }, 
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
-    "height_num": 7, 
+    "height_num": 11, 
     "height_offset": 0.25, 
     "icon": 100000, 
     "is_x_offset": true, 
     "is_z_offset": true, 
-    "key": 134265856, 
+    "key": 134235479, 
     "kv": {}, 
     "material_alpha": 0, 
     "material_change": 0, 
@@ -215,16 +212,20 @@
         ]
     }, 
     "material_color_intensity": 0, 
-    "model": 206748, 
+    "model": 201483, 
     "model_opacity": 1, 
-    "name": 308080074, 
+    "name": -445796659, 
     "receive_decal": false, 
     "scale": 1.0, 
     "suffix": "", 
-    "uid": "134265856", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "134235479", 
     "use_base_tint_color": false, 
-    "use_fresnel": false, 
+    "use_fresnel": 0, 
     "use_physics": false, 
-    "width_num": 17, 
+    "width_num": 11, 
     "width_offset": 0.25
 }

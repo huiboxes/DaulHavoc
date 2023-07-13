@@ -1,6 +1,6 @@
 {
     "color_grading": {
-        "color_grading_type": 8
+        "color_grading_type": 7
     }, 
     "fog": {
         "height_fog_end": 140.62
@@ -32,10 +32,10 @@
                 "TotalControl": 0.9
             }
         }, 
-        "post_style_type": 4
+        "post_style_type": 0
     }, 
     "sky_box": {
-        "sky_box_type": 100000
+        "sky_box_type": 100002
     }, 
     "terrain": {
         "terrain_version": 2, 
