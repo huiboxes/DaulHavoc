@@ -2478,5 +2478,13 @@
    }
   ], 
   "btn_visible": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   76, 
+   "\u677e\u68112", 
+   16384
+  ]
  }
 ]
