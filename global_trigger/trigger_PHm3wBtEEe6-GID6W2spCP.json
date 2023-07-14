@@ -2548,6 +2548,22 @@
                                     "bp": false, 
                                     "element_id": 603496524986651, 
                                     "enable": true
+                                }, 
+                                {
+                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100177, 
+                                            "args_list": [], 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "95de60c0224911ee921580fa5b6b2908"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "call_rt_arg_idxes": [], 
+                                    "element_id": 603496524986936, 
+                                    "enable": true
                                 }
                             ], 
                             "sub_type": 1

@@ -117,6 +117,49 @@
                 "is_bag_open": 0
             }
         }, 
+        "360423504": {
+            "variable_dict": {
+                "ABILITY_NAME": {}, 
+                "INTEGER": {
+                    "LoopIndex": 0, 
+                    "PointIndex": 0, 
+                    "PropIndex": 0
+                }, 
+                "PLAYER": {}, 
+                "POINT": {
+                    "GenerationPointList": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "PROJECTILE": {
+                    "PropList": 0
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "Projectile": 0
+                }, 
+                "PROJECTILE_GROUP": {}, 
+                "RANDOM_POOL": {
+                    "GenPointPool": null, 
+                    "PropPool": null
+                }, 
+                "UNIT_ENTITY": {}
+            }, 
+            "variable_length_dict": {
+                "GenPointPool": 0, 
+                "GenerationPointList": 10, 
+                "LoopIndex": 0, 
+                "PointIndex": 0, 
+                "Projectile": 0, 
+                "PropIndex": 0, 
+                "PropList": 10, 
+                "PropPool": 0
+            }
+        }, 
         "366354479": {
             "variable_dict": {
                 "PLAYER": {
@@ -290,6 +333,9 @@
                 "INTEGER": {
                     "Player ID": 0
                 }, 
+                "POINT": {}, 
+                "PROJECTILE_GROUP": {}, 
+                "RANDOM_POOL": {}, 
                 "UNIT_NAME": {
                     "HeroList": 0
                 }
