@@ -1,5 +1,82 @@
 {
     "trigger_dict": {
+        "524542031": {
+            "action": [
+                {
+                    "action_type": "ADD_MODIFIER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134277337
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 524542031000001, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                5.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_des": "\u3010W02\u3011\u73a9\u5bb6\uff1a{player}\u901a\u8fc7\u5355\u4f4d\uff1a{unit}\u4e92\u52a8\u3010\u52a0\u901f\u3011", 
+            "func_id": "5eeab7cf222111eea5af80fa5b6b2908", 
+            "func_name": "W03\uff1a\u79fb\u901f\u9053\u5177", 
+            "func_param_list": [
+                [
+                    "player", 
+                    true
+                ], 
+                [
+                    "unit", 
+                    true
+                ]
+            ], 
+            "group_id": "PHb4nxtEEe6wWID6W2spCI", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 524542031, 
+            "trigger_name": "W03\uff1a\u79fb\u901f\u9053\u5177", 
+            "valid": true
+        }, 
         "1106812991": {
             "action": [
                 {
@@ -1210,6 +1287,13 @@
                 "items": [
                     1106812991, 
                     "W02\uff1a\u62a4\u76fe\u9053\u5177"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    524542031, 
+                    "W03\uff1a\u79fb\u901f\u9053\u5177"
                 ]
             }, 
             {

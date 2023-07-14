@@ -221,6 +221,20 @@
                 "unit_group": 0
             }
         }, 
+        "524542031": {
+            "variable_dict": {
+                "PLAYER": {
+                    "player": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "player": 0, 
+                "unit": 0
+            }
+        }, 
         "534593552": {
             "variable_dict": {
                 "INTEGER": {
