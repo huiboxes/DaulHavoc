@@ -839,6 +839,65 @@
                 "dis": 0
             }
         }, 
+        "1806327889": {
+            "variable_dict": {
+                "FLOAT": {
+                    "BigMonsterOrient": 0.0, 
+                    "SmallMonsterOrient1": 0.0, 
+                    "SmallMonsterOrient2": 0.0
+                }, 
+                "POINT": {
+                    "BigMonsterPoint": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "SmallMonsterPoint1": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "SmallMonsterPoint2": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "CountdownFX": 0
+                }, 
+                "RECTANGLE": {
+                    "area": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "SmallMonster1": 0
+                }, 
+                "UNIT_NAME": {
+                    "monsterType": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "BigMonsterOrient": 0, 
+                "BigMonsterPoint": 0, 
+                "CountdownFX": 0, 
+                "SmallMonster1": 0, 
+                "SmallMonsterOrient1": 0, 
+                "SmallMonsterOrient2": 0, 
+                "SmallMonsterPoint1": 0, 
+                "SmallMonsterPoint2": 0, 
+                "area": 0, 
+                "monsterType": 0
+            }
+        }, 
         "1828233275": {
             "variable_dict": {
                 "FLOAT": {

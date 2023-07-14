@@ -3188,11 +3188,18 @@
                             280154191, 
                             "BattleRegion"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1225347155, 
+                            "InitMonsterRegion"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 
                 "key": "oqIfACFTEe6QloD6W2spCE", 
-                "name": "EntryRegion"
+                "name": "Region"
             }
         ], 
         "is_sub_folder": false, 
