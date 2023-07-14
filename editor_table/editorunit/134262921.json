@@ -34,7 +34,10 @@
             0.5
         ]
     }, 
+    "billboard_height_offset": 0.0, 
     "billboard_name_font": "HKWeiBeiW7", 
+    "billboard_scale_x": 1.0, 
+    "billboard_scale_y": 1.0, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
     "body_size": 1.0, 
@@ -111,6 +114,7 @@
         "items": []
     }, 
     "dynamic_collision_r": 0.5, 
+    "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
     "force_show_on_mini_map": false, 
@@ -232,6 +236,7 @@
     "mp_rec": 1.45, 
     "mp_rec_grow": 0.135, 
     "name": 1403271188, 
+    "need_preview_billboard": true, 
     "ori_bits": 0, 
     "ori_speed": 3.4, 
     "ori_speed_grow": 0.0, 
@@ -261,6 +266,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "preview_billboard_health_value": 520.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
@@ -275,6 +281,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "separate_enemy_icon": false, 
     "shop_camp_args": 3, 
     "shop_range": 10.0, 
     "shop_sell_type": 0, 

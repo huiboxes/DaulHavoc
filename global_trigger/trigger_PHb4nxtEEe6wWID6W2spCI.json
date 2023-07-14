@@ -1,97 +1,158 @@
 {
     "trigger_dict": {
-        "418947136": {
-            "action": [
-                {
-                    "action_type": "CALL_TRIGGER_FUNC", 
-                    "args_list": [
-                        {
-                            "arg_type": 100177, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u7269\u54c1C\uff08\u7d2b\u8292\u661f\uff09\u6210\u529f\u4f7f\u7528"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
-                        }
-                    ], 
-                    "bp": false, 
-                    "call_rt_arg_idxes": [], 
-                    "element_id": 418947136000001, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [], 
-            "func_des": "\u3010W03\u3011\u73a9\u5bb6\uff1a{player}\u901a\u8fc7\u5355\u4f4d\uff1a{unit}\u4e92\u52a8\u3010\u7269\u54c1C\u3011", 
-            "func_id": "9ac40021159911ee84d870b5e84281ea", 
-            "func_name": "W03\uff1a\u7269\u54c1C", 
-            "func_param_list": [
-                {
-                    "__tuple__": true, 
-                    "items": [
-                        "player", 
-                        true
-                    ]
-                }, 
-                {
-                    "__tuple__": true, 
-                    "items": [
-                        "unit", 
-                        true
-                    ]
-                }
-            ], 
-            "group_id": "PHb4nxtEEe6wWID6W2spCI", 
-            "is_func": true, 
-            "is_official_func": false, 
-            "p_trigger_id": null, 
-            "trigger_id": 418947136, 
-            "trigger_name": "W03\uff1a\u7269\u54c1C", 
-            "valid": true
-        }, 
         "1106812991": {
             "action": [
                 {
-                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "action_type": "ADD_MODIFIER", 
                     "args_list": [
                         {
-                            "arg_type": 100177, 
+                            "arg_type": 100006, 
                             "args_list": [
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u7269\u54c1B\uff08\u95ea\u7535\u94fe\uff09\u6210\u529f\u4f7f\u7528"
-                                    ], 
-                                    "sub_type": 1
-                                }
+                                [
+                                    "UNIT_ENTITY", 
+                                    "unit", 
+                                    "local"
+                                ]
                             ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134246508
+                            ], 
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "call_rt_arg_idxes": [], 
-                    "element_id": 1106812991000001, 
+                    "element_id": 2096668734000031, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                3.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false
+                    ]
+                }, 
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "unit", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "bDuringImmune"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 603496524000018, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                3.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_ENTITY_KV", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                [
+                                                    "UNIT_ENTITY", 
+                                                    "unit", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 11
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "bDuringImmune"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1106812991000033, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1106812991000029, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
                 }
             ], 
             "call_enabled": true, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
-            "func_des": "\u3010W02\u3011\u73a9\u5bb6\uff1a{player}\u901a\u8fc7\u5355\u4f4d\uff1a{unit}\u4e92\u52a8\u3010\u7269\u54c1B\u3011", 
+            "func_des": "\u3010W02\u3011\u73a9\u5bb6\uff1a{player}\u901a\u8fc7\u5355\u4f4d\uff1a{unit}\u4e92\u52a8\u3010\u62a4\u76fe\u3011", 
             "func_id": "9ae78db0159911eea7a970b5e84281ea", 
-            "func_name": "W02\uff1a\u7269\u54c1B", 
+            "func_name": "W02\uff1a\u62a4\u76fe\u9053\u5177", 
             "func_param_list": [
                 {
                     "__tuple__": true, 
@@ -113,7 +174,7 @@
             "is_official_func": false, 
             "p_trigger_id": null, 
             "trigger_id": 1106812991, 
-            "trigger_name": "W02\uff1a\u7269\u54c1B", 
+            "trigger_name": "W02\uff1a\u62a4\u76fe\u9053\u5177", 
             "valid": true
         }, 
         "2079891521": {
@@ -1052,37 +1113,62 @@
         "2096668734": {
             "action": [
                 {
-                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "action_type": "ADD_MODIFIER", 
                     "args_list": [
                         {
-                            "arg_type": 100177, 
+                            "arg_type": 100006, 
                             "args_list": [
                                 {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u7269\u54c1A\uff08\u72ee\u5b50\u5934\u00b7\uff09\u6210\u529f\u4f7f\u7528"
-                                    ], 
-                                    "sub_type": 1
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "unit", 
+                                        "local"
+                                    ]
                                 }
                             ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134219156
+                            ], 
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "call_rt_arg_idxes": [], 
-                    "element_id": 2096668734000001, 
-                    "enable": true
+                    "element_id": 2096668734000031, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                3.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false
+                    ]
                 }
             ], 
             "call_enabled": true, 
             "condition": [], 
             "enabled": true, 
             "event": [], 
-            "func_des": "\u3010W01\u3011\u73a9\u5bb6\uff1a{player}\u901a\u8fc7\u5355\u4f4d\uff1a{unit}\u4e92\u52a8\u3010\u7269\u54c1A\u3011", 
+            "func_des": "\u3010W01\u3011\u73a9\u5bb6\uff1a{player}\u901a\u8fc7\u5355\u4f4d\uff1a{unit}\u4e92\u52a8\u3010\u8840\u74f6\u3011", 
             "func_id": "8e5bbb21159911eeb4c670b5e84281ea", 
-            "func_name": "W01\uff1a\u7269\u54c1A", 
+            "func_name": "W01\uff1a\u56de\u8840\u9053\u5177", 
             "func_param_list": [
                 {
                     "__tuple__": true, 
@@ -1104,7 +1190,7 @@
             "is_official_func": false, 
             "p_trigger_id": null, 
             "trigger_id": 2096668734, 
-            "trigger_name": "W01\uff1a\u7269\u54c1A", 
+            "trigger_name": "W01\uff1a\u56de\u8840\u9053\u5177", 
             "valid": true
         }
     }, 
@@ -1116,21 +1202,14 @@
                 "__tuple__": true, 
                 "items": [
                     2096668734, 
-                    "W01\uff1a\u7269\u54c1A"
+                    "W01\uff1a\u56de\u8840\u9053\u5177"
                 ]
             }, 
             {
                 "__tuple__": true, 
                 "items": [
                     1106812991, 
-                    "W02\uff1a\u7269\u54c1B"
-                ]
-            }, 
-            {
-                "__tuple__": true, 
-                "items": [
-                    418947136, 
-                    "W03\uff1a\u7269\u54c1C"
+                    "W02\uff1a\u62a4\u76fe\u9053\u5177"
                 ]
             }, 
             {

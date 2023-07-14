@@ -26,7 +26,7 @@
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "30"
+            "50.0"
         ]
     }, 
     "ability_damage_range": {

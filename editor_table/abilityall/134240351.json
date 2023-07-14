@@ -193,18 +193,9 @@
             "value": {
                 "__tuple__": true, 
                 "items": [
-                    "lambda unit: Fix32(25)+Fix32(15)*Fix32(unit.ability_level)+Fix32(0.12)*Fix32(unit.ability_source.api_get_float_attr('attack_mag'))", 
-                    [
-                        [
-                            "level"
-                        ], 
-                        [
-                            "ability_source", 
-                            "ATTR_RESULT", 
-                            "attack_mag"
-                        ]
-                    ], 
-                    "lambda unit: Fix32(25)+Fix32(15)*Fix32(unit.ability_level)+Fix32(0.12)*Fix32(unit.ability_source.api_get_float_attr('attack_mag'))", 
+                    "lambda unit: Fix32(200)", 
+                    [], 
+                    "lambda unit: Fix32(200)", 
                     {
                         "ability.cur_ability.ability_level": {
                             "is_cm": false
@@ -213,19 +204,7 @@
                             "is_cm": false
                         }
                     }, 
-                    [
-                        [
-                            "ability", 
-                            "cur_ability", 
-                            "ability_level"
-                        ], 
-                        [
-                            "unit", 
-                            "ability_source", 
-                            "ATTR_RESULT", 
-                            "attack_mag"
-                        ]
-                    ]
+                    []
                 ]
             }
         }, 

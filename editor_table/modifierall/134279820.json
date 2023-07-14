@@ -9,10 +9,39 @@
     "desc": -1558714447, 
     "description": -1558714447, 
     "disappear_when_dead": true, 
-    "get_effect_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "get_effect_list": [
+        [
+            102704, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.0, 
+                    0.0
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.0, 
+                    0.0
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    0.3, 
+                    0.3, 
+                    0.3
+                ]
+            }, 
+            1.0, 
+            "origin", 
+            true, 
+            0
+        ]
+    ], 
     "halo_effect": 0, 
     "ign_inf_unit_tag": {
         "__tuple__": true, 

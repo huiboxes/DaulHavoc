@@ -143,20 +143,6 @@
                 "str": 0
             }
         }, 
-        "418947136": {
-            "variable_dict": {
-                "PLAYER": {
-                    "player": 0
-                }, 
-                "UNIT_ENTITY": {
-                    "unit": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "player": 0, 
-                "unit": 0
-            }
-        }, 
         "435724348": {
             "variable_dict": {
                 "PLAYER": {
@@ -486,6 +472,9 @@
         }, 
         "1106812991": {
             "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
                 "PLAYER": {
                     "player": 0
                 }, 
@@ -494,6 +483,7 @@
                 }
             }, 
             "variable_length_dict": {
+                "Player ID": 0, 
                 "player": 0, 
                 "unit": 0
             }

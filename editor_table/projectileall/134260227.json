@@ -136,7 +136,7 @@
             "use_base_tint_color": false
         }
     ], 
-    "icon": 101909, 
+    "icon": 110213, 
     "key": 134260227, 
     "kv": {
         "name": {
@@ -148,7 +148,7 @@
             "remark": "", 
             "sort": 0, 
             "type": 0, 
-            "value": "\u6280\u80fd\u9053\u5177"
+            "value": "\u751f\u547d\u56de\u590d"
         }
     }, 
     "max_duration": 60.0, 

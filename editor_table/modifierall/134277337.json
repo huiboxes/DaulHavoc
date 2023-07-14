@@ -8,10 +8,39 @@
     "cycle_time": 0, 
     "description": 2039890003, 
     "disappear_when_dead": true, 
-    "get_effect_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "get_effect_list": [
+        [
+            101067, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    -0.0351, 
+                    0.0772
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    -10.0, 
+                    0.0, 
+                    0.0
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    0.15, 
+                    0.5, 
+                    0.4
+                ]
+            }, 
+            1.0, 
+            "origin", 
+            true, 
+            0
+        ]
+    ], 
     "halo_effect": 0, 
     "ign_inf_unit_tag": {
         "__tuple__": true, 
