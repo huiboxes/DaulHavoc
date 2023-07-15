@@ -1,5 +1,2167 @@
 {
-    "trigger_dict": {}, 
+    "trigger_dict": {
+        "360423504": {
+            "action": [
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "GenerationPointList", 
+                                                        "local"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10007
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986680, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10008
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986682, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10009
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986687, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        3
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10010
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986692, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        4
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10011
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986697, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10012
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986702, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        6
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10013
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986707, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        7
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10014
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986712, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        8
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10017
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986717, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        9
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10018
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986722, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        10
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10019
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986727, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        11
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10020
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986732, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        12
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10021
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986737, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        13
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10022
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986742, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        14
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10023
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986747, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        15
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10024
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986752, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        16
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10025
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986757, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        17
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10026
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986762, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        18
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10027
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986767, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        19
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10028
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986772, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        20
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10029
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986777, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "POINT", 
+                                                    "GenerationPointList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        21
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                10030
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986782, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "RANDOM_POOL", 
+                                                        "GenPointPool", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [], 
+                                            "sub_type": "CREATE_RANDOM_POOL"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986803, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986806, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986816, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986821, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                3
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986826, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                4
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986831, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                5
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986836, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                6
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986841, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                7
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986846, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                8
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986851, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                9
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986856, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                10
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986861, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                11
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986866, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                12
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986871, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                13
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986876, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                14
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986881, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                15
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986886, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                16
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986891, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                17
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986896, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                18
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986901, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                19
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986906, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                20
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986911, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "GenPointPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                21
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 603496524986916, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u521d\u59cb\u5316\u9053\u5177\u751f\u6210\u70b9"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 360423504000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PROJECTILE", 
+                                                        "PropList", 
+                                                        "local"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100062, 
+                                            "args_list": [
+                                                134257719
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884882, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "PROJECTILE", 
+                                                    "PropList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100062, 
+                                            "args_list": [
+                                                134260227
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884884, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "PROJECTILE", 
+                                                    "PropList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100062, 
+                                            "args_list": [
+                                                134236488
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884889, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100028, 
+                                            "args_list": [
+                                                [
+                                                    "PROJECTILE", 
+                                                    "PropList", 
+                                                    "local"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        3
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100062, 
+                                            "args_list": [
+                                                134245358
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884894, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "RANDOM_POOL", 
+                                                        "PropPool", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [], 
+                                            "sub_type": "CREATE_RANDOM_POOL"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884900, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "RANDOM_POOL", 
+                                                        "PropPool", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                3
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884903, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "PropPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884908, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "PropPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884913, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_RANDOM_POOL_VALUE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100201, 
+                                            "args_list": [
+                                                [
+                                                    "RANDOM_POOL", 
+                                                    "PropPool", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 3
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                3
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884918, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u521d\u59cb\u5316\u9053\u5177"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 360423504884875, 
+                    "enable": true
+                }, 
+                [
+                    1194397050, 
+                    "\u968f\u673a\u62bd\u4e00\u4e2a\u9053\u5177\u751f\u6210\u70b9\uff0c\u751f\u6210\u9053\u5177", 
+                    360423504, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "RUN_LOOP_TIMER_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                12.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "FOR_INT_DO_ACTION", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "LoopIndex", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                8
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
+                                                                    "PointIndex", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100201, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "RANDOM_POOL", 
+                                                                                "GenPointPool", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 3
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                {
+                                                                    "arg_type": 100001, 
+                                                                    "args_list": [
+                                                                        true
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "GET_BITRARY_RANDOM_POOL_VALUE"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 360423504000001, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "PropIndex", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100201, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "RANDOM_POOL", 
+                                                                                "PropPool", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 3
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                {
+                                                                    "arg_type": 100001, 
+                                                                    "args_list": [
+                                                                        true
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": "GET_BITRARY_RANDOM_POOL_VALUE"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 360423504884928, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100077, 
+                                                            "args_list": [
+                                                                [
+                                                                    "PROJECTILE_ENTITY", 
+                                                                    "Projectile", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100077, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100062, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "PROJECTILE", 
+                                                                                "PropList", 
+                                                                                "local"
+                                                                            ]
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "INTEGER", 
+                                                                                        "PropIndex", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "VARIABLE"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "POINT", 
+                                                                                "GenerationPointList", 
+                                                                                "local"
+                                                                            ]
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "INTEGER", 
+                                                                                        "PointIndex", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 19
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "NONE_ROLE"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        10.0
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                null, 
+                                                                null, 
+                                                                {
+                                                                    "arg_type": 100001, 
+                                                                    "args_list": [
+                                                                        true
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                true, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "CREATE_PROJECTILE_NEW"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 360423504884946, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504884941, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 360423504884934, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_des": "\u751f\u6210\u9053\u5177", 
+            "func_id": "95de60c0224911ee921580fa5b6b2908", 
+            "func_name": "\u968f\u673a\u751f\u6210\u9053\u5177", 
+            "group_id": "PHb4nxtEEe6wWID6W2spCI", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 360423504, 
+            "trigger_name": "\u968f\u673a\u751f\u6210\u9053\u5177", 
+            "valid": true
+        }
+    }, 
     "trigger_group_info": {
         "_function_": true, 
         "_trigger_group_": true, 
@@ -65,18 +2227,18 @@
                             2079891521, 
                             "W04\uff1a\u6280\u80fd\u4e66"
                         ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            360423504, 
-                            "\u968f\u673a\u751f\u6210\u9053\u5177"
-                        ]
                     }
                 ], 
                 "is_sub_folder": true, 
                 "key": "PHb4nxtEEe6wWID6W2spCI", 
                 "name": "W\uff1a\u6267\u884c"
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    360423504, 
+                    "\u968f\u673a\u751f\u6210\u9053\u5177"
+                ]
             }
         ], 
         "is_sub_folder": false, 
