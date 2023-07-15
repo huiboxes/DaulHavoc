@@ -2923,28 +2923,117 @@
         "1425580109": {
             "action": [
                 {
-                    "action_type": "REVIVE", 
+                    "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "KILLED_UNIT"
-                        }, 
-                        {
-                            "arg_type": 100004, 
+                            "arg_type": 100021, 
                             "args_list": [
                                 {
-                                    "arg_type": 100006, 
-                                    "args_list": [], 
-                                    "sub_type": "KILLED_UNIT"
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100020, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_UNIT_FROM_EVENT"
+                                                }
+                                            ], 
+                                            "sub_type": "UNIT_TEAM"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100020, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "TEAM_COMPARE", 
+                                    "element_id": 1425580109640129, 
+                                    "enable": true
                                 }
                             ], 
-                            "sub_type": "UNIT_ENTITY_POINT"
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "REVIVE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "KILLED_UNIT"
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100009, 
+                                                    "args_list": [
+                                                        10001
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "RECTANGLE_RANDOM_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1425580109000007, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "REVIVE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "KILLED_UNIT"
+                                        }, 
+                                        {
+                                            "arg_type": 100004, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100009, 
+                                                    "args_list": [
+                                                        10000
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "RECTANGLE_RANDOM_POINT"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1425580109640136, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1425580109000007, 
-                    "enable": true
+                    "element_id": 1425580109640118, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
                 }
             ], 
             "call_enabled": true, 
