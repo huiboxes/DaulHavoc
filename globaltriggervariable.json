@@ -490,6 +490,26 @@
                 "Player ID": 0
             }
         }, 
+        "934527060": {
+            "variable_dict": {
+                "INTEGER": {
+                    "delay": 1
+                }, 
+                "STRING": {
+                    "reportText": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "recipient": 0, 
+                    "releaser": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "delay": 0, 
+                "recipient": 0, 
+                "releaser": 0, 
+                "reportText": 0
+            }
+        }, 
         "972595267": {
             "variable_dict": {
                 "PLAYER": {
@@ -546,6 +566,24 @@
                 "Player ID": 0, 
                 "player": 0, 
                 "unit": 0
+            }
+        }, 
+        "1154953301": {
+            "variable_dict": {
+                "INTEGER": {
+                    "delay": 1
+                }, 
+                "STRING": {
+                    "reportText": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "recipient": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "delay": 0, 
+                "recipient": 0, 
+                "reportText": 0
             }
         }, 
         "1173921870": {

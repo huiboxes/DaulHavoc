@@ -10,7 +10,7 @@
     }, 
     "agility": 0.0, 
     "agility_grow": 0.0, 
-    "alarm_range": 6.0, 
+    "alarm_range": 4.0, 
     "angle_tolerance": 1, 
     "armor_type": 20000, 
     "attack_interval": 1, 
@@ -53,7 +53,7 @@
         "items": []
     }, 
     "can_flee": true, 
-    "cancel_alarm_range": 8.0, 
+    "cancel_alarm_range": 6.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
     "collision_box_turning_enable": false, 
@@ -150,7 +150,19 @@
     "keep_dead_body_time": 2.0, 
     "keep_target": true, 
     "key": 134234505, 
-    "kv": {}, 
+    "kv": {
+        "MonsterName": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "MonsterName", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "DiLong"
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
