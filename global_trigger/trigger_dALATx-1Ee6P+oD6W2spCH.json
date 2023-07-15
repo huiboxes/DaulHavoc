@@ -438,14 +438,11 @@
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "INTEGER", 
-                                        "delay", 
-                                        "local"
-                                    ]
-                                }
+                                [
+                                    "INTEGER", 
+                                    "duration", 
+                                    "local"
+                                ]
                             ], 
                             "sub_type": 6
                         }, 
@@ -572,10 +569,13 @@
                     "reportText", 
                     true
                 ], 
-                [
-                    "delay", 
-                    false
-                ]
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "duration", 
+                        false
+                    ]
+                }
             ], 
             "group_id": "dALATx-1Ee6P+oD6W2spCH", 
             "is_func": true, 
@@ -684,14 +684,11 @@
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "INTEGER", 
-                                        "delay", 
-                                        "local"
-                                    ]
-                                }
+                                [
+                                    "INTEGER", 
+                                    "duration", 
+                                    "local"
+                                ]
                             ], 
                             "sub_type": 6
                         }, 
@@ -768,10 +765,13 @@
                     "recipient", 
                     true
                 ], 
-                [
-                    "delay", 
-                    false
-                ], 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "duration", 
+                        false
+                    ]
+                }, 
                 {
                     "__tuple__": true, 
                     "items": [
@@ -1195,7 +1195,7 @@
                             "args_list": [
                                 [
                                     "INTEGER", 
-                                    "delay", 
+                                    "duration", 
                                     "local"
                                 ]
                             ], 
@@ -1330,7 +1330,7 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        "delay", 
+                        "duration", 
                         false
                     ]
                 }

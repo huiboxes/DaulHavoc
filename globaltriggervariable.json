@@ -493,7 +493,7 @@
         "934527060": {
             "variable_dict": {
                 "INTEGER": {
-                    "delay": 1
+                    "duration": 2
                 }, 
                 "STRING": {
                     "reportText": ""
@@ -504,7 +504,7 @@
                 }
             }, 
             "variable_length_dict": {
-                "delay": 0, 
+                "duration": 0, 
                 "recipient": 0, 
                 "releaser": 0, 
                 "reportText": 0
@@ -571,7 +571,7 @@
         "1154953301": {
             "variable_dict": {
                 "INTEGER": {
-                    "delay": 1
+                    "duration": 2
                 }, 
                 "STRING": {
                     "reportText": ""
@@ -581,7 +581,7 @@
                 }
             }, 
             "variable_length_dict": {
-                "delay": 0, 
+                "duration": 0, 
                 "recipient": 0, 
                 "reportText": 0
             }
@@ -669,7 +669,7 @@
         "1307955278": {
             "variable_dict": {
                 "INTEGER": {
-                    "delay": 1
+                    "duration": 1
                 }, 
                 "STRING": {
                     "reportText": ""
@@ -680,7 +680,7 @@
                 }
             }, 
             "variable_length_dict": {
-                "delay": 0, 
+                "duration": 0, 
                 "recipient": 0, 
                 "releaser": 0, 
                 "reportText": 0
@@ -760,6 +760,16 @@
                 "store unit": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "1425580109": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0
             }
         }, 
         "1496309785": {
@@ -934,6 +944,22 @@
                 "SmallMonsterPoint2": 0, 
                 "area": 0, 
                 "monsterType": 0
+            }
+        }, 
+        "1821921366": {
+            "variable_dict": {
+                "INTEGER": {
+                    "CurrentScore": 0, 
+                    "score": 0
+                }, 
+                "STRING": {
+                    "camp": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "CurrentScore": 0, 
+                "camp": 0, 
+                "score": 0
             }
         }, 
         "1828233275": {
@@ -1173,6 +1199,7 @@
             "SkillPool": null
         }, 
         "TABLE": {
+            "Score_Manager": null, 
             "Skill_UI_table": null, 
             "UI_Manager": null
         }, 
@@ -1230,12 +1257,20 @@
                 "SkillPool", 
                 "SkillPool"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Score_Manager", 
+                "Score_Manager"
+            ]
         }
     ], 
     "variable_length_dict": {
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "Player Unit": 10, 
+        "Score_Manager": 0, 
         "SkillList": 10, 
         "SkillPool": 0, 
         "Skill_UI_table": 0, 
