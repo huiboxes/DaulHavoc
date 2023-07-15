@@ -587,6 +587,229 @@
             "type": 4, 
             "uid": "52ba7b2c-c1cb-4aee-b71a-5b924c609962", 
             "visible": false
+        }, 
+        {
+            "children": [
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "label_2", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.0, 
+                                    50.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    23.923444976076556, 
+                                    50.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "\u53cb", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "95418b1d-cf7e-48f9-a2c9-62ce08ed56c9"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "camp1score", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            119.0, 
+                            32.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            19.833333333333332, 
+                            49.96096799375488
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            209.0, 
+                            100
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "c2d6c8ae-b41f-45bb-9216-b328365ed561"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "alignment": {
+                                "__tuple__": true, 
+                                "items": [
+                                    4, 
+                                    8
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "label_5", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    159.0, 
+                                    50.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    76.07655502392345, 
+                                    50.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "\u654c", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "c40ad5be-07ce-4194-a7cb-73c20d20ca1e"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "camp2score", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            464.0, 
+                            32.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            77.33333333333333, 
+                            49.96096799375488
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            209.0, 
+                            100.0
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "8ee3300c-f5c1-4920-b614-22f819807d37"
+                }, 
+                {
+                    "children": [
+                        {
+                            "alignment": {
+                                "__tuple__": true, 
+                                "items": [
+                                    2, 
+                                    8
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "score", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "\u5206\u6570", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "73fff411-6b43-467a-9ac4-0586f1ec858f"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "image": 131979, 
+                    "name": "WinCondition", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            290.0, 
+                            32.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            48.333333333333336, 
+                            49.96096799375488
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            80.0, 
+                            80.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "cbe87eef-9c78-458c-9b64-3497fb674b37"
+                }
+            ], 
+            "event_list": [], 
+            "image": 131967, 
+            "name": "ScoreBoard", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    1022.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    94.62962962962963
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    600.0, 
+                    64.05
+                ]
+            }, 
+            "type": 4, 
+            "uid": "a5308d8b-ceb1-40c3-ab91-433f95cb8a2f"
         }
     ], 
     "name": "panel_1", 

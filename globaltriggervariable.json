@@ -950,6 +950,7 @@
             "variable_dict": {
                 "INTEGER": {
                     "CurrentScore": 0, 
+                    "PlayerId": 0, 
                     "score": 0
                 }, 
                 "STRING": {
@@ -958,6 +959,7 @@
             }, 
             "variable_length_dict": {
                 "CurrentScore": 0, 
+                "PlayerId": 0, 
                 "camp": 0, 
                 "score": 0
             }

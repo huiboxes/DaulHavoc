@@ -1655,6 +1655,18 @@
         "key": "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text", 
         "value": "combo: \u81ea\u7136\u4e4b\u529b\n"
     }, 
+    "#73fff411-6b43-467a-9ac4-0586f1ec858f#text": {
+        "key": "#73fff411-6b43-467a-9ac4-0586f1ec858f#text", 
+        "value": "\u5206\u6570"
+    }, 
+    "#95418b1d-cf7e-48f9-a2c9-62ce08ed56c9#text": {
+        "key": "#95418b1d-cf7e-48f9-a2c9-62ce08ed56c9#text", 
+        "value": "\u53cb"
+    }, 
+    "#c40ad5be-07ce-4194-a7cb-73c20d20ca1e#text": {
+        "key": "#c40ad5be-07ce-4194-a7cb-73c20d20ca1e#text", 
+        "value": "\u654c"
+    }, 
     "$code_camp_referee": {
         "key": "$code_camp_referee", 
         "value": "\u88c1\u5224"
