@@ -534,6 +534,20 @@
                 "n": 0
             }
         }, 
+        "1026297944": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_NAME": {
+                    "HeroList": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "HeroList": 10, 
+                "Player ID": 0
+            }
+        }, 
         "1039151122": {
             "variable_dict": {
                 "FLOAT": {
@@ -765,12 +779,14 @@
         "1425580109": {
             "variable_dict": {
                 "INTEGER": {
-                    "HitterScore": 0, 
+                    "BeatenNum": 0, 
+                    "HitterNum": 0, 
                     "Player ID": 0
                 }
             }, 
             "variable_length_dict": {
-                "HitterScore": 0, 
+                "BeatenNum": 0, 
+                "HitterNum": 0, 
                 "Player ID": 0
             }
         }, 
@@ -965,8 +981,10 @@
         "1821921366": {
             "variable_dict": {
                 "INTEGER": {
+                    "BeatenNum": 0, 
                     "CurrentScore": 0, 
-                    "PlayerId": 0, 
+                    "HitterNum": 0, 
+                    "Player ID": 0, 
                     "ScoreList": 0, 
                     "score": 0
                 }, 
@@ -977,12 +995,15 @@
                 "UI_COMP": {
                     "PlayerScoreBar": ""
                 }, 
+                "UI_PREFAB": {}, 
                 "UI_PREFAB_INSTANCE": {}, 
                 "UNIT_ENTITY": {}
             }, 
             "variable_length_dict": {
+                "BeatenNum": 0, 
                 "CurrentScore": 0, 
-                "PlayerId": 0, 
+                "HitterNum": 0, 
+                "Player ID": 0, 
                 "PlayerScoreBar": 0, 
                 "ScoreList": 10, 
                 "camp": 0, 
@@ -1217,7 +1238,7 @@
             "SkillList": 0
         }, 
         "BOOLEAN": {
-            "BoolDebug": false
+            "BoolDebug": true
         }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0
@@ -1226,6 +1247,7 @@
             "SkillPool": null
         }, 
         "TABLE": {
+            "GameState": null, 
             "Score_Manager": null, 
             "Skill_UI_table": null, 
             "UI_Manager": null
@@ -1291,11 +1313,19 @@
                 "Score_Manager", 
                 "Score_Manager"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GameState", 
+                "GameState"
+            ]
         }
     ], 
     "variable_length_dict": {
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
+        "GameState": 0, 
         "Player Unit": 10, 
         "Score_Manager": 0, 
         "SkillList": 10, 

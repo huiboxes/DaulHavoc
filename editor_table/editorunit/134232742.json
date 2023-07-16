@@ -111,9 +111,9 @@
     "hero_ability_list": [], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 1000.0, 
+    "hp_max": 600.0, 
     "hp_max_grow": 100.0, 
-    "hp_rec": 10, 
+    "hp_rec": 5.0, 
     "hp_rec_grow": 1, 
     "icon": 134272301, 
     "idle_anim": "idle1", 
@@ -142,6 +142,39 @@
             "sort": 0, 
             "type": 7, 
             "value": 134267216
+        }, 
+        "Beaten_num": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "Beaten_num", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 4, 
+            "type": 2, 
+            "value": 0
+        }, 
+        "Hitter_num": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "Hitter_num", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 2, 
+            "value": 0
+        }, 
+        "Key Orientation": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "Key Orientation", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "sort": 5, 
+            "type": 32, 
+            "value": 0.0
         }, 
         "Num_attack": {
             "annotation": "", 

@@ -816,19 +816,19 @@
             "event_list": [], 
             "image": 132343, 
             "name": "FinalShowdown", 
-            "opacity": 0.9, 
+            "opacity": 0.8, 
             "pos": {
                 "__tuple__": true, 
                 "items": [
                     960.0, 
-                    853.0
+                    760.0
                 ]
             }, 
             "pos_percent": {
                 "__tuple__": true, 
                 "items": [
                     50.0, 
-                    78.98148148148148
+                    70.37037037037037
                 ]
             }, 
             "type": 4, 

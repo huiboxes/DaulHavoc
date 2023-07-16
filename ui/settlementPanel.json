@@ -4,8 +4,9 @@
         {
             "children": [], 
             "event_list": [], 
-            "image": 110105, 
+            "image": 133615, 
             "name": "ScorePanel", 
+            "opacity": 0.9500000000000001, 
             "pos": {
                 "__tuple__": true, 
                 "items": [
@@ -39,14 +40,14 @@
                 "__tuple__": true, 
                 "items": [
                     960.0, 
-                    884.0
+                    816.0
                 ]
             }, 
             "pos_percent": {
                 "__tuple__": true, 
                 "items": [
                     50.0, 
-                    81.85957166883681
+                    75.63295152452257
                 ]
             }, 
             "size": [
@@ -150,7 +151,7 @@
                 "__tuple__": true, 
                 "items": [
                     64.47916666666667, 
-                    29.567900763617622
+                    29.444444444444446
                 ]
             }, 
             "touch_scale": [
@@ -163,45 +164,10 @@
         {
             "children": [
                 {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
                     "children": [], 
                     "event_list": [], 
-                    "name": "PlayerScore1", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            94.50001525878906, 
-                            20.0
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            470.0, 
-                            100
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "20\u5206", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "b5fb81c6-805e-4b62-9577-2c48d03a4376"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 134230231, 
-                    "name": "PlayerAvatar1", 
+                    "image": 134270476, 
+                    "name": "PlayerAvatar", 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -212,7 +178,7 @@
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            15.87305367718188, 
+                            4.66564150390428, 
                             53.12530517578124
                         ]
                     }, 
@@ -225,316 +191,104 @@
                     }, 
                     "type": 4, 
                     "uid": "1d3c33a6-e4c2-4a00-ba0b-b2aeb63c1da2"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "PlayerScore", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            124.0, 
+                            20.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            19.284602506190726, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            225.0, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u51fb\u8d25\uff1a1", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "b5fb81c6-805e-4b62-9577-2c48d03a4376"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "PlayerBeaten", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            463.0, 
+                            20.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            72.00621742230892, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            245.0, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u88ab\u51fb\u8d25\uff1a1", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "f67c2d4b-b3ef-478f-a77b-ccfc2867d2c5"
                 }
             ], 
             "event_list": [], 
             "image": 107665, 
-            "name": "PlayerPlace1", 
+            "name": "PlayerPlace", 
             "pos": {
                 "__tuple__": true, 
                 "items": [
-                    627.0, 
-                    601.0
-                ]
-            }, 
-            "pos_percent": {
-                "__tuple__": true, 
-                "items": [
-                    32.65625, 
-                    55.648148148148145
+                    960.0, 
+                    540.0
                 ]
             }, 
             "size": {
                 "__tuple__": true, 
                 "items": [
-                    189.00003051757812, 
+                    643.0000305175781, 
                     40.0
                 ]
             }, 
             "type": 4, 
             "uid": "ec9cedaf-13eb-4717-901d-9eb1c44bde10"
-        }, 
-        {
-            "children": [
-                {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
-                    "children": [], 
-                    "event_list": [], 
-                    "name": "PlayerScore2", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            94.50001525878906, 
-                            20.0
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            470.0, 
-                            100
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "20\u5206", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "1d15c884-709b-468d-90da-a9cb149aa231"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 134230231, 
-                    "name": "PlayerAvatar2", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            30.000076293945312, 
-                            21.2501220703125
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            15.87305367718188, 
-                            53.12530517578124
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            60.0, 
-                            60.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "7f932269-c0f1-4744-a043-d4566d3a79b8"
-                }
-            ], 
-            "event_list": [], 
-            "image": 107665, 
-            "name": "PlayerPlace2", 
-            "pos": {
-                "__tuple__": true, 
-                "items": [
-                    854.0, 
-                    601.0
-                ]
-            }, 
-            "pos_percent": {
-                "__tuple__": true, 
-                "items": [
-                    44.479166666666664, 
-                    55.648148148148145
-                ]
-            }, 
-            "size": {
-                "__tuple__": true, 
-                "items": [
-                    189.00003051757812, 
-                    40.0
-                ]
-            }, 
-            "type": 4, 
-            "uid": "be0411fa-c0a3-4093-9853-6c3480f528e7"
-        }, 
-        {
-            "children": [
-                {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
-                    "children": [], 
-                    "event_list": [], 
-                    "name": "PlayerScore3", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            94.50001525878906, 
-                            20.0
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            470.0, 
-                            100
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "20\u5206", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "1a42425b-4104-4aa3-849d-d939aa5d9b14"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 134230231, 
-                    "name": "PlayerAvatar3", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            30.000076293945312, 
-                            21.2501220703125
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            15.87305367718188, 
-                            53.12530517578124
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            60.0, 
-                            60.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "a5fcea9a-fc61-4b63-8d58-aebb5f23e2ca"
-                }
-            ], 
-            "event_list": [], 
-            "image": 107665, 
-            "name": "PlayerPlace3", 
-            "pos": {
-                "__tuple__": true, 
-                "items": [
-                    1080.0, 
-                    601.0
-                ]
-            }, 
-            "pos_percent": {
-                "__tuple__": true, 
-                "items": [
-                    56.30208015441895, 
-                    55.648148148148145
-                ]
-            }, 
-            "size": {
-                "__tuple__": true, 
-                "items": [
-                    189.00003051757812, 
-                    40.0
-                ]
-            }, 
-            "type": 4, 
-            "uid": "286ac629-96af-42e9-a490-f4ae92fec5ad"
-        }, 
-        {
-            "children": [
-                {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
-                    "children": [], 
-                    "event_list": [], 
-                    "name": "PlayerScore4", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            94.50001525878906, 
-                            20.0
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            470.0, 
-                            100
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "20\u5206", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "07ac36cb-dc1b-4a48-94a1-0ad0bb4dd91e"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 134230231, 
-                    "name": "PlayerAvatar4", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            30.000076293945312, 
-                            21.2501220703125
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            15.87305367718188, 
-                            53.12530517578124
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            60.0, 
-                            60.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "3a660dff-2e92-4a40-8f9e-cb532d2b4dc3"
-                }
-            ], 
-            "event_list": [], 
-            "image": 107665, 
-            "name": "PlayerPlace4", 
-            "pos": {
-                "__tuple__": true, 
-                "items": [
-                    1320.0, 
-                    601.0
-                ]
-            }, 
-            "pos_percent": {
-                "__tuple__": true, 
-                "items": [
-                    68.75, 
-                    55.648148148148145
-                ]
-            }, 
-            "size": {
-                "__tuple__": true, 
-                "items": [
-                    189.00003051757812, 
-                    40.0
-                ]
-            }, 
-            "type": 4, 
-            "uid": "2f3aabde-45b1-4c14-b175-f02ddf4fdf6d"
         }, 
         {
             "children": [], 
@@ -564,6 +318,41 @@
             }, 
             "type": 4, 
             "uid": "e1d64606-f5e7-4b39-afae-de9cab5dc8c6"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "name": "tips", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    977.0, 
+                    410.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.88541666666667, 
+                    37.96296296296296
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    743.0, 
+                    100
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u4e0d\u7ba1\u80dc\u8d25\uff0c\u91cd\u8981\u7684\u662f\u4f60\u4eec\u7ecf\u5386\u4e86\u4e00\u6bb5\u96be\u5fd8\u7684\u65c5\u7a0b\uff0c\u7ee7\u7eed\u524d\u8fdb\u5427!", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "450a02da-063d-4912-975b-eb439d1cbc37"
         }
     ], 
     "name": "settlementPanel", 
