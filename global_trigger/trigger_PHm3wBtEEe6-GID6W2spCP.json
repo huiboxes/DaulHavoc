@@ -2835,6 +2835,12 @@
                                     "element_id": 603496524986952, 
                                     "enable": true
                                 }, 
+                                [
+                                    1618796955, 
+                                    "\u80dc\u5229\u6761\u4ef6", 
+                                    603496524, 
+                                    "action_type"
+                                ], 
                                 {
                                     "action_type": "SET_TABLE_VALUE_1D", 
                                     "args_list": [

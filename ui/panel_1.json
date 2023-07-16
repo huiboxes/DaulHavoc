@@ -24,7 +24,7 @@
                         ]
                     }, 
                     "name": "label_4", 
-                    "opacity": 0.66, 
+                    "opacity": 0.8, 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -76,14 +76,14 @@
                     "font_color": {
                         "__tuple__": true, 
                         "items": [
-                            222, 
-                            179, 
-                            35, 
+                            247, 
+                            162, 
+                            42, 
                             255
                         ]
                     }, 
                     "name": "label_3", 
-                    "opacity": 0.8, 
+                    "opacity": 0.9500000000000001, 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -810,6 +810,30 @@
             }, 
             "type": 4, 
             "uid": "a5308d8b-ceb1-40c3-ab91-433f95cb8a2f"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 132343, 
+            "name": "FinalShowdown", 
+            "opacity": 0.9, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    853.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    79.02154993127894
+                ]
+            }, 
+            "type": 4, 
+            "uid": "f023007e-5c5a-46b2-938a-4daec8729f65", 
+            "visible": false
         }
     ], 
     "name": "panel_1", 

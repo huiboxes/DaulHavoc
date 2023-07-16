@@ -795,6 +795,20 @@
                 "row": 0
             }
         }, 
+        "1516888151": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_NAME": {
+                    "HeroList": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "HeroList": 10, 
+                "Player ID": 0
+            }
+        }, 
         "1559846928": {
             "variable_dict": {
                 "INTEGER": {
