@@ -1,0 +1,576 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 110105, 
+            "name": "ScorePanel", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    624.5
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    57.82407407407407
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1152.0, 
+                    696.0000457763672
+                ]
+            }, 
+            "type": 4, 
+            "uid": "30f7c4de-726d-4099-b1e6-3d0551618e88"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 106330, 
+            "name": "Result", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    884.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    81.85957166883681
+                ]
+            }, 
+            "size": [
+                695.0625, 
+                418.5
+            ], 
+            "type": 4, 
+            "uid": "b60fd078-a788-4f71-ad07-1fcb2c12b22b"
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9", 
+                            "ease_type": 0, 
+                            "name": "Show_4", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "Victory_Back_Hall", 
+                    "sound_id": null, 
+                    "type": 11
+                }
+            ], 
+            "name": "RestartButton", 
+            "normal_picture": 100372, 
+            "normal_text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u518d\u6765\u4e00\u5c40", 
+                    false
+                ]
+            }, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    682.0, 
+                    318.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    35.520833333333336, 
+                    29.444444444444446
+                ]
+            }, 
+            "touch_scale": [
+                0.9, 
+                0.9
+            ], 
+            "type": 1, 
+            "uid": "d71b868b-e6cd-4cef-8ee4-ecc6e12812f5"
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9", 
+                            "ease_type": 0, 
+                            "name": "Show_6", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "Victory_Back_Hall", 
+                    "sound_id": null, 
+                    "type": 11
+                }
+            ], 
+            "name": "ExitButton", 
+            "normal_picture": 100372, 
+            "normal_text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u9000\u51fa", 
+                    false
+                ]
+            }, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1238.0, 
+                    318.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    64.47916666666667, 
+                    29.567900763617622
+                ]
+            }, 
+            "touch_scale": [
+                0.9, 
+                0.9
+            ], 
+            "type": 1, 
+            "uid": "54de7806-0650-4c28-a505-ff4bc080b6e2"
+        }, 
+        {
+            "children": [
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "PlayerScore1", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            94.50001525878906, 
+                            20.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            470.0, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "20\u5206", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "b5fb81c6-805e-4b62-9577-2c48d03a4376"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 134230231, 
+                    "name": "PlayerAvatar1", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            30.000076293945312, 
+                            21.2501220703125
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            15.87305367718188, 
+                            53.12530517578124
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            60.0, 
+                            60.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "1d3c33a6-e4c2-4a00-ba0b-b2aeb63c1da2"
+                }
+            ], 
+            "event_list": [], 
+            "image": 107665, 
+            "name": "PlayerPlace1", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    627.0, 
+                    601.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    32.65625, 
+                    55.648148148148145
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    189.00003051757812, 
+                    40.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "ec9cedaf-13eb-4717-901d-9eb1c44bde10"
+        }, 
+        {
+            "children": [
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "PlayerScore2", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            94.50001525878906, 
+                            20.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            470.0, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "20\u5206", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "1d15c884-709b-468d-90da-a9cb149aa231"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 134230231, 
+                    "name": "PlayerAvatar2", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            30.000076293945312, 
+                            21.2501220703125
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            15.87305367718188, 
+                            53.12530517578124
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            60.0, 
+                            60.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "7f932269-c0f1-4744-a043-d4566d3a79b8"
+                }
+            ], 
+            "event_list": [], 
+            "image": 107665, 
+            "name": "PlayerPlace2", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    854.0, 
+                    601.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    44.479166666666664, 
+                    55.648148148148145
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    189.00003051757812, 
+                    40.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "be0411fa-c0a3-4093-9853-6c3480f528e7"
+        }, 
+        {
+            "children": [
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "PlayerScore3", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            94.50001525878906, 
+                            20.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            470.0, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "20\u5206", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "1a42425b-4104-4aa3-849d-d939aa5d9b14"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 134230231, 
+                    "name": "PlayerAvatar3", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            30.000076293945312, 
+                            21.2501220703125
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            15.87305367718188, 
+                            53.12530517578124
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            60.0, 
+                            60.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "a5fcea9a-fc61-4b63-8d58-aebb5f23e2ca"
+                }
+            ], 
+            "event_list": [], 
+            "image": 107665, 
+            "name": "PlayerPlace3", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1080.0, 
+                    601.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    56.30208015441895, 
+                    55.648148148148145
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    189.00003051757812, 
+                    40.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "286ac629-96af-42e9-a490-f4ae92fec5ad"
+        }, 
+        {
+            "children": [
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "PlayerScore4", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            94.50001525878906, 
+                            20.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            470.0, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "20\u5206", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "07ac36cb-dc1b-4a48-94a1-0ad0bb4dd91e"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 134230231, 
+                    "name": "PlayerAvatar4", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            30.000076293945312, 
+                            21.2501220703125
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            15.87305367718188, 
+                            53.12530517578124
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            60.0, 
+                            60.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "3a660dff-2e92-4a40-8f9e-cb532d2b4dc3"
+                }
+            ], 
+            "event_list": [], 
+            "image": 107665, 
+            "name": "PlayerPlace4", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1320.0, 
+                    601.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    68.75, 
+                    55.648148148148145
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    189.00003051757812, 
+                    40.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "2f3aabde-45b1-4c14-b175-f02ddf4fdf6d"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 107197, 
+            "name": "Divider", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    958.0, 
+                    458.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    49.895833333333336, 
+                    42.407407407407405
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    913.0, 
+                    4.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "e1d64606-f5e7-4b39-afae-de9cab5dc8c6"
+        }
+    ], 
+    "name": "settlementPanel", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "626b4df2-71b3-4534-9afd-4766109b6593", 
+    "visible": false, 
+    "zorder": 400
+}

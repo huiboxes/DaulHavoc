@@ -967,15 +967,24 @@
                 "INTEGER": {
                     "CurrentScore": 0, 
                     "PlayerId": 0, 
+                    "ScoreList": 0, 
                     "score": 0
                 }, 
                 "STRING": {
                     "camp": ""
-                }
+                }, 
+                "TABLE": {}, 
+                "UI_COMP": {
+                    "PlayerScoreBar": ""
+                }, 
+                "UI_PREFAB_INSTANCE": {}, 
+                "UNIT_ENTITY": {}
             }, 
             "variable_length_dict": {
                 "CurrentScore": 0, 
                 "PlayerId": 0, 
+                "PlayerScoreBar": 0, 
+                "ScoreList": 10, 
                 "camp": 0, 
                 "score": 0
             }

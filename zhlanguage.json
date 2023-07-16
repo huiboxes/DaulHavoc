@@ -1667,6 +1667,14 @@
         "key": "#33a1ca3f-6605-4e21-9cca-29df7772345c#text", 
         "value": "default-text"
     }, 
+    "#54de7806-0650-4c28-a505-ff4bc080b6e2#normal_text": {
+        "key": "#54de7806-0650-4c28-a505-ff4bc080b6e2#normal_text", 
+        "value": "\u9000\u51fa"
+    }, 
+    "#57f7a5d3-8659-4dd2-8a98-313eacec5d65#text": {
+        "key": "#57f7a5d3-8659-4dd2-8a98-313eacec5d65#text", 
+        "value": "20\u5206"
+    }, 
     "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text": {
         "key": "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text", 
         "value": "combo: \u81ea\u7136\u4e4b\u529b\n"
@@ -1679,9 +1687,25 @@
         "key": "#95418b1d-cf7e-48f9-a2c9-62ce08ed56c9#text", 
         "value": "\u53cb"
     }, 
+    "#b5fb81c6-805e-4b62-9577-2c48d03a4376#text": {
+        "key": "#b5fb81c6-805e-4b62-9577-2c48d03a4376#text", 
+        "value": "20\u5206"
+    }, 
     "#c40ad5be-07ce-4194-a7cb-73c20d20ca1e#text": {
         "key": "#c40ad5be-07ce-4194-a7cb-73c20d20ca1e#text", 
         "value": "\u654c"
+    }, 
+    "#d71b868b-e6cd-4cef-8ee4-ecc6e12812f5#normal_text": {
+        "key": "#d71b868b-e6cd-4cef-8ee4-ecc6e12812f5#normal_text", 
+        "value": "\u518d\u6765\u4e00\u5c40"
+    }, 
+    "#e0630327-9306-43c6-8bd0-60ccb58e6928#text": {
+        "key": "#e0630327-9306-43c6-8bd0-60ccb58e6928#text", 
+        "value": "20\u5206"
+    }, 
+    "#f0c51d6a-7ff8-4e0b-bc94-07ae00eb5a2f#text": {
+        "key": "#f0c51d6a-7ff8-4e0b-bc94-07ae00eb5a2f#text", 
+        "value": "20\u5206"
     }, 
     "$code_camp_referee": {
         "key": "$code_camp_referee", 

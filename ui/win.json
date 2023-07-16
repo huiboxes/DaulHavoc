@@ -4,20 +4,42 @@
         {
             "children": [], 
             "event_list": [], 
+            "image": 110105, 
+            "name": "ScorePanel", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1152.0, 
+                    865.0000457763672
+                ]
+            }, 
+            "type": 4, 
+            "uid": "569703a8-7207-4007-a155-0ce0997edaf0"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
             "image": 106330, 
             "name": "image_8", 
             "pos": {
                 "__tuple__": true, 
                 "items": [
                     960.0, 
-                    637.0
+                    870.75
                 ]
             }, 
             "pos_percent": {
                 "__tuple__": true, 
                 "items": [
                     50.0, 
-                    58.98148148148148
+                    80.625
                 ]
             }, 
             "size": [
@@ -31,14 +53,25 @@
             "children": [], 
             "event_list": [
                 {
-                    "action_list": [], 
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9", 
+                            "ease_type": 0, 
+                            "name": "Show_2", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
                     "enabled": true, 
                     "name": "Victory_Back_Hall", 
                     "sound_id": null, 
                     "type": 11
                 }
             ], 
-            "name": "button_6", 
+            "name": "ExitButton", 
             "normal_picture": 100372, 
             "normal_text": {
                 "__tuple__": true, 
@@ -50,15 +83,15 @@
             "pos": {
                 "__tuple__": true, 
                 "items": [
-                    960.0, 
-                    429.0
+                    682.0, 
+                    162.0
                 ]
             }, 
             "pos_percent": {
                 "__tuple__": true, 
                 "items": [
-                    50.0, 
-                    39.72222222222222
+                    35.520833333333336, 
+                    15.0
                 ]
             }, 
             "touch_scale": [
@@ -67,6 +100,58 @@
             ], 
             "type": 1, 
             "uid": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9"
+        }, 
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9", 
+                            "ease_type": 0, 
+                            "name": "Show_3", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "Victory_Back_Hall", 
+                    "sound_id": null, 
+                    "type": 11
+                }
+            ], 
+            "name": "RestartButton", 
+            "normal_picture": 100372, 
+            "normal_text": {
+                "__tuple__": true, 
+                "items": [
+                    "Continue", 
+                    false
+                ]
+            }, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1217.0, 
+                    160.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    63.38541666666667, 
+                    14.814814814814813
+                ]
+            }, 
+            "touch_scale": [
+                0.9, 
+                0.9
+            ], 
+            "type": 1, 
+            "uid": "09225d77-7a32-4628-8684-470fb80bc54b"
         }
     ], 
     "name": "win", 
