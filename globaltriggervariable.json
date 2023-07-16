@@ -765,10 +765,12 @@
         "1425580109": {
             "variable_dict": {
                 "INTEGER": {
+                    "HitterScore": 0, 
                     "Player ID": 0
                 }
             }, 
             "variable_length_dict": {
+                "HitterScore": 0, 
                 "Player ID": 0
             }
         }, 
