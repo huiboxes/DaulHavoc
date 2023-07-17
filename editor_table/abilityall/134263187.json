@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "8"
+            "6.0"
         ]
     }, 
     "collection_animation": "", 
@@ -273,7 +273,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "release_immediately_out_of_range": false, 
+    "release_immediately_out_of_range": true, 
     "required_level": {
         "formula": {
             "__tuple__": true, 

@@ -160,7 +160,32 @@
         }
     ], 
     "trigger_version": "1.2", 
-    "variable_dict": {}, 
-    "variable_group_info": [], 
-    "variable_length_dict": {}
+    "variable_dict": {
+        "INTEGER": {
+            "Num_skill": 1
+        }, 
+        "NEW_TIMER": {
+            "Timer": -1, 
+            "Timer2": -1
+        }
+    }, 
+    "variable_group_info": [
+        [
+            "Num_skill", 
+            "Num_skill"
+        ], 
+        [
+            "Timer", 
+            "Timer"
+        ], 
+        [
+            "Timer2", 
+            "Timer2"
+        ]
+    ], 
+    "variable_length_dict": {
+        "Num_skill": 0, 
+        "Timer": 0, 
+        "Timer2": 0
+    }
 }

@@ -26,7 +26,7 @@
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "50.0"
+            " ability_level * 50 + 250"
         ]
     }, 
     "ability_damage_range": {
@@ -42,7 +42,7 @@
         ]
     }, 
     "ability_icon": 101909, 
-    "ability_max_level": 6, 
+    "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "4.0"
         ]
     }, 
     "collection_animation": "", 
@@ -182,20 +182,12 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "release_immediately_out_of_range": false, 
+    "release_immediately_out_of_range": true, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                2, 
-                3, 
-                4, 
-                5, 
-                6
-            ]
-        }
+        "required_levels": [
+            1
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

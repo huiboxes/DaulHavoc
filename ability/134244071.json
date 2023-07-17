@@ -53,7 +53,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 850415619623547, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "PLAY_ANIMATION", 
@@ -1495,7 +1495,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 850415619623547, 
-                    "enable": true
+                    "enable": false
                 }
             ], 
             "call_enabled": true, 

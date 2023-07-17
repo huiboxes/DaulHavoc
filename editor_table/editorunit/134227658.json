@@ -1,6 +1,10 @@
 {
+    "0": 31, 
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
-    "_ref_": 134268772, 
+    "_ref_": 134253072, 
     "affect_techs": {
         "__tuple__": true, 
         "items": []
@@ -21,10 +25,10 @@
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
     "attack_type": 10000, 
-    "bar_show_name": 2, 
+    "bar_show_name": 0, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
-    "base_color_mod": 1, 
+    "base_color_mod": 0, 
     "base_tint_color": [
         255, 
         255, 
@@ -35,9 +39,9 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
-    "blood_bar": 65537, 
+    "blood_bar": 1048580, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 1.5, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -55,9 +59,22 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "common_ability_list": [], 
+    "common_ability_list": [
+        [
+            134247957, 
+            1
+        ], 
+        [
+            134263187, 
+            1
+        ], 
+        [
+            134264067, 
+            1
+        ]
+    ], 
     "common_atk": [
-        201385536, 
+        134267216, 
         1
     ], 
     "common_atk_type": 2, 
@@ -70,7 +87,8 @@
     "defense_mag_grow": 0.0, 
     "defense_phy": 10.0, 
     "defense_phy_grow": 5.0, 
-    "description": 1794053014, 
+    "desc": 1514080470, 
+    "description": 1514080470, 
     "destroy_after_die": true, 
     "die_anim": "die", 
     "disk_shadow_size": 1, 
@@ -95,7 +113,7 @@
     ], 
     "fresnel_emissive_color_strength": 0, 
     "fresnel_exp": 1, 
-    "has_mp": true, 
+    "has_mp": false, 
     "heal_effect": 0.0, 
     "heal_effect_grow": 0.0, 
     "healing_effect": 0.0, 
@@ -107,16 +125,16 @@
     }, 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 500.0, 
+    "hp_max": 400.0, 
     "hp_max_grow": 100.0, 
-    "hp_rec": 10.0, 
+    "hp_rec": 5.0, 
     "hp_rec_grow": 1.0, 
-    "icon": 107018, 
+    "icon": 134263560, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
     "intelligence_grow": 1.0, 
-    "is_apply_role_color": true, 
+    "is_apply_role_color": false, 
     "is_mini_map_show": true, 
     "is_open_Xray": false, 
     "is_open_disk_shadow": false, 
@@ -126,29 +144,29 @@
     "is_z_offset": false, 
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
-    "key": 134268772, 
+    "key": 134227658, 
     "kv": {}, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
-    "mini_map_icon": 107018, 
-    "mini_map_icon_scale": 1.0, 
-    "model": 200809, 
+    "mini_map_icon": 134230462, 
+    "mini_map_icon_scale": 0.5, 
+    "model": 206571, 
     "model_height": 0.0, 
-    "model_opacity": 1, 
+    "model_opacity": 1.0, 
     "move_channel": 0, 
     "move_limitation": 9, 
     "move_type": 40, 
     "mp_color": "Blue", 
     "mp_key": "MP", 
-    "mp_max": 600.0, 
+    "mp_max": 300.0, 
     "mp_max_grow": 50.0, 
     "mp_rec": 10.0, 
     "mp_rec_grow": 2.0, 
-    "name": -1224055010, 
+    "name": 1186880785, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 2.0, 
+    "ori_speed": 6.5, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 
@@ -167,7 +185,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 500.0, 
+    "preview_billboard_health_value": 400.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
@@ -183,8 +201,8 @@
         "items": []
     }, 
     "separate_enemy_icon": false, 
-    "shop_camp_args": 3, 
-    "shop_range": 10.0, 
+    "shop_camp_args": [], 
+    "shop_range": 600, 
     "shop_sell_type": 0, 
     "show_y3_extra_info": false, 
     "simple_common_atk": {
@@ -199,20 +217,20 @@
         }, 
         "cast_effect_list": [], 
         "cast_sound": 100001, 
-        "critical_anim": "attack1", 
+        "critical_anim": null, 
         "damage": 100.0, 
         "damage_type": 0, 
         "filter_condition_camp": 1, 
         "filter_condition_type": 7, 
         "hit_effect": {
-            "effect": 100001, 
+            "effect": 100000, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "attack1"
         }, 
         "hit_sound": 100001, 
         "order_play_anim": false, 
-        "order_play_reset_time": 0.5, 
+        "order_play_reset_time": 0.2, 
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1.0
     }, 
@@ -229,7 +247,7 @@
         "items": []
     }, 
     "type": 1, 
-    "uid": "134268772", 
+    "uid": "134227658", 
     "use_base_tint_color": false, 
     "use_fresnel": false, 
     "use_simple_mini_map_icon": false, 

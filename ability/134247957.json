@@ -734,11 +734,17 @@
                                 }
                             ], 
                             "op_arg": [
-                                null, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        1.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
                                 null
                             ], 
                             "op_arg_enable": [
-                                false, 
+                                true, 
                                 false
                             ], 
                             "sub_type": "CREATE_LINK_SFX_FROM_UNIT_TO_UNIT"
@@ -856,7 +862,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                0.75
+                                1.0
                             ], 
                             "sub_type": 1
                         }, 

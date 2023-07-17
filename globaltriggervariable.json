@@ -561,20 +561,6 @@
                 "n": 0
             }
         }, 
-        "1026297944": {
-            "variable_dict": {
-                "INTEGER": {
-                    "Player ID": 0
-                }, 
-                "UNIT_NAME": {
-                    "HeroList": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "HeroList": 10, 
-                "Player ID": 0
-            }
-        }, 
         "1039151122": {
             "variable_dict": {
                 "FLOAT": {
@@ -978,6 +964,26 @@
                 "dis": 0
             }
         }, 
+        "1692389467": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0
+            }
+        }, 
+        "1773088861": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0
+            }
+        }, 
         "1806327889": {
             "variable_dict": {
                 "FLOAT": {
@@ -1118,20 +1124,6 @@
             "variable_length_dict": {
                 "item": 0, 
                 "player": 0
-            }
-        }, 
-        "1928896584": {
-            "variable_dict": {
-                "INTEGER": {
-                    "Player ID": 0
-                }, 
-                "UNIT_ENTITY": {
-                    "Unit": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "Player ID": 0, 
-                "Unit": 0
             }
         }, 
         "1962451002": {
@@ -1300,7 +1292,8 @@
             "BoolDebug": true
         }, 
         "INTEGER": {
-            "GLOBAL_BAG_MAX_NUM": 0
+            "GLOBAL_BAG_MAX_NUM": 0, 
+            "Left": 0
         }, 
         "RANDOM_POOL": {
             "SkillPool": null
@@ -1388,6 +1381,13 @@
                 "HeroList", 
                 "HeroList"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Left", 
+                "Left"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1395,6 +1395,7 @@
         "GLOBAL_BAG_MAX_NUM": 0, 
         "GameState": 0, 
         "HeroList": 10, 
+        "Left": 0, 
         "Player Unit": 10, 
         "Score_Manager": 0, 
         "SkillList": 10, 

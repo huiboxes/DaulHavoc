@@ -1,4 +1,8 @@
 {
+    "0": 31, 
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "102": 0, 
     "104": 500, 
     "107": 0, 
@@ -63,7 +67,10 @@
         "items": []
     }, 
     "common_ability_list": [], 
-    "common_atk": [], 
+    "common_atk": [
+        134267216, 
+        0
+    ], 
     "common_atk_type": 2, 
     "critical_chance": 0.0, 
     "critical_chance_grow": 0.0, 
@@ -197,13 +204,24 @@
             "sort": 2, 
             "type": 14, 
             "value": 134230231
+        }, 
+        "isNPC": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "isNPC", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "sort": 6, 
+            "type": 3, 
+            "value": false
         }
     }, 
     "level": 6, 
     "main_attr": "strength", 
     "max_stock": 5, 
-    "mini_map_icon": 106742, 
-    "mini_map_icon_scale": 1.0, 
+    "mini_map_icon": 134230231, 
+    "mini_map_icon_scale": 0.5, 
     "model": 206579, 
     "model_height": 0.0, 
     "model_opacity": 1, 
@@ -219,7 +237,7 @@
     "name": -2004084121, 
     "need_preview_billboard": false, 
     "ori_bits": 0, 
-    "ori_speed": 6.5, 
+    "ori_speed": 7.5, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": [
         [
@@ -240,7 +258,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 600.0, 
+    "preview_billboard_health_value": 400.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
@@ -314,7 +332,7 @@
     "uid": "134232742", 
     "use_base_tint_color": false, 
     "use_fresnel": false, 
-    "use_simple_mini_map_icon": true, 
+    "use_simple_mini_map_icon": false, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 
     "vampire_phy": 0.0, 

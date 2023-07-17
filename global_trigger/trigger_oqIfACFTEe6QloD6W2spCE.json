@@ -418,7 +418,7 @@
                     ], 
                     "condition_type": "BOOL_COMPARE", 
                     "element_id": 888709190624361, 
-                    "enable": true
+                    "enable": false
                 }
             ], 
             "enabled": true, 

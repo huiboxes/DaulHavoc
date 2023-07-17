@@ -1,4 +1,5 @@
 {
+    "101": 0.0, 
     "_custom_": true, 
     "_ref_": 134256016, 
     "affect_techs": {
@@ -7,7 +8,7 @@
     }, 
     "agility": 10.0, 
     "agility_grow": 1.0, 
-    "alarm_range": 0.0, 
+    "alarm_range": 8.0, 
     "angle_tolerance": 1, 
     "armor_type": 20000, 
     "attack_interval": 1.0, 
@@ -50,7 +51,7 @@
         "items": []
     }, 
     "can_flee": true, 
-    "cancel_alarm_range": 0.0, 
+    "cancel_alarm_range": 10.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
     "collision_box_turning_enable": false, 
@@ -59,13 +60,16 @@
         "items": []
     }, 
     "common_ability_list": [], 
-    "common_atk": 0, 
-    "common_atk_type": 2, 
+    "common_atk": [
+        134267216, 
+        0
+    ], 
+    "common_atk_type": 999, 
     "critical_chance": 0.0, 
     "critical_chance_grow": 0.0, 
     "critical_dmg": 200.0, 
     "critical_dmg_grow": 0.0, 
-    "default_behaviour_type": "caution", 
+    "default_behaviour_type": "", 
     "defense_mag": 0.0, 
     "defense_mag_grow": 0.0, 
     "defense_phy": 10.0, 
@@ -82,7 +86,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "dynamic_collision_r": 0.0, 
+    "dynamic_collision_r": 1.0, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
@@ -196,13 +200,24 @@
             "sort": 2, 
             "type": 14, 
             "value": 134270476
+        }, 
+        "isNPC": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "isNPC", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "sort": 6, 
+            "type": 3, 
+            "value": false
         }
     }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
-    "mini_map_icon": 106742, 
-    "mini_map_icon_scale": 1.0, 
+    "mini_map_icon": 134270476, 
+    "mini_map_icon_scale": 0.5, 
     "model": 206574, 
     "model_height": 0.0, 
     "model_opacity": 1, 
@@ -218,7 +233,7 @@
     "name": 485204408, 
     "need_preview_billboard": false, 
     "ori_bits": 0, 
-    "ori_speed": 6.5, 
+    "ori_speed": 7.5, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": [
         [
@@ -239,7 +254,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 1000.0, 
+    "preview_billboard_health_value": 400.0, 
     "refresh_interval": 1.0, 
     "research_techs": {
         "__tuple__": true, 
@@ -313,7 +328,7 @@
     "uid": "134256016", 
     "use_base_tint_color": false, 
     "use_fresnel": false, 
-    "use_simple_mini_map_icon": true, 
+    "use_simple_mini_map_icon": false, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 
     "vampire_phy": 0.0, 

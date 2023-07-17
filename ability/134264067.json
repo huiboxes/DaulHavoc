@@ -98,7 +98,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                0.0
+                                0
                             ], 
                             "sub_type": 1
                         }, 
@@ -125,7 +125,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 909385729370025, 
+                    "element_id": 13599088650020, 
                     "enable": true
                 }
             ], 
@@ -144,53 +144,6 @@
             "p_trigger_id": null, 
             "trigger_id": 157978625, 
             "trigger_name": "TRIGGER", 
-            "valid": true
-        }, 
-        "484372483": {
-            "action": [
-                {
-                    "action_type": "SET_ENTITY_KV", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "is_sp_attack"
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                true
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 850415619623547, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [
-                {
-                    "args_list": [], 
-                    "element_id": 484372483000004, 
-                    "enable": true, 
-                    "event_type": "ABILITY_CS_START"
-                }
-            ], 
-            "group_id": 134264067, 
-            "p_trigger_id": null, 
-            "trigger_id": 484372483, 
-            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
             "valid": true
         }, 
         "1768652802": {
@@ -592,78 +545,9 @@
                                                                         {
                                                                             "arg_type": 100000, 
                                                                             "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100000, 
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "arg_type": 100014, 
-                                                                                            "args_list": [], 
-                                                                                            "sub_type": "CUR_ABILITY"
-                                                                                        }, 
-                                                                                        {
-                                                                                            "arg_type": 100078, 
-                                                                                            "args_list": [
-                                                                                                "ability_damage"
-                                                                                            ], 
-                                                                                            "sub_type": 1
-                                                                                        }
-                                                                                    ], 
-                                                                                    "sub_type": "GET_ABILITY_FLOAT_ATTR"
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100017, 
-                                                                                    "args_list": [
-                                                                                        "+"
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100000, 
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "arg_type": 100000, 
-                                                                                            "args_list": [
-                                                                                                0.55
-                                                                                            ], 
-                                                                                            "sub_type": 1
-                                                                                        }, 
-                                                                                        {
-                                                                                            "arg_type": 100017, 
-                                                                                            "args_list": [
-                                                                                                "*"
-                                                                                            ], 
-                                                                                            "sub_type": 1
-                                                                                        }, 
-                                                                                        {
-                                                                                            "arg_type": 100000, 
-                                                                                            "args_list": [
-                                                                                                {
-                                                                                                    "arg_type": 100006, 
-                                                                                                    "args_list": [], 
-                                                                                                    "sub_type": "ABILITY_OWNER"
-                                                                                                }, 
-                                                                                                {
-                                                                                                    "arg_type": 100301, 
-                                                                                                    "args_list": [
-                                                                                                        "ATTR_RESULT"
-                                                                                                    ], 
-                                                                                                    "sub_type": 1
-                                                                                                }, 
-                                                                                                {
-                                                                                                    "arg_type": 100042, 
-                                                                                                    "args_list": [
-                                                                                                        "attack_mag"
-                                                                                                    ], 
-                                                                                                    "sub_type": 1
-                                                                                                }
-                                                                                            ], 
-                                                                                            "sub_type": "GET_UNIT_ATTR"
-                                                                                        }
-                                                                                    ], 
-                                                                                    "sub_type": "ARITHMETIC_OPERATION"
-                                                                                }
+                                                                                100.0
                                                                             ], 
-                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                            "sub_type": 1
                                                                         }, 
                                                                         {
                                                                             "arg_type": 100001, 
@@ -710,38 +594,6 @@
                                                                         false, 
                                                                         false
                                                                     ]
-                                                                }, 
-                                                                {
-                                                                    "action_type": "CALL_TRIGGER_FUNC", 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100177, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100014, 
-                                                                                    "args_list": [], 
-                                                                                    "sub_type": "CUR_ABILITY"
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100006, 
-                                                                                    "args_list": [], 
-                                                                                    "sub_type": "ABILITY_OWNER"
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100006, 
-                                                                                    "args_list": [], 
-                                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
-                                                                                }
-                                                                            ], 
-                                                                            "op_arg": [], 
-                                                                            "op_arg_enable": [], 
-                                                                            "sub_type": "3f1827401fa011ee8dc680fa5b6b2908"
-                                                                        }
-                                                                    ], 
-                                                                    "bp": false, 
-                                                                    "call_rt_arg_idxes": [], 
-                                                                    "element_id": 1742577669623550, 
-                                                                    "enable": true
                                                                 }
                                                             ], 
                                                             "sub_type": 1
@@ -807,10 +659,6 @@
                 [
                     1768652802, 
                     "TRIGGER_2"
-                ], 
-                [
-                    484372483, 
-                    "\u65b0\u5efa\u89e6\u53d1\u5668"
                 ]
             ], 
             "key": 134264067, 

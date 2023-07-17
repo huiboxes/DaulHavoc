@@ -20,13 +20,13 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "0"
+            "0.0"
         ]
     }, 
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "120"
+            "100"
         ]
     }, 
     "ability_damage_range": {
@@ -104,7 +104,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "8"
+            "5"
         ]
     }, 
     "collection_animation": "", 
@@ -143,7 +143,7 @@
         "items": []
     }, 
     "influenced_by_cd_reduce": true, 
-    "influenced_by_move": true, 
+    "influenced_by_move": false, 
     "is_autocast": false, 
     "is_charge_ability": false, 
     "is_immediate": false, 
@@ -182,7 +182,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "release_immediately_out_of_range": false, 
+    "release_immediately_out_of_range": true, 
     "required_level": {
         "formula": "", 
         "required_levels": [

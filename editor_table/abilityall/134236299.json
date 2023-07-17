@@ -239,7 +239,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "release_immediately_out_of_range": false, 
+    "release_immediately_out_of_range": true, 
     "required_level": {
         "formula": {
             "__tuple__": true, 

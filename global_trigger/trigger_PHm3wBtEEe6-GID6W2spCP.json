@@ -716,7 +716,7 @@
                                         {
                                             "arg_type": 100039, 
                                             "args_list": [
-                                                134277545
+                                                134264067
                                             ], 
                                             "sub_type": 1
                                         }
@@ -1492,7 +1492,7 @@
             "p_trigger_id": null, 
             "trigger_id": 603496524, 
             "trigger_name": "GameInitialization", 
-            "valid": true
+            "valid": false
         }, 
         "1173921870": {
             "action": [
