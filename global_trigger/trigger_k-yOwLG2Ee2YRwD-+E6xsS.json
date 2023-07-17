@@ -48,6 +48,20 @@
                             1384443993, 
                             "RestartHandle"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1088409690, 
+                            "StartButton_ClickHandle"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1692389467, 
+                            "TrainningButton_ClickHandle"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 

@@ -208,6 +208,17 @@
                 "unit": 0
             }
         }, 
+        "486539356": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }, 
+                "UNIT_NAME": {}
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0
+            }
+        }, 
         "503685198": {
             "variable_dict": {
                 "ABILITY": {
@@ -446,6 +457,22 @@
                 "n": 0, 
                 "num": 0, 
                 "trig": 0
+            }
+        }, 
+        "799694942": {
+            "variable_dict": {
+                "INTEGER": {
+                    "CurrentScore": 0, 
+                    "Player ID": 0
+                }, 
+                "STRING": {
+                    "camp": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "CurrentScore": 0, 
+                "Player ID": 0, 
+                "camp": 0
             }
         }, 
         "828813355": {
@@ -788,6 +815,24 @@
                 "BeatenNum": 0, 
                 "HitterNum": 0, 
                 "Player ID": 0
+            }
+        }, 
+        "1486655581": {
+            "variable_dict": {
+                "INTEGER": {
+                    "BeatenNum": 0, 
+                    "HitterNum": 0, 
+                    "Player ID": 0
+                }, 
+                "STRING": {
+                    "camp": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "BeatenNum": 0, 
+                "HitterNum": 0, 
+                "Player ID": 0, 
+                "camp": 0
             }
         }, 
         "1496309785": {
@@ -1255,7 +1300,9 @@
         "UNIT_ENTITY": {
             "Player Unit": null
         }, 
-        "UNIT_NAME": {}
+        "UNIT_NAME": {
+            "HeroList": 0
+        }
     }, 
     "variable_group_info": [
         {
@@ -1320,12 +1367,20 @@
                 "GameState", 
                 "GameState"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "HeroList", 
+                "HeroList"
+            ]
         }
     ], 
     "variable_length_dict": {
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "GameState": 0, 
+        "HeroList": 10, 
         "Player Unit": 10, 
         "Score_Manager": 0, 
         "SkillList": 10, 

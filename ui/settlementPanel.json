@@ -292,6 +292,13 @@
                             28.0
                         ]
                     }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            49.76744186046512, 
+                            49.122807017543856
+                        ]
+                    }, 
                     "size": {
                         "__tuple__": true, 
                         "items": [
@@ -451,22 +458,11 @@
             ], 
             "event_list": [
                 {
-                    "action_list": [
-                        {
-                            "anim_duration": 1.0, 
-                            "anim_id": null, 
-                            "anim_type": 0, 
-                            "comp": "c0d8021a-a41c-4aad-a516-ecdf03e74cb9", 
-                            "ease_type": 0, 
-                            "name": "Show_6", 
-                            "open_timeline": true, 
-                            "type": 2
-                        }
-                    ], 
+                    "action_list": [], 
                     "enabled": true, 
-                    "name": "Victory_Back_Hall", 
+                    "name": "RestartButton_ClickHandle", 
                     "sound_id": 112972, 
-                    "type": 11
+                    "type": 2
                 }
             ], 
             "name": "RestartButton", 

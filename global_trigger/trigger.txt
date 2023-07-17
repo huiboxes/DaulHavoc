@@ -4,20 +4,20 @@
     "key_order": {
         "KF0OsLKSEe2XPAD-+E6xse": 1, 
         "PHPrXhtEEe6U+4D6W2spCM": 44, 
-        "PHXAIRtEEe6YzYD6W2spCD": 56, 
+        "PHXAIRtEEe6YzYD6W2spCD": 55, 
         "PHb4nhtEEe6jyID6W2spCG": 37, 
-        "PHb4nxtEEe6wWID6W2spCI": 55, 
+        "PHb4nxtEEe6wWID6W2spCI": 54, 
         "PHgxIRtEEe6hMoD6W2spCB": 41, 
         "PHm3wBtEEe6-GID6W2spCP": 42, 
-        "RcGRYRvdEe6F+YD6W2spCK": 51, 
-        "USM70RvdEe6UcoD6W2spCK": 52, 
-        "YKqyQCMcEe6a34D6W2spCB": 47, 
+        "RcGRYRvdEe6F+YD6W2spCK": 50, 
+        "Tsy+zySHEe6F2ID6W2spCC": 49, 
+        "USM70RvdEe6UcoD6W2spCK": 51, 
         "ZSbc3iJeEe6l+4D6W2spCO": 45, 
-        "bwgILh-1Ee6SIoD6W2spCG": 53, 
-        "dALATx-1Ee6P+oD6W2spCH": 54, 
+        "bwgILh-1Ee6SIoD6W2spCG": 52, 
+        "dALATx-1Ee6P+oD6W2spCH": 53, 
         "k-yOwLG2Ee2YRwD-+E6xsS": 0, 
-        "oqIfACFTEe6QloD6W2spCE": 57, 
-        "tbbPDyRZEe6g6oD6W2spCC": 50, 
+        "oqIfACFTEe6QloD6W2spCE": 56, 
+        "tbbPDyRZEe6g6oD6W2spCC": 48, 
         "wl+Ujx8sEe6DwoD6W2spCB": 43
     }, 
     "name": "trigger", 
@@ -295,14 +295,7 @@
                 "\u5b50\u89e6\u53d1\u5668_3"
             ]
         }, 
-        "48": {
-            "__tuple__": true, 
-            "items": [
-                1516888151, 
-                "\u5f00\u542f\u7ec8\u6781\u5bf9\u51b3"
-            ]
-        }, 
-        "49": {
+        "47": {
             "__tuple__": true, 
             "items": [
                 1026297944, 
