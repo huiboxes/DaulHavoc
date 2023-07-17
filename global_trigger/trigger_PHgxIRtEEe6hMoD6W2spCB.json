@@ -342,7 +342,52 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        [
+                                            "TABLE", 
+                                            "GameState"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "bGameStarted"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_BOOLEAN_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "BOOL_COMPARE", 
+                    "element_id": 888709190624361, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 [
@@ -1504,7 +1549,52 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        [
+                                            "TABLE", 
+                                            "GameState"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "bGameStarted"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_BOOLEAN_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "BOOL_COMPARE", 
+                    "element_id": 888709190624361, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 [
@@ -1538,7 +1628,7 @@
             "action": [], 
             "call_enabled": true, 
             "condition": [], 
-            "enabled": true, 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [
@@ -1720,7 +1810,55 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "TABLE", 
+                                                "GameState"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "bGameStarted"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_BOOLEAN_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "BOOL_COMPARE", 
+                    "element_id": 888709190624361, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 [
@@ -2004,7 +2142,52 @@
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        [
+                                            "TABLE", 
+                                            "GameState"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "bGameStarted"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_BOOLEAN_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "BOOL_COMPARE", 
+                    "element_id": 888709190624361, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 {

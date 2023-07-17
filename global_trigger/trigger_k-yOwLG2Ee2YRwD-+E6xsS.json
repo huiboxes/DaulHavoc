@@ -41,6 +41,13 @@
                             786112514, 
                             "Init Update"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1384443993, 
+                            "RestartHandle"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 

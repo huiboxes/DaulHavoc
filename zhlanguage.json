@@ -1667,6 +1667,10 @@
         "key": 2143794208, 
         "value": "\u8fd9\u662f\u4e00\u4e2a\u7269\u54c1"
     }, 
+    "#05715c9c-c58f-4e4e-bbc1-68ac0cd26b43#text": {
+        "key": "#05715c9c-c58f-4e4e-bbc1-68ac0cd26b43#text", 
+        "value": "\u9000\u51fa\u6e38\u620f"
+    }, 
     "#30378eb0-88f6-4103-9e07-d966e8f3add8#text": {
         "key": "#30378eb0-88f6-4103-9e07-d966e8f3add8#text", 
         "value": "\u63d0\u793a\u6587\u5b57"
@@ -1674,6 +1678,10 @@
     "#33a1ca3f-6605-4e21-9cca-29df7772345c#text": {
         "key": "#33a1ca3f-6605-4e21-9cca-29df7772345c#text", 
         "value": "default-text"
+    }, 
+    "#3a4e702c-f529-4fa1-9f3c-dedf721ffa0a#normal_text": {
+        "key": "#3a4e702c-f529-4fa1-9f3c-dedf721ffa0a#normal_text", 
+        "value": ""
     }, 
     "#450a02da-063d-4912-975b-eb439d1cbc37#text": {
         "key": "#450a02da-063d-4912-975b-eb439d1cbc37#text", 
@@ -1698,6 +1706,18 @@
     "#95418b1d-cf7e-48f9-a2c9-62ce08ed56c9#text": {
         "key": "#95418b1d-cf7e-48f9-a2c9-62ce08ed56c9#text", 
         "value": "\u53cb"
+    }, 
+    "#9bd696fe-d36a-47ac-b5ac-7581a0f73609#text": {
+        "key": "#9bd696fe-d36a-47ac-b5ac-7581a0f73609#text", 
+        "value": "\u4eba\u673a\u8bad\u7ec3"
+    }, 
+    "#9c769c3d-f0a1-4649-a8ea-15b35c9f3e36#text": {
+        "key": "#9c769c3d-f0a1-4649-a8ea-15b35c9f3e36#text", 
+        "value": "\u518d\u6765\u4e00\u5c40"
+    }, 
+    "#9f1018f5-c197-4b56-89c5-b7ac3eccccfe#text": {
+        "key": "#9f1018f5-c197-4b56-89c5-b7ac3eccccfe#text", 
+        "value": "\u5f00\u59cb\u6e38\u620f"
     }, 
     "#b5fb81c6-805e-4b62-9577-2c48d03a4376#text": {
         "key": "#b5fb81c6-805e-4b62-9577-2c48d03a4376#text", 

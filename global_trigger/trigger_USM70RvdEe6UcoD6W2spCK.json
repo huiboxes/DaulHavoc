@@ -1810,6 +1810,33 @@
             "trigger_id": 786112514, 
             "trigger_name": "Init Update", 
             "valid": true
+        }, 
+        "1384443993": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "RestartButton"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1384443993000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "USM70RvdEe6UcoD6W2spCK", 
+            "p_trigger_id": null, 
+            "trigger_id": 1384443993, 
+            "trigger_name": "RestartHandle", 
+            "valid": true
         }
     }, 
     "trigger_group_info": {
@@ -1820,6 +1847,13 @@
                 "items": [
                     786112514, 
                     "Init Update"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1384443993, 
+                    "RestartHandle"
                 ]
             }
         ], 

@@ -129,7 +129,8 @@
                 ]
             }, 
             "type": 4, 
-            "uid": "f14f88f5-c80a-40ec-9f35-ce4f4645b4ea"
+            "uid": "f14f88f5-c80a-40ec-9f35-ce4f4645b4ea", 
+            "visible": false
         }, 
         {
             "children": [
@@ -809,7 +810,8 @@
                 ]
             }, 
             "type": 4, 
-            "uid": "a5308d8b-ceb1-40c3-ab91-433f95cb8a2f"
+            "uid": "a5308d8b-ceb1-40c3-ab91-433f95cb8a2f", 
+            "visible": false
         }, 
         {
             "children": [], 
