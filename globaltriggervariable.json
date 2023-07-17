@@ -826,13 +826,17 @@
                 }, 
                 "STRING": {
                     "camp": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "releaser": 0
                 }
             }, 
             "variable_length_dict": {
                 "BeatenNum": 0, 
                 "HitterNum": 0, 
                 "Player ID": 0, 
-                "camp": 0
+                "camp": 0, 
+                "releaser": 0
             }
         }, 
         "1496309785": {
