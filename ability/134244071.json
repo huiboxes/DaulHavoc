@@ -730,20 +730,9 @@
                                                                                         {
                                                                                             "arg_type": 100000, 
                                                                                             "args_list": [
-                                                                                                {
-                                                                                                    "arg_type": 100014, 
-                                                                                                    "args_list": [], 
-                                                                                                    "sub_type": "CUR_ABILITY"
-                                                                                                }, 
-                                                                                                {
-                                                                                                    "arg_type": 100003, 
-                                                                                                    "args_list": [
-                                                                                                        "Damage"
-                                                                                                    ], 
-                                                                                                    "sub_type": 1
-                                                                                                }
+                                                                                                30.0
                                                                                             ], 
-                                                                                            "sub_type": "GET_FLOAT_KV"
+                                                                                            "sub_type": 1
                                                                                         }, 
                                                                                         {
                                                                                             "arg_type": 100001, 

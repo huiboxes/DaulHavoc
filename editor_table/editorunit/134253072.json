@@ -145,7 +145,52 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134253072, 
-    "kv": {}, 
+    "kv": {
+        "Beaten_num": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "Beaten_num", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 2, 
+            "value": 0
+        }, 
+        "Hitter_num": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "Hitter_num", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 2, 
+            "value": 0
+        }, 
+        "Key Orientation": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "Key Orientation", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 32, 
+            "value": 0.0
+        }, 
+        "avatar": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 20, 
+            "key": "avatar", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 14, 
+            "value": 134230231
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 

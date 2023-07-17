@@ -11,7 +11,7 @@
     "disappear_when_dead": true, 
     "get_effect_list": [
         [
-            101882, 
+            103409, 
             {
                 "__tuple__": true, 
                 "items": [

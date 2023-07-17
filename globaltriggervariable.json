@@ -805,12 +805,16 @@
                     "BeatenNum": 0, 
                     "HitterNum": 0, 
                     "Player ID": 0
+                }, 
+                "SOUND_ENTITY": {
+                    "video": 0
                 }
             }, 
             "variable_length_dict": {
                 "BeatenNum": 0, 
                 "HitterNum": 0, 
-                "Player ID": 0
+                "Player ID": 0, 
+                "video": 0
             }
         }, 
         "1486655581": {
@@ -1298,6 +1302,9 @@
         "RANDOM_POOL": {
             "SkillPool": null
         }, 
+        "SOUND_ENTITY": {
+            "BGM": 0
+        }, 
         "TABLE": {
             "GameState": null, 
             "Score_Manager": null, 
@@ -1388,9 +1395,17 @@
                 "Left", 
                 "Left"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "BGM", 
+                "BGM"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "BGM": 0, 
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "GameState": 0, 

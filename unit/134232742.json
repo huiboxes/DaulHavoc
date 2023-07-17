@@ -1,6 +1,157 @@
 {
-    "local_variable": {}, 
+    "local_variable": {
+        "1659326467": {
+            "variable_dict": {
+                "SOUND_ENTITY": {
+                    "video": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "video": 0
+            }
+        }
+    }, 
     "trigger_dict": {
+        "1659326467": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "SOUND_ENTITY", 
+                                    "video", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_UNIT"
+                                        }
+                                    ], 
+                                    "sub_type": "OWNER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100084, 
+                                    "args_list": [
+                                        134245754
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "PLAY_SOUND_FOR_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1659326467000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                1.5
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SOUND_CONTROL", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_UNIT"
+                                                }
+                                            ], 
+                                            "sub_type": "OWNER_PLAYER"
+                                        }, 
+                                        {
+                                            "arg_type": 100214, 
+                                            "args_list": [
+                                                [
+                                                    "SOUND_ENTITY", 
+                                                    "video", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100316, 
+                                            "args_list": [
+                                                2
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1659326467000015, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1659326467000019, 
+                    "enable": true, 
+                    "local_var": [
+                        {}, 
+                        {}
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1659326467000002, 
+                    "enable": true, 
+                    "event_type": "REVIVE_UNIT"
+                }
+            ], 
+            "group_id": 134232742, 
+            "p_trigger_id": null, 
+            "trigger_id": 1659326467, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
         "1757167617": {
             "action": [
                 {
@@ -153,6 +304,10 @@
                 [
                     1872965634, 
                     "Death"
+                ], 
+                [
+                    1659326467, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
                 ]
             ], 
             "key": 134232742, 
