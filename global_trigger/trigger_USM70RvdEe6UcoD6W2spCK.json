@@ -1982,6 +1982,33 @@
                     "enable": true
                 }, 
                 {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "bEnteredMultiplayer"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1088409690953607, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_UI_COMP_VISIBLE", 
                     "args_list": [
                         {

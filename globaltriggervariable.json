@@ -745,6 +745,16 @@
                 "store_unit": 0
             }
         }, 
+        "1384443993": {
+            "variable_dict": {
+                "INTEGER": {
+                    "Player ID": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Player ID": 0
+            }
+        }, 
         "1393229841": {
             "variable_dict": {
                 "DESTRUCTIBLE_ENTITY": {
