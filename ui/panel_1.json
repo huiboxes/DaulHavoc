@@ -836,6 +836,47 @@
             "type": 4, 
             "uid": "f023007e-5c5a-46b2-938a-4daec8729f65", 
             "visible": false
+        }, 
+        {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                -115.00003051757812, 
+                -197.00003051757812, 
+                -106.5, 
+                -106.5
+            ], 
+            "children": [], 
+            "event_list": [], 
+            "image": 130043, 
+            "name": "FinalShowdownbBG", 
+            "opacity": 0.3, 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    499.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    46.2037037037037
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    2133.0, 
+                    1392.0000610351562
+                ]
+            }, 
+            "type": 4, 
+            "uid": "61cf271d-8aa8-4e89-b1a4-719e51aa98a3"
         }
     ], 
     "name": "panel_1", 

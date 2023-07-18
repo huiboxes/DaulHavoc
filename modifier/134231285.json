@@ -5,6 +5,9 @@
                 "ANGLE": {
                     "angle": 0.0
                 }, 
+                "MOVER_ENTITY": {
+                    "locomotorium": 0
+                }, 
                 "POINT": {
                     "p": [
                         0, 
@@ -15,6 +18,7 @@
             }, 
             "variable_length_dict": {
                 "angle": 0, 
+                "locomotorium": 0, 
                 "p": 0
             }
         }
@@ -70,8 +74,19 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "CREATE_STRAIGHT_MOVER", 
+                    "action_type": "CREATE_STRAIGHT_MOVER_SAVE", 
                     "args_list": [
+                        {
+                            "arg_type": 100263, 
+                            "args_list": [
+                                [
+                                    "MOVER_ENTITY", 
+                                    "locomotorium", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 6
+                        }, 
                         {
                             "arg_type": 100006, 
                             "args_list": [], 
@@ -127,7 +142,27 @@
                         }, 
                         {
                             "arg_type": 100022, 
-                            "args_list": [], 
+                            "args_list": [
+                                {
+                                    "action_type": "BREAK_MOVER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100263, 
+                                            "args_list": [
+                                                [
+                                                    "MOVER_ENTITY", 
+                                                    "locomotorium", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1850712066000085, 
+                                    "enable": true
+                                }
+                            ], 
                             "sub_type": 1
                         }, 
                         {
@@ -139,7 +174,9 @@
                     "bp": false, 
                     "element_id": 1850712066000034, 
                     "enable": true, 
-                    "fake_op": [], 
+                    "fake_op": [
+                        9
+                    ], 
                     "local_var": [
                         {}, 
                         {}

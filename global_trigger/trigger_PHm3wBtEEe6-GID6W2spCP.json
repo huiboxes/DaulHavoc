@@ -235,6 +235,33 @@
                     "enable": true
                 }, 
                 {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100027, 
+                            "args_list": [], 
+                            "sub_type": "ALL_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "61cf271d-8aa8-4e89-b1a4-719e51aa98a3"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1516888151988046, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_TABLE_VALUE_1D", 
                     "args_list": [
                         {
@@ -2283,7 +2310,7 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1425580109987305, 
-                                    "enable": true
+                                    "enable": false
                                 }, 
                                 {
                                     "action_type": "SET_ENTITY_KV", 
@@ -2303,20 +2330,113 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "INTEGER", 
-                                                        "BeatenNum", 
-                                                        "local"
-                                                    ]
-                                                }
+                                                [
+                                                    "INTEGER", 
+                                                    "BeatenNum", 
+                                                    "local"
+                                                ]
                                             ], 
                                             "sub_type": 6
                                         }
                                     ], 
                                     "bp": false, 
                                     "element_id": 1425580109987066, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100177, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "\u51f6\u624b Beaten_num\uff1a"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100181, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "UNIT_ENTITY", 
+                                                                                    "Player Unit"
+                                                                                ], 
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100025, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100006, 
+                                                                                                    "args_list": [], 
+                                                                                                    "sub_type": "KILLER_UNIT"
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "OWNER_PLAYER"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "PLAYER_ID_NUMBER"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 11
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100003, 
+                                                                            "args_list": [
+                                                                                "Beaten_num"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_NEW_TIMER_KV"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "623ae2e18b3411ed94a470b5e84281ea"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "call_rt_arg_idxes": [], 
+                                    "element_id": 1425580109987308, 
                                     "enable": true
                                 }
                             ], 
@@ -2330,7 +2450,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "\u7ed9\u51f6\u624b\u5355\u4f4d\u73a9\u5bb6\u8bb0\u5f55\u51fb\u8d25\u6570"
+                                "\u8bb0\u5f55\u5355\u4f4d\u7684\u51fb\u8d25\u4e0e\u88ab\u51fb\u8d25\u6570"
                             ], 
                             "sub_type": 1
                         }
@@ -2554,7 +2674,7 @@
                                 {
                                     "arg_type": 100002, 
                                     "args_list": [
-                                        3
+                                        2
                                     ], 
                                     "sub_type": 1
                                 }

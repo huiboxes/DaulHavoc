@@ -984,16 +984,6 @@
                 "Player ID": 0
             }
         }, 
-        "1773088861": {
-            "variable_dict": {
-                "INTEGER": {
-                    "Player ID": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "Player ID": 0
-            }
-        }, 
         "1806327889": {
             "variable_dict": {
                 "FLOAT": {
