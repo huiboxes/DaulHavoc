@@ -1301,6 +1301,10 @@
             "GLOBAL_BAG_MAX_NUM": 0, 
             "Left": 0
         }, 
+        "NEW_TIMER": {
+            "AttackTimer1": null, 
+            "AttackTimer2": null
+        }, 
         "RANDOM_POOL": {
             "SkillPool": null
         }, 
@@ -1314,7 +1318,8 @@
             "UI_Manager": null
         }, 
         "UNIT_ENTITY": {
-            "Player Unit": null
+            "Player Unit": null, 
+            "PlayerCharacter": null
         }, 
         "UNIT_NAME": {
             "AIHeroList": 0, 
@@ -1412,10 +1417,33 @@
                 "AIHeroList", 
                 "AIHeroList"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "AttackTimer1", 
+                "AttackTimer1"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "AttackTimer2", 
+                "AttackTimer2"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "PlayerCharacter", 
+                "PlayerCharacter"
+            ]
         }
     ], 
     "variable_length_dict": {
         "AIHeroList": 10, 
+        "AttackTimer1": 0, 
+        "AttackTimer2": 0, 
         "BGMList": 10, 
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
@@ -1423,6 +1451,7 @@
         "HeroList": 10, 
         "Left": 0, 
         "Player Unit": 10, 
+        "PlayerCharacter": 0, 
         "Score_Manager": 0, 
         "SkillList": 10, 
         "SkillPool": 0, 

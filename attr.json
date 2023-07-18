@@ -7,7 +7,7 @@
             "items": [
                 "strength", 
                 {
-                    "d": "\u529b\u91cf", 
+                    "d": "Strength", 
                     "k": "strength", 
                     "m": []
                 }
@@ -18,7 +18,7 @@
             "items": [
                 "agility", 
                 {
-                    "d": "\u654f\u6377", 
+                    "d": "Agility", 
                     "k": "agility", 
                     "m": []
                 }
@@ -29,7 +29,7 @@
             "items": [
                 "intelligence", 
                 {
-                    "d": "\u667a\u529b", 
+                    "d": "Intelligence", 
                     "k": "intelligence", 
                     "m": []
                 }
@@ -40,7 +40,7 @@
             "items": [
                 "main", 
                 {
-                    "d": "\u4e3b\u5c5e\u6027", 
+                    "d": "Main Attribute", 
                     "k": "main", 
                     "m": []
                 }
