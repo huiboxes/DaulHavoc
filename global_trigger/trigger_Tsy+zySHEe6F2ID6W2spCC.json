@@ -129,11 +129,32 @@
                                             "arg_type": 100022, 
                                             "args_list": [
                                                 {
-                                                    "action_type": "STOP_SOUND", 
+                                                    "action_type": "SOUND_CONTROL", 
                                                     "args_list": [
                                                         {
                                                             "arg_type": 100025, 
                                                             "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "INTEGER", 
+                                                                            "Player ID", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ROLE_BY_INT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100214, 
+                                                            "args_list": [
+                                                                [
+                                                                    "SOUND_ENTITY", 
+                                                                    "BGMList"
+                                                                ], 
                                                                 {
                                                                     "arg_type": 100002, 
                                                                     "args_list": [
@@ -149,45 +170,46 @@
                                                                     "sub_type": 6
                                                                 }
                                                             ], 
-                                                            "sub_type": "GET_ROLE_BY_INT"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100214, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "SOUND_ENTITY", 
-                                                                        "BGM"
-                                                                    ]
-                                                                }
-                                                            ], 
                                                             "sub_type": 2
                                                         }, 
                                                         {
-                                                            "arg_type": 100001, 
+                                                            "arg_type": 100316, 
                                                             "args_list": [
-                                                                true
+                                                                2
                                                             ], 
                                                             "sub_type": 1
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 486539356987546, 
+                                                    "element_id": 1486655581988044, 
                                                     "enable": true
                                                 }, 
                                                 {
                                                     "action_type": "SET_VARIABLE", 
                                                     "args_list": [
                                                         {
-                                                            "arg_type": 100030, 
+                                                            "arg_type": 100214, 
                                                             "args_list": [
                                                                 [
                                                                     "SOUND_ENTITY", 
-                                                                    "BGM"
-                                                                ]
+                                                                    "BGMList"
+                                                                ], 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "Player ID", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
                                                             ], 
-                                                            "sub_type": 1
+                                                            "sub_type": 2
                                                         }, 
                                                         {
                                                             "arg_type": 100214, 
@@ -2623,7 +2645,7 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
-                                    "action_type": "STOP_SOUND", 
+                                    "action_type": "SOUND_CONTROL", 
                                     "args_list": [
                                         {
                                             "arg_type": 100025, 
@@ -2631,11 +2653,14 @@
                                                 {
                                                     "arg_type": 100002, 
                                                     "args_list": [
-                                                        [
-                                                            "INTEGER", 
-                                                            "Player ID", 
-                                                            "local"
-                                                        ]
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "Player ID", 
+                                                                "local"
+                                                            ]
+                                                        }
                                                     ], 
                                                     "sub_type": 6
                                                 }
@@ -2647,35 +2672,66 @@
                                             "args_list": [
                                                 [
                                                     "SOUND_ENTITY", 
-                                                    "BGM"
-                                                ]
+                                                    "BGMList"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "Player ID", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
                                             ], 
                                             "sub_type": 2
                                         }, 
                                         {
-                                            "arg_type": 100001, 
+                                            "arg_type": 100316, 
                                             "args_list": [
-                                                true
+                                                2
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 486539356987546, 
+                                    "element_id": 1486655581988044, 
                                     "enable": true
                                 }, 
                                 {
                                     "action_type": "SET_VARIABLE", 
                                     "args_list": [
                                         {
-                                            "arg_type": 100030, 
+                                            "arg_type": 100214, 
                                             "args_list": [
-                                                [
-                                                    "SOUND_ENTITY", 
-                                                    "BGM"
-                                                ]
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "SOUND_ENTITY", 
+                                                        "BGMList"
+                                                    ]
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "Player ID", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
                                             ], 
-                                            "sub_type": 1
+                                            "sub_type": 2
                                         }, 
                                         {
                                             "arg_type": 100214, 
@@ -2725,6 +2781,91 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1486655581988024, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_TEXT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        [
+                                                            "INTEGER", 
+                                                            "Player ID", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "GET_ROLE_BY_INT"
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "f67c2d4b-b3ef-478f-a77b-ccfc2867d2c5"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u88ab\u51fb\u8d25\uff1a"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "BeatenNum", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1821921366987961, 
                                     "enable": true
                                 }, 
                                 {
@@ -3059,91 +3200,6 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1821921366987950, 
-                                    "enable": true
-                                }, 
-                                {
-                                    "action_type": "SET_UI_COMP_TEXT", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100002, 
-                                                    "args_list": [
-                                                        [
-                                                            "INTEGER", 
-                                                            "Player ID", 
-                                                            "local"
-                                                        ]
-                                                    ], 
-                                                    "sub_type": 6
-                                                }
-                                            ], 
-                                            "sub_type": "GET_ROLE_BY_INT"
-                                        }, 
-                                        {
-                                            "arg_type": 100070, 
-                                            "args_list": [
-                                                "f67c2d4b-b3ef-478f-a77b-ccfc2867d2c5"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "\u88ab\u51fb\u8d25\uff1a"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100002, 
-                                                            "args_list": [
-                                                                {
-                                                                    "__tuple__": true, 
-                                                                    "items": [
-                                                                        "INTEGER", 
-                                                                        "BeatenNum", 
-                                                                        "local"
-                                                                    ]
-                                                                }
-                                                            ], 
-                                                            "sub_type": 6
-                                                        }
-                                                    ], 
-                                                    "sub_type": "ANY_VAR_TO_STR"
-                                                }
-                                            ], 
-                                            "op_arg": [
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null
-                                            ], 
-                                            "op_arg_enable": [
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false
-                                            ], 
-                                            "sub_type": "STR_JOIN"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1821921366987961, 
                                     "enable": true
                                 }
                             ], 
@@ -3548,7 +3604,7 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
-                                    "action_type": "STOP_SOUND", 
+                                    "action_type": "SOUND_CONTROL", 
                                     "args_list": [
                                         {
                                             "arg_type": 100025, 
@@ -3572,35 +3628,60 @@
                                             "args_list": [
                                                 [
                                                     "SOUND_ENTITY", 
-                                                    "BGM"
-                                                ]
+                                                    "BGMList"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "Player ID", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
                                             ], 
                                             "sub_type": 2
                                         }, 
                                         {
-                                            "arg_type": 100001, 
+                                            "arg_type": 100316, 
                                             "args_list": [
-                                                true
+                                                2
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 486539356987546, 
+                                    "element_id": 1486655581988044, 
                                     "enable": true
                                 }, 
                                 {
                                     "action_type": "SET_VARIABLE", 
                                     "args_list": [
                                         {
-                                            "arg_type": 100030, 
+                                            "arg_type": 100028, 
                                             "args_list": [
+                                                [
+                                                    "SOUND_ENTITY", 
+                                                    "BGMList"
+                                                ], 
                                                 {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "SOUND_ENTITY", 
-                                                        "BGM"
-                                                    ]
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "Player ID", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
                                                 }
                                             ], 
                                             "sub_type": 1

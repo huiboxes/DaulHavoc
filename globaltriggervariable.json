@@ -1303,7 +1303,7 @@
             "SkillPool": null
         }, 
         "SOUND_ENTITY": {
-            "BGM": 0
+            "BGMList": 0
         }, 
         "TABLE": {
             "GameState": null, 
@@ -1399,13 +1399,13 @@
         {
             "__tuple__": true, 
             "items": [
-                "BGM", 
-                "BGM"
+                "BGMList", 
+                "BGMList"
             ]
         }
     ], 
     "variable_length_dict": {
-        "BGM": 0, 
+        "BGMList": 10, 
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "GameState": 0, 

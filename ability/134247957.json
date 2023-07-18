@@ -741,11 +741,17 @@
                                     ], 
                                     "sub_type": 1
                                 }, 
-                                null
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
                             ], 
                             "op_arg_enable": [
                                 true, 
-                                false
+                                true
                             ], 
                             "sub_type": "CREATE_LINK_SFX_FROM_UNIT_TO_UNIT"
                         }
