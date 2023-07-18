@@ -288,7 +288,7 @@
                     "event_type": "ABILITY_PS_START"
                 }
             ], 
-            "group_id": 134267216, 
+            "group_id": 134249561, 
             "p_trigger_id": null, 
             "trigger_id": 268054531, 
             "trigger_name": "stage1", 
@@ -908,17 +908,11 @@
                                     "element_id": 850415619623569, 
                                     "enable": true, 
                                     "op_arg": [
-                                        {
-                                            "arg_type": 100000, 
-                                            "args_list": [
-                                                0.5
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
+                                        null, 
                                         null
                                     ], 
                                     "op_arg_enable": [
-                                        true, 
+                                        false, 
                                         false
                                     ]
                                 }, 
@@ -1246,7 +1240,7 @@
                                                                                         {
                                                                                             "arg_type": 100000, 
                                                                                             "args_list": [
-                                                                                                80.0
+                                                                                                50.0
                                                                                             ], 
                                                                                             "sub_type": 1
                                                                                         }, 
@@ -1590,7 +1584,7 @@
                     "event_type": "ABILITY_PS_END"
                 }
             ], 
-            "group_id": 134267216, 
+            "group_id": 134249561, 
             "p_trigger_id": null, 
             "trigger_id": 850415619, 
             "trigger_name": "stage2", 
@@ -1610,8 +1604,8 @@
                     "stage2"
                 ]
             ], 
-            "key": 134267216, 
-            "name": "134267216"
+            "key": 134249561, 
+            "name": "134249561"
         }
     ], 
     "trigger_version": "1.2", 

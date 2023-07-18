@@ -11,7 +11,7 @@
     }, 
     "agility": 10.0, 
     "agility_grow": 1.0, 
-    "alarm_range": 8.0, 
+    "alarm_range": 90.0, 
     "angle_tolerance": 1.0, 
     "armor_type": 20000, 
     "attack_interval": 0.5, 
@@ -51,7 +51,7 @@
         "items": []
     }, 
     "can_flee": true, 
-    "cancel_alarm_range": 10.0, 
+    "cancel_alarm_range": 110.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
     "collision_box_turning_enable": false, 
@@ -61,20 +61,20 @@
     }, 
     "common_ability_list": [
         [
-            134244071, 
+            134272717, 
             1
         ], 
         [
-            134271963, 
+            134274801, 
             1
         ], 
         [
-            134261711, 
+            134257408, 
             1
         ]
     ], 
     "common_atk": [
-        134267216, 
+        134249561, 
         1
     ], 
     "common_atk_type": 2, 
@@ -136,7 +136,7 @@
     "intelligence_grow": 1.0, 
     "is_apply_role_color": false, 
     "is_mini_map_show": true, 
-    "is_open_Xray": false, 
+    "is_open_Xray": true, 
     "is_open_disk_shadow": false, 
     "is_open_outline_pass": false, 
     "is_shop": false, 
@@ -188,7 +188,7 @@
             "remark": "", 
             "sort": 0, 
             "type": 14, 
-            "value": 134230231
+            "value": 134218696
         }
     }, 
     "level": 1, 

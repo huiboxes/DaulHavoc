@@ -14,6 +14,15 @@
    "items": [
     "/2147483647", 
     0, 
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    "AISkill"
+   ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    1, 
     "8Wy48B4IEe6mO4D6W2spCJ", 
     "ActiveSkill"
    ]
@@ -58,13 +67,69 @@
    "__tuple__": true, 
    "items": [
     "/2147483647", 
-    1, 
+    2, 
     "9s-24R4IEe6ulYD6W2spCK", 
     "NormalAttack"
    ]
   }
  ], 
  "d": {
+  "134249561": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    0
+   ]
+  }, 
+  "134265321": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    1
+   ]
+  }, 
+  "134263187": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    2
+   ]
+  }, 
+  "134272717": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    3
+   ]
+  }, 
+  "134278743": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    4
+   ]
+  }, 
+  "134267326": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    5
+   ]
+  }, 
+  "134257408": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    6
+   ]
+  }, 
+  "134274801": {
+   "__tuple__": true, 
+   "items": [
+    "IxyJ4SUjEe6msoD6W2spCO", 
+    7
+   ]
+  }, 
   "134240351": {
    "__tuple__": true, 
    "items": [
@@ -93,14 +158,14 @@
     0
    ]
   }, 
-  "134263187": {
+  "134234822": {
    "__tuple__": true, 
    "items": [
     "uMmI0R5wEe6LD4D6W2spCE", 
     1
    ]
   }, 
-  "134234822": {
+  "134260165": {
    "__tuple__": true, 
    "items": [
     "uMmI0R5wEe6LD4D6W2spCE", 

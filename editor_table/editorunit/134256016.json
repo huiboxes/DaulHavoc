@@ -1,4 +1,7 @@
 {
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "101": 0.0, 
     "_custom_": true, 
     "_ref_": 134256016, 
@@ -64,7 +67,7 @@
         134267216, 
         0
     ], 
-    "common_atk_type": 999, 
+    "common_atk_type": 2, 
     "critical_chance": 0.0, 
     "critical_chance_grow": 0.0, 
     "critical_dmg": 200.0, 

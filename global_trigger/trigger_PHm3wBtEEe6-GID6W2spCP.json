@@ -652,7 +652,7 @@
                                         {
                                             "arg_type": 100039, 
                                             "args_list": [
-                                                134263187
+                                                134260165
                                             ], 
                                             "sub_type": 1
                                         }
@@ -963,7 +963,7 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                2
+                                                1
                                             ], 
                                             "sub_type": 1
                                         }
@@ -1123,7 +1123,7 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                1
+                                                2
                                             ], 
                                             "sub_type": 1
                                         }
@@ -1219,7 +1219,7 @@
                                         {
                                             "arg_type": 100002, 
                                             "args_list": [
-                                                1
+                                                2
                                             ], 
                                             "sub_type": 1
                                         }
@@ -1936,7 +1936,7 @@
                             "op_arg_enable": [
                                 false, 
                                 false, 
-                                true
+                                false
                             ], 
                             "sub_type": "PLAY_3D_SOUND_FOR_PLAYER"
                         }
