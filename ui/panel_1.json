@@ -876,7 +876,8 @@
                 ]
             }, 
             "type": 4, 
-            "uid": "61cf271d-8aa8-4e89-b1a4-719e51aa98a3"
+            "uid": "61cf271d-8aa8-4e89-b1a4-719e51aa98a3", 
+            "visible": false
         }
     ], 
     "name": "panel_1", 

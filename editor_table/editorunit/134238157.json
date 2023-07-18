@@ -11,7 +11,7 @@
     }, 
     "agility": 10.0, 
     "agility_grow": 1.0, 
-    "alarm_range": 20.0, 
+    "alarm_range": 90.0, 
     "angle_tolerance": 1.0, 
     "armor_type": 20000, 
     "attack_interval": 0.5, 
@@ -51,7 +51,7 @@
         "items": []
     }, 
     "can_flee": true, 
-    "cancel_alarm_range": 22.0, 
+    "cancel_alarm_range": 110.0, 
     "cd_reduce": 0.0, 
     "cd_reduce_grow": 0.0, 
     "collision_box_turning_enable": false, 

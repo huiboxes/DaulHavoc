@@ -353,12 +353,9 @@
                 "POINT": {}, 
                 "PROJECTILE_GROUP": {}, 
                 "RANDOM_POOL": {}, 
-                "UNIT_NAME": {
-                    "HeroList": 0
-                }
+                "UNIT_NAME": {}
             }, 
             "variable_length_dict": {
-                "HeroList": 10, 
                 "Player ID": 0
             }
         }, 
@@ -1311,6 +1308,7 @@
             "Player Unit": null
         }, 
         "UNIT_NAME": {
+            "AIHeroList": 0, 
             "HeroList": 0
         }
     }, 
@@ -1398,9 +1396,17 @@
                 "BGMList", 
                 "BGMList"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "AIHeroList", 
+                "AIHeroList"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "AIHeroList": 10, 
         "BGMList": 10, 
         "BoolDebug": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 

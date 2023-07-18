@@ -114,7 +114,8 @@
             }, 
             "swallow_touches": true, 
             "type": 4, 
-            "uid": "c9641536-0e36-4579-992c-00fe9f81459f"
+            "uid": "c9641536-0e36-4579-992c-00fe9f81459f", 
+            "visible": false
         }, 
         {
             "adapter_option": [

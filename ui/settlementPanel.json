@@ -350,15 +350,15 @@
             "pos": {
                 "__tuple__": true, 
                 "items": [
-                    1211.0, 
-                    326.0
+                    958.0, 
+                    334.0
                 ]
             }, 
             "pos_percent": {
                 "__tuple__": true, 
                 "items": [
-                    63.072916666666664, 
-                    30.185185185185187
+                    49.895833333333336, 
+                    30.925925925925924
                 ]
             }, 
             "press_color": {
@@ -514,13 +514,13 @@
                     178
                 ]
             }, 
-            "swallow_touches": true, 
             "touch_scale": [
                 0.9, 
                 0.9
             ], 
             "type": 1, 
-            "uid": "6a8984e3-adf6-4832-a5c1-70ad1c20b2a9"
+            "uid": "6a8984e3-adf6-4832-a5c1-70ad1c20b2a9", 
+            "visible": false
         }
     ], 
     "name": "settlementPanel", 

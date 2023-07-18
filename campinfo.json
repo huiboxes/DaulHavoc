@@ -58,7 +58,7 @@
             "role_name": "$player 2", 
             "role_name_en": "Player 2", 
             "role_name_zh": "\u73a9\u5bb6 2", 
-            "role_type": 5
+            "role_type": 2
         }, 
         "3": {
             "camp_id": 2, 
@@ -66,7 +66,7 @@
             "role_name": "$player 3", 
             "role_name_en": "Player 3", 
             "role_name_zh": "\u73a9\u5bb6 3", 
-            "role_type": 5
+            "role_type": 2
         }, 
         "4": {
             "camp_id": 2, 
@@ -74,7 +74,7 @@
             "role_name": "$player 4", 
             "role_name_en": "Player 4", 
             "role_name_zh": "\u73a9\u5bb6 4", 
-            "role_type": 2
+            "role_type": 1
         }, 
         "31": {
             "camp_id": 9999, 

@@ -2591,7 +2591,7 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1773088861000030, 
-                                    "enable": true
+                                    "enable": false
                                 }
                             ], 
                             "sub_type": 1
@@ -2665,140 +2665,6 @@
                     ], 
                     "bp": false, 
                     "element_id": 603496524987515, 
-                    "enable": true
-                }, 
-                [
-                    1071009569, 
-                    "\u89e6\u53d1\u4eba\u673a\u6a21\u5f0f", 
-                    1692389467, 
-                    "action_type"
-                ], 
-                {
-                    "action_type": "SET_VARIABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100028, 
-                            "args_list": [
-                                [
-                                    "UNIT_NAME", 
-                                    "HeroList"
-                                ], 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100116, 
-                            "args_list": [
-                                134232742
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 603496524000002, 
-                    "enable": false
-                }, 
-                {
-                    "action_type": "SET_VARIABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100028, 
-                            "args_list": [
-                                [
-                                    "UNIT_NAME", 
-                                    "HeroList"
-                                ], 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        2
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100116, 
-                            "args_list": [
-                                134257682
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 603496524000003, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "SET_VARIABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100028, 
-                            "args_list": [
-                                [
-                                    "UNIT_NAME", 
-                                    "HeroList"
-                                ], 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        3
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100116, 
-                            "args_list": [
-                                134253072
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 603496524000004, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "SET_VARIABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100028, 
-                            "args_list": [
-                                [
-                                    "UNIT_NAME", 
-                                    "HeroList"
-                                ], 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        4
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100116, 
-                            "args_list": [
-                                134227658
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 603496524000005, 
                     "enable": true
                 }, 
                 {
