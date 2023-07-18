@@ -1967,7 +1967,7 @@
             "p_trigger_id": null, 
             "trigger_id": 603496524, 
             "trigger_name": "GameInitialization", 
-            "valid": false
+            "valid": true
         }, 
         "1173921870": {
             "action": [

@@ -1,0 +1,622 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "adapter_option": [
+                true, 
+                false, 
+                true, 
+                false, 
+                71.49998474121094, 
+                713.4999847412109, 
+                0.5, 
+                1624.5
+            ], 
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 130950, 
+                            "name": "bgImage", 
+                            "opacity": 0.5, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    150.0, 
+                                    21.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.039648132318305, 
+                                    42.857116165400186
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    56.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "1b76db38-e4ba-4a05-af3d-4799eeff44f1"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "desc", 
+                            "opacity": 0.9500000000000001, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    214.00003051757812, 
+                                    22.5001220703125
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    47.136571390707736, 
+                                    45.91858787157464
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    364.0, 
+                                    48.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "WASD \u79fb\u52a8", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "ef061289-3e66-45ab-97d0-194bcb3b2b17"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "Move", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            227.0, 
+                            270.5
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            76.94915254237287, 
+                            91.6949057684527
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            453.99999237060547, 
+                            49.000030517578125
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "17f207af-6039-47f5-907c-c32d0e52958e"
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 130950, 
+                            "name": "bgImage", 
+                            "opacity": 0.5, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    150.0, 
+                                    21.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.039648132318305, 
+                                    42.857116165400186
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    56.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "8975fa1f-9eba-40d7-b376-59cfaf306250"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "desc", 
+                            "opacity": 0.9500000000000001, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    214.00003051757812, 
+                                    22.5001220703125
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    47.136571390707736, 
+                                    45.91858787157464
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    364.0, 
+                                    48.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "\u7a7a\u683c\u952e \u95ea\u907f", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "046edfc9-8737-4297-ac8a-8765fed8536a"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "Dodge", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            225.0, 
+                            222.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            76.27118644067797, 
+                            75.2542295031294
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            453.99999237060547, 
+                            49.000030517578125
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "6be7b2c4-38b7-4cf5-a638-7d2c3a0c9141"
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 130950, 
+                            "name": "bgImage", 
+                            "opacity": 0.5, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    150.0, 
+                                    21.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.039648132318305, 
+                                    42.857116165400186
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    56.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "981ffb22-2cfa-4511-881b-f4e988af010d"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "desc", 
+                            "opacity": 0.9500000000000001, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    214.00003051757812, 
+                                    22.5001220703125
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    47.136571390707736, 
+                                    45.91858787157464
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    364.0, 
+                                    48.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "\u9f20\u6807\u5de6\u952e \u653b\u51fb", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "5aeba714-8a59-4fe9-bfd1-1b92bb321482"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "Attack", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            225.0, 
+                            173.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            76.27118644067797, 
+                            58.64406172991615
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            453.99999237060547, 
+                            49.000030517578125
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "003800b4-575d-42ad-a852-50a9a5fc3b62"
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 130950, 
+                            "name": "bgImage", 
+                            "opacity": 0.5, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    150.0, 
+                                    21.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.039648132318305, 
+                                    42.857116165400186
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    56.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "0c9eb776-338b-4832-a898-aebc56cd9733"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "desc", 
+                            "opacity": 0.9500000000000001, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    214.00003051757812, 
+                                    22.5001220703125
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    47.136571390707736, 
+                                    45.91858787157464
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    364.0, 
+                                    48.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "Q\u3001E \u91ca\u653e\u6280\u80fd", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "9f8f52c5-2f31-41f3-910e-16190e249537"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "ReleaseSkills", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            226.0, 
+                            122.5
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            76.61016949152543, 
+                            41.525419433033115
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            453.99999237060547, 
+                            49.000030517578125
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "c580235a-037c-43ad-95a8-7739669792d3"
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 130950, 
+                            "name": "bgImage", 
+                            "opacity": 0.5, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    150.0, 
+                                    21.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.039648132318305, 
+                                    42.857116165400186
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    56.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "24f65d22-e46f-449a-9675-b8c3354e109e"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "desc", 
+                            "opacity": 0.9500000000000001, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    214.00003051757812, 
+                                    22.5001220703125
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    47.136571390707736, 
+                                    45.91858787157464
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    364.0, 
+                                    48.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "F \u62fe\u53d6\u7269\u54c1", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "42e931b3-1c3a-4fc6-8810-519e27a9926b"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "Pickup", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            226.0, 
+                            72.99993896484375
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            76.61016949152543, 
+                            24.7457394620486
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            453.99999237060547, 
+                            49.000030517578125
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "02ffe954-3a0a-4f58-9cef-80c19105f0c7"
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 130950, 
+                            "name": "bgImage", 
+                            "opacity": 0.5, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    150.0, 
+                                    21.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    33.039648132318305, 
+                                    42.857116165400186
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    56.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "a7374b29-9946-480a-b889-913ec39e9c57"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "desc", 
+                            "opacity": 0.9500000000000001, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    214.00003051757812, 
+                                    22.5001220703125
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    47.136571390707736, 
+                                    45.91858787157464
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    364.0, 
+                                    48.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "F12 \u5173/\u5f00\u64cd\u4f5c\u6307\u5357", 
+                                    false
+                                ]
+                            }, 
+                            "type": 3, 
+                            "uid": "9dc268f4-c31d-4f5f-96f9-607bace65146"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "Switch", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            225.0, 
+                            25.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            76.27118644067797, 
+                            8.474575394496553
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            453.99999237060547, 
+                            49.000030517578125
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "647b43ea-69a0-45fa-a7ce-485582ff239f"
+                }
+            ], 
+            "event_list": [], 
+            "name": "TutorialBoard", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    148.0, 
+                    861.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    7.708333333333334, 
+                    79.8148035120081
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    295.0, 
+                    295.0000305175781
+                ]
+            }, 
+            "type": 7, 
+            "uid": "cb9734a2-ae5b-49d4-94c8-a6eb8291d769"
+        }
+    ], 
+    "name": "tutorialsPanel", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "c2e4130f-6e75-4481-adca-d9971f4617e1", 
+    "visible": true, 
+    "zorder": 400
+}

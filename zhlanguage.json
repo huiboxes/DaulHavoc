@@ -1899,6 +1899,10 @@
         "key": 2143794208, 
         "value": "\u8fd9\u662f\u4e00\u4e2a\u7269\u54c1"
     }, 
+    "#046edfc9-8737-4297-ac8a-8765fed8536a#text": {
+        "key": "#046edfc9-8737-4297-ac8a-8765fed8536a#text", 
+        "value": "\u7a7a\u683c\u952e \u95ea\u907f"
+    }, 
     "#05715c9c-c58f-4e4e-bbc1-68ac0cd26b43#text": {
         "key": "#05715c9c-c58f-4e4e-bbc1-68ac0cd26b43#text", 
         "value": "\u9000\u51fa\u6e38\u620f"
@@ -1915,6 +1919,10 @@
         "key": "#3a4e702c-f529-4fa1-9f3c-dedf721ffa0a#normal_text", 
         "value": ""
     }, 
+    "#42e931b3-1c3a-4fc6-8810-519e27a9926b#text": {
+        "key": "#42e931b3-1c3a-4fc6-8810-519e27a9926b#text", 
+        "value": "F \u62fe\u53d6\u7269\u54c1"
+    }, 
     "#450a02da-063d-4912-975b-eb439d1cbc37#text": {
         "key": "#450a02da-063d-4912-975b-eb439d1cbc37#text", 
         "value": "\u4e0d\u7ba1\u80dc\u8d25\uff0c\u91cd\u8981\u7684\u662f\u4f60\u4eec\u7ecf\u5386\u4e86\u4e00\u6bb5\u96be\u5fd8\u7684\u65c5\u7a0b\uff0c\u7ee7\u7eed\u524d\u8fdb\u5427!"
@@ -1926,6 +1934,10 @@
     "#57f7a5d3-8659-4dd2-8a98-313eacec5d65#text": {
         "key": "#57f7a5d3-8659-4dd2-8a98-313eacec5d65#text", 
         "value": "20\u5206"
+    }, 
+    "#5aeba714-8a59-4fe9-bfd1-1b92bb321482#text": {
+        "key": "#5aeba714-8a59-4fe9-bfd1-1b92bb321482#text", 
+        "value": "\u9f20\u6807\u5de6\u952e \u653b\u51fb"
     }, 
     "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text": {
         "key": "#7127bfc9-1510-4799-9b39-e58a1d35b94c#text", 
@@ -1947,9 +1959,17 @@
         "key": "#9c769c3d-f0a1-4649-a8ea-15b35c9f3e36#text", 
         "value": "\u518d\u6765\u4e00\u5c40"
     }, 
+    "#9dc268f4-c31d-4f5f-96f9-607bace65146#text": {
+        "key": "#9dc268f4-c31d-4f5f-96f9-607bace65146#text", 
+        "value": "F12 \u5173/\u5f00\u64cd\u4f5c\u6307\u5357"
+    }, 
     "#9f1018f5-c197-4b56-89c5-b7ac3eccccfe#text": {
         "key": "#9f1018f5-c197-4b56-89c5-b7ac3eccccfe#text", 
         "value": "\u8fdb\u5165\u5bf9\u5c40"
+    }, 
+    "#9f8f52c5-2f31-41f3-910e-16190e249537#text": {
+        "key": "#9f8f52c5-2f31-41f3-910e-16190e249537#text", 
+        "value": "Q\u3001E \u91ca\u653e\u6280\u80fd"
     }, 
     "#b5fb81c6-805e-4b62-9577-2c48d03a4376#text": {
         "key": "#b5fb81c6-805e-4b62-9577-2c48d03a4376#text", 
@@ -1959,6 +1979,10 @@
         "key": "#c40ad5be-07ce-4194-a7cb-73c20d20ca1e#text", 
         "value": "\u654c"
     }, 
+    "#c5d3c719-d492-41ee-b79c-161c4ee62bb9#text": {
+        "key": "#c5d3c719-d492-41ee-b79c-161c4ee62bb9#text", 
+        "value": "\u7a7a\u683c\u952e \u95ea\u907f"
+    }, 
     "#d71b868b-e6cd-4cef-8ee4-ecc6e12812f5#normal_text": {
         "key": "#d71b868b-e6cd-4cef-8ee4-ecc6e12812f5#normal_text", 
         "value": "\u518d\u6765\u4e00\u5c40"
@@ -1966,6 +1990,10 @@
     "#e0630327-9306-43c6-8bd0-60ccb58e6928#text": {
         "key": "#e0630327-9306-43c6-8bd0-60ccb58e6928#text", 
         "value": "20\u5206"
+    }, 
+    "#ef061289-3e66-45ab-97d0-194bcb3b2b17#text": {
+        "key": "#ef061289-3e66-45ab-97d0-194bcb3b2b17#text", 
+        "value": "WASD \u79fb\u52a8"
     }, 
     "#f0c51d6a-7ff8-4e0b-bc94-07ae00eb5a2f#text": {
         "key": "#f0c51d6a-7ff8-4e0b-bc94-07ae00eb5a2f#text", 

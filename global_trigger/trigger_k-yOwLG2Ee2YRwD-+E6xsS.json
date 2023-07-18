@@ -62,6 +62,13 @@
                             1692389467, 
                             "TrainningButton_ClickHandle"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1243918429, 
+                            "TutorialSwitch(F12)"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 

@@ -35,7 +35,7 @@
     ]
    }
   ], 
-  "btn_visible": true
+  "btn_visible": false
  }, 
  {
   "name": "\u56f4\u5899", 
@@ -704,7 +704,7 @@
     ]
    }
   ], 
-  "btn_visible": true
+  "btn_visible": false
  }, 
  {
   "name": "\u5730\u56fe\u5916\u690d\u88ab\u548c\u5c71\u77f3", 
@@ -2754,6 +2754,22 @@
      "AI\u6c47\u96c6\u70b9", 
      1024
     ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     16, 
+     "\u98de\u884c\u4e95", 
+     4
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     17, 
+     "\u98de\u884c\u4e95", 
+     4
+    ]
    }
   ], 
   "btn_visible": false
@@ -2795,22 +2811,6 @@
     ]
    }
   ], 
-  "btn_visible": true
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   16, 
-   "\u98de\u884c\u4e95", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   17, 
-   "\u98de\u884c\u4e95", 
-   4
-  ]
+  "btn_visible": false
  }
 ]

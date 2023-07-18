@@ -1318,8 +1318,7 @@
             "UI_Manager": null
         }, 
         "UNIT_ENTITY": {
-            "Player Unit": null, 
-            "PlayerCharacter": null
+            "Player Unit": null
         }, 
         "UNIT_NAME": {
             "AIHeroList": 0, 
@@ -1431,13 +1430,6 @@
                 "AttackTimer2", 
                 "AttackTimer2"
             ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
-                "PlayerCharacter", 
-                "PlayerCharacter"
-            ]
         }
     ], 
     "variable_length_dict": {
@@ -1451,7 +1443,6 @@
         "HeroList": 10, 
         "Left": 0, 
         "Player Unit": 10, 
-        "PlayerCharacter": 0, 
         "Score_Manager": 0, 
         "SkillList": 10, 
         "SkillPool": 0, 
