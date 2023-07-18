@@ -134,6 +134,14 @@
                             0, 
                             0
                         ]
+                    }, 
+                    "ShuffledPointList": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
                     }
                 }, 
                 "PROJECTILE": {
@@ -157,7 +165,8 @@
                 "Projectile": 0, 
                 "PropIndex": 0, 
                 "PropList": 10, 
-                "PropPool": 0
+                "PropPool": 0, 
+                "ShuffledPointList": 10
             }
         }, 
         "366354479": {

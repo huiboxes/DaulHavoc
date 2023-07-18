@@ -1494,6 +1494,49 @@
                                     "bp": false, 
                                     "element_id": 603496524986916, 
                                     "enable": true
+                                }, 
+                                {
+                                    "action_type": "RANDOM_LIST_FROM_LIST", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100081, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "GenerationPointList", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                8
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100081, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "POINT", 
+                                                        "ShuffledPointList", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 360423504986927, 
+                                    "enable": true
                                 }
                             ], 
                             "sub_type": 1
@@ -1952,7 +1995,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 360423504000001, 
-                                                    "enable": true
+                                                    "enable": false
                                                 }, 
                                                 {
                                                     "action_type": "SET_VARIABLE", 
@@ -2060,7 +2103,7 @@
                                                                             "__tuple__": true, 
                                                                             "items": [
                                                                                 "POINT", 
-                                                                                "GenerationPointList", 
+                                                                                "ShuffledPointList", 
                                                                                 "local"
                                                                             ]
                                                                         }, 
@@ -2071,7 +2114,7 @@
                                                                                     "__tuple__": true, 
                                                                                     "items": [
                                                                                         "INTEGER", 
-                                                                                        "PointIndex", 
+                                                                                        "LoopIndex", 
                                                                                         "local"
                                                                                     ]
                                                                                 }
