@@ -315,24 +315,24 @@
             "yaw": 3.14159267116338
         }, 
         "10038": {
-            "camera_dist": 84.0, 
+            "camera_dist": 84.00000107597138, 
             "far": 1000.0, 
             "focus_max_dist": null, 
             "focus_min_dist": null, 
-            "focus_x": -0.57, 
+            "focus_x": -0.5600000023841858, 
             "focus_y": 0.0, 
-            "focus_z": -2.49, 
+            "focus_z": -2.490000009536743, 
             "fov": 30.0, 
             "fov_disabled": null, 
             "id": 10038, 
             "is_origin_cam": false, 
             "is_ortho": null, 
             "name": "Cine2", 
-            "pitch": 0.628318534232676, 
+            "pitch": 0.6283185392135111, 
             "roll": 0.0, 
             "set_camera_conf_realtime": false, 
             "type": 32768, 
-            "yaw": 0.0
+            "yaw": 6.283185307179586
         }
     }, 
     "65536": {}, 
@@ -462,9 +462,9 @@
                 "pos": {
                     "__tuple__": true, 
                     "items": [
-                        4.989880084991455, 
+                        7.9459333419799805, 
                         1.9800000190734863, 
-                        9.237666130065918
+                        12.351598739624023
                     ]
                 }, 
                 "relative_height": 0.2, 

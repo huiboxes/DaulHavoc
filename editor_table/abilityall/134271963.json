@@ -353,9 +353,7 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": [
-            "\u5927\u62db"
-        ]
+        "items": []
     }, 
     "target_attribute": 0, 
     "type_priority_building": 1, 
