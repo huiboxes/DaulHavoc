@@ -114,8 +114,7 @@
             }, 
             "swallow_touches": true, 
             "type": 4, 
-            "uid": "c9641536-0e36-4579-992c-00fe9f81459f", 
-            "visible": false
+            "uid": "c9641536-0e36-4579-992c-00fe9f81459f"
         }, 
         {
             "adapter_option": [
@@ -513,6 +512,6 @@
     "type": 2, 
     "ui_anims": [], 
     "uid": "6eb1ce25-b9cc-4341-9c1d-b3c7b8fe6bc7", 
-    "visible": true, 
+    "visible": false, 
     "zorder": 300
 }

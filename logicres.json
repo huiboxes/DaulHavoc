@@ -275,24 +275,64 @@
     "8192": {}, 
     "32768": {
         "9999": {
-            "camera_dist": 37.99999104169234, 
+            "camera_dist": 38.00000038989569, 
             "far": 1000.0, 
             "focus_max_dist": 400.0, 
             "focus_min_dist": 10.0, 
-            "focus_x": 0.339618444442749, 
+            "focus_x": -0.386237770318985, 
             "focus_y": 0.0, 
-            "focus_z": 10.403632164001465, 
-            "fov": 35.0, 
+            "focus_z": 10.126508712768555, 
+            "fov": 40.0, 
             "fov_disabled": true, 
             "id": 9999, 
             "is_origin_cam": true, 
             "is_ortho": false, 
             "name": "\u521d\u59cb\u955c\u5934", 
-            "pitch": 0.9575310977502774, 
+            "pitch": 0.9948376799898468, 
+            "roll": 0.0, 
+            "set_camera_conf_realtime": true, 
+            "type": 32768, 
+            "yaw": 6.283185307179586
+        }, 
+        "10036": {
+            "camera_dist": 84.00000107597138, 
+            "far": 1000.0, 
+            "focus_max_dist": null, 
+            "focus_min_dist": null, 
+            "focus_x": -0.5899999737739563, 
+            "focus_y": 0.0, 
+            "focus_z": -2.490000009536743, 
+            "fov": 30.0, 
+            "fov_disabled": null, 
+            "id": 10036, 
+            "is_origin_cam": false, 
+            "is_ortho": null, 
+            "name": "Cine1", 
+            "pitch": 0.6283185392135111, 
             "roll": 0.0, 
             "set_camera_conf_realtime": false, 
             "type": 32768, 
-            "yaw": 6.280741880731578
+            "yaw": 3.14159267116338
+        }, 
+        "10038": {
+            "camera_dist": 84.0, 
+            "far": 1000.0, 
+            "focus_max_dist": null, 
+            "focus_min_dist": null, 
+            "focus_x": -0.57, 
+            "focus_y": 0.0, 
+            "focus_z": -2.49, 
+            "fov": 30.0, 
+            "fov_disabled": null, 
+            "id": 10038, 
+            "is_origin_cam": false, 
+            "is_ortho": null, 
+            "name": "Cine2", 
+            "pitch": 0.628318534232676, 
+            "roll": 0.0, 
+            "set_camera_conf_realtime": false, 
+            "type": 32768, 
+            "yaw": 0.0
         }
     }, 
     "65536": {}, 
@@ -488,6 +528,19 @@
     }, 
     "262144": {}, 
     "1048576": {}, 
-    "2097152": {}, 
+    "2097152": {
+        "10037": {
+            "id": 10037, 
+            "name": "Cine1Animation", 
+            "raw_camline_id": 3, 
+            "type": 2097152
+        }, 
+        "10039": {
+            "id": 10039, 
+            "name": "Cine2Animation", 
+            "raw_camline_id": 4, 
+            "type": 2097152
+        }
+    }, 
     "4194304": {}
 }
