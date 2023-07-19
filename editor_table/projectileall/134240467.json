@@ -1,11 +1,11 @@
 {
     "_custom_": true, 
-    "_ref_": 134237599, 
+    "_ref_": 134240467, 
     "async_effect": false, 
-    "description": -509368047, 
+    "description": -900558586, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        134242904, 
+        101587, 
         {
             "__tuple__": true, 
             "items": [
@@ -25,56 +25,53 @@
         {
             "__tuple__": true, 
             "items": [
-                0.8, 
-                0.8, 
-                0.8
+                1.0, 
+                1.0, 
+                1.0
             ]
         }, 
         1.0, 
         {
             "anim": "idle1", 
             "base_color_mod": 1, 
-            "base_tint_color": {
-                "__tuple__": true, 
-                "items": [
-                    255, 
-                    255, 
-                    255, 
-                    0.5
-                ]
-            }, 
+            "base_tint_color": [
+                255, 
+                255, 
+                255, 
+                0.5
+            ], 
             "is_loop": true, 
             "model": 103014, 
-            "model_opacity": 1, 
+            "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
                 "items": [
-                    0, 
-                    0, 
-                    0
+                    0.0, 
+                    0.0, 
+                    0.0
                 ]
             }, 
             "rotate": {
                 "__tuple__": true, 
                 "items": [
-                    0, 
-                    0, 
-                    0
+                    0.0, 
+                    0.0, 
+                    0.0
                 ]
             }, 
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    0, 
-                    0, 
-                    0
+                    1.0, 
+                    1.0, 
+                    1.0
                 ]
             }, 
             "use_base_tint_color": false
         }
     ], 
     "effect_friend": [
-        134242904, 
+        101587, 
         {
             "__tuple__": true, 
             "items": [
@@ -94,61 +91,58 @@
         {
             "__tuple__": true, 
             "items": [
-                0.8, 
-                0.8, 
-                0.8
+                1.0, 
+                1.0, 
+                1.0
             ]
         }, 
         1.0, 
         {
             "anim": "idle1", 
             "base_color_mod": 1, 
-            "base_tint_color": {
-                "__tuple__": true, 
-                "items": [
-                    255, 
-                    255, 
-                    255, 
-                    0.5
-                ]
-            }, 
+            "base_tint_color": [
+                255, 
+                255, 
+                255, 
+                0.5
+            ], 
             "is_loop": true, 
             "model": 103014, 
-            "model_opacity": 1, 
+            "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
                 "items": [
-                    0, 
-                    0, 
-                    0
+                    0.0, 
+                    0.0, 
+                    0.0
                 ]
             }, 
             "rotate": {
                 "__tuple__": true, 
                 "items": [
-                    0, 
-                    0, 
-                    0
+                    0.0, 
+                    0.0, 
+                    0.0
                 ]
             }, 
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    0, 
-                    0, 
-                    0
+                    1.0, 
+                    1.0, 
+                    1.0
                 ]
             }, 
             "use_base_tint_color": false
         }
     ], 
     "icon": 100000, 
-    "key": 134237599, 
+    "key": 134240467, 
     "kv": {}, 
     "max_duration": 60, 
     "move_channel": 0, 
     "move_limitation": 1, 
-    "name": -971997604, 
+    "name": 1542800363, 
     "sfx_loop": false, 
     "sound_event_list": {
         "__tuple__": true, 
@@ -159,5 +153,5 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134237599"
+    "uid": "134240467"
 }

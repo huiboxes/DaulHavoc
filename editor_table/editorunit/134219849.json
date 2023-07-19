@@ -40,7 +40,7 @@
     "billboard_scale_y": 1.0, 
     "blood_bar": 0, 
     "blood_show_type": 0, 
-    "body_size": 3.0, 
+    "body_size": 0.2, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []

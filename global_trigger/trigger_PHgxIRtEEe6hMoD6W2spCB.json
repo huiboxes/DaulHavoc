@@ -3,6 +3,33 @@
         "267952199": {
             "action": [
                 {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "bEnablePowerAttack"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 267952199953612, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
@@ -34,41 +61,6 @@
                     "bp": false, 
                     "element_id": 267952199000002, 
                     "enable": true
-                }, 
-                {
-                    "action_type": "UNIT_RELEASE_COMMAND", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                [
-                                    "UNIT_ENTITY", 
-                                    "Player Unit"
-                                ], 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        [
-                                            "INTEGER", 
-                                            "Player ID", 
-                                            "local"
-                                        ], 
-                                        null
-                                    ], 
-                                    "sub_type": 6
-                                }
-                            ], 
-                            "sub_type": 11
-                        }, 
-                        {
-                            "arg_type": 100216, 
-                            "args_list": [], 
-                            "sub_type": "UNIT_COMMAND_STOP"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1257807929000034, 
-                    "enable": false
                 }, 
                 [
                     18931794030032, 
@@ -126,38 +118,86 @@
                     "element_id": 267952199000003, 
                     "enable": true
                 }, 
-                [
-                    18931794030034, 
-                    "\u547d\u4ee4\u5355\u4f4d\u5728\u9f20\u6807\u70b9\u51fb\u7684\u4f4d\u7f6e\u4f7f\u7528\u6280\u80fd", 
-                    1893179403, 
-                    "action_type"
-                ], 
-                [
-                    1461867402, 
-                    "\u653b\u51fb\u6b21\u6570\u7684\u53d8\u5316\u5728\u7269\u4f53\u7f16\u8f91\u5668-\u6280\u80fd\u4e2d", 
-                    1893179403, 
-                    "action_type"
-                ], 
                 {
-                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "action_type": "SET_ENTITY_KV", 
                     "args_list": [
                         {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                [
-                                    "UNIT_ENTITY", 
-                                    "Unit", 
-                                    "local"
-                                ], 
-                                null
-                            ], 
-                            "sub_type": 11
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
                         }, 
                         {
-                            "arg_type": 100216, 
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "bEnablePowerAttack"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 267952199953614, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
                             "args_list": [
                                 {
-                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "TRIGGER_PLAYER"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "bEnablePowerAttack"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "HAS_KV_ANY"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 267952199953626, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "UNIT_RELEASE_COMMAND", 
                                     "args_list": [
                                         {
                                             "arg_type": 100006, 
@@ -172,47 +212,193 @@
                                             "sub_type": 11
                                         }, 
                                         {
-                                            "arg_type": 100182, 
+                                            "arg_type": 100216, 
                                             "args_list": [
-                                                1
+                                                {
+                                                    "arg_type": 100014, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                [
+                                                                    "UNIT_ENTITY", 
+                                                                    "Unit", 
+                                                                    "local"
+                                                                ], 
+                                                                null
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100182, 
+                                                            "args_list": [
+                                                                0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100039, 
+                                                            "args_list": [
+                                                                134243474
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ABILITY_BY_AID"
+                                                }
                                             ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100039, 
-                                            "args_list": [
-                                                134233019
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [], 
+                                                    "sub_type": "POINTING_WORLD_POS"
+                                                }, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
                                             ], 
-                                            "sub_type": 1
+                                            "op_arg_enable": [
+                                                true, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "UNIT_COMMAND_USE_SKILL"
                                         }
                                     ], 
-                                    "sub_type": "GET_ABILITY_BY_AID"
+                                    "bp": false, 
+                                    "element_id": 267952199953631, 
+                                    "enable": true
                                 }
                             ], 
-                            "op_arg": [
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
                                 {
-                                    "arg_type": 100004, 
-                                    "args_list": [], 
-                                    "sub_type": "POINTING_WORLD_POS"
-                                }, 
-                                null, 
-                                null, 
-                                null, 
-                                null
+                                    "action_type": "UNIT_RELEASE_COMMAND", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                [
+                                                    "UNIT_ENTITY", 
+                                                    "Unit", 
+                                                    "local"
+                                                ], 
+                                                null
+                                            ], 
+                                            "sub_type": 11
+                                        }, 
+                                        {
+                                            "arg_type": 100216, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100014, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                [
+                                                                    "UNIT_ENTITY", 
+                                                                    "Unit", 
+                                                                    "local"
+                                                                ], 
+                                                                null
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100182, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100039, 
+                                                            "args_list": [
+                                                                134233019
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ABILITY_BY_AID"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [], 
+                                                    "sub_type": "POINTING_WORLD_POS"
+                                                }, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                true, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "UNIT_COMMAND_USE_SKILL"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 267952199953609, 
+                                    "enable": true
+                                }
                             ], 
-                            "op_arg_enable": [
-                                true, 
-                                false, 
-                                false, 
-                                false, 
-                                false
-                            ], 
-                            "sub_type": "UNIT_COMMAND_USE_SKILL"
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 267952199953609, 
-                    "enable": true
+                    "element_id": 267952199953620, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "Player Unit"
+                                ], 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        [
+                                            "INTEGER", 
+                                            "Player ID", 
+                                            "local"
+                                        ], 
+                                        null
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [], 
+                            "sub_type": "UNIT_COMMAND_STOP"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1257807929000034, 
+                    "enable": false
                 }
             ], 
             "call_enabled": true, 

@@ -1,11 +1,11 @@
 {
     "_custom_": true, 
-    "_ref_": 134270455, 
+    "_ref_": 134219662, 
     "async_effect": false, 
-    "description": 1545886485, 
+    "description": 1667233947, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        134242904, 
+        101806, 
         {
             "__tuple__": true, 
             "items": [
@@ -19,15 +19,15 @@
             "items": [
                 0.0, 
                 0.0, 
-                180.0
+                0.0
             ]
         }, 
         {
             "__tuple__": true, 
             "items": [
-                0.75, 
-                0.75, 
-                0.75
+                1.0, 
+                1.0, 
+                1.4
             ]
         }, 
         1.0, 
@@ -62,16 +62,16 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    0.0, 
-                    0.0, 
-                    0.0
+                    1.0, 
+                    1.0, 
+                    1.0
                 ]
             }, 
             "use_base_tint_color": false
         }
     ], 
     "effect_friend": [
-        134242904, 
+        101806, 
         {
             "__tuple__": true, 
             "items": [
@@ -85,15 +85,15 @@
             "items": [
                 0.0, 
                 0.0, 
-                180.0
+                0.0
             ]
         }, 
         {
             "__tuple__": true, 
             "items": [
-                0.75, 
-                0.75, 
-                0.75
+                1.0, 
+                1.0, 
+                1.4
             ]
         }, 
         1.0, 
@@ -128,21 +128,21 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    0.0, 
-                    0.0, 
-                    0.0
+                    1.0, 
+                    1.0, 
+                    1.0
                 ]
             }, 
             "use_base_tint_color": false
         }
     ], 
     "icon": 100000, 
-    "key": 134270455, 
+    "key": 134219662, 
     "kv": {}, 
     "max_duration": 60, 
     "move_channel": 0, 
     "move_limitation": 1, 
-    "name": -985475241, 
+    "name": -1321856109, 
     "sfx_loop": false, 
     "sound_event_list": {
         "__tuple__": true, 
@@ -153,5 +153,5 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134270455"
+    "uid": "134219662"
 }
