@@ -1,34 +1,185 @@
 {
     "trigger_dict": {
-        "267952199": {
+        "49037406": {
             "action": [
                 {
-                    "action_type": "SET_ENTITY_KV", 
+                    "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
-                            "arg_type": 100025, 
-                            "args_list": [], 
-                            "sub_type": "TRIGGER_PLAYER"
-                        }, 
-                        {
-                            "arg_type": 100003, 
+                            "arg_type": 100021, 
                             "args_list": [
-                                "bEnablePowerAttack"
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100021, 
+                                            "args_list": [
+                                                [
+                                                    1949923540, 
+                                                    "\u5982\u679c\u5904\u4e8e\u84c4\u529b\u666e\u653b\u65f6\u677e\u5f00\u9f20\u6807\u5de6\u952e\uff0c\u53d6\u6d88\u5f53\u524d\u72b6\u6001", 
+                                                    49037406, 
+                                                    "condition_type"
+                                                ], 
+                                                {
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "TRIGGER_PLAYER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "bEnablePowerAttack"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_BOOLEAN_KV"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100035, 
+                                                            "args_list": [
+                                                                "=="
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "condition_type": "BOOL_COMPARE", 
+                                                    "element_id": 49037406000023, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "TRIGGER_PLAYER"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "bDuringPowerAttack"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_BOOLEAN_KV"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100035, 
+                                                            "args_list": [
+                                                                "=="
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "condition_type": "BOOL_COMPARE", 
+                                                    "element_id": 49037406000014, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "AND", 
+                                    "element_id": 49037406000020, 
+                                    "enable": true
+                                }
                             ], 
                             "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100001, 
+                            "arg_type": 100022, 
                             "args_list": [
-                                true
+                                {
+                                    "action_type": "SET_ENTITY_KV", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PLAYER"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "bDuringPowerAttack"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 267952199953639, 
+                                    "enable": true
+                                }
                             ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 267952199953612, 
-                    "enable": true
-                }, 
+                    "element_id": 49037406000008, 
+                    "enable": true, 
+                    "fake_op": []
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200221, 
+                            "args_list": [
+                                240
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 49037406000005, 
+                    "enable": true, 
+                    "event_type": "MOUSE_KEY_UP_EVENT"
+                }
+            ], 
+            "group_id": "PHgxIRtEEe6hMoD6W2spCB", 
+            "p_trigger_id": null, 
+            "trigger_id": 49037406, 
+            "trigger_name": "CancelAttack", 
+            "valid": true
+        }, 
+        "267952199": {
+            "action": [
                 {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
@@ -143,7 +294,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 267952199953614, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "IF_THEN_ELSE", 
@@ -169,7 +320,7 @@
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "HAS_KV_ANY"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -270,6 +421,33 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 267952199953631, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_ENTITY_KV", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PLAYER"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "bDuringPowerAttack"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 267952199953639, 
                                     "enable": true
                                 }
                             ], 
@@ -2457,6 +2635,156 @@
             "trigger_name": "MoveUpdate", 
             "valid": true
         }, 
+        "892346463": {
+            "action": [
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "TRIGGER_PLAYER"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "bEnablePowerAttack"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_BOOLEAN_KV"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 267952199953626, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_ENTITY_KV", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PLAYER"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "bEnablePowerAttack"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 267952199953612, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_ENTITY_KV", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PLAYER"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "bEnablePowerAttack"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 892346463000041, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 267952199953620, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                15
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 892346463000006, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_UP_EVENT"
+                }
+            ], 
+            "group_id": "PHgxIRtEEe6hMoD6W2spCB", 
+            "p_trigger_id": null, 
+            "trigger_id": 892346463, 
+            "trigger_name": "ChangeAttack", 
+            "valid": true
+        }, 
         "1626906698": {
             "action": [
                 {
@@ -2824,6 +3152,20 @@
                 "items": [
                     754491467, 
                     "Accelerate"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    49037406, 
+                    "CancelAttack"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    892346463, 
+                    "ChangeAttack"
                 ]
             }
         ], 

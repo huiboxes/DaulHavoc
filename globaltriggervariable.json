@@ -529,6 +529,16 @@
                 "Player ID": 0
             }
         }, 
+        "892346463": {
+            "variable_dict": {
+                "UNIT_ENTITY": {
+                    "Unit": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "Unit": 0
+            }
+        }, 
         "934527060": {
             "variable_dict": {
                 "INTEGER": {
