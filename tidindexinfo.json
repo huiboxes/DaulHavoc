@@ -149,6 +149,12 @@
         "item_key": 134243474, 
         "prop_key": "name"
     }, 
+    "-432601403": {
+        "editor_type": "sound_all", 
+        "index_type": "object_editor", 
+        "item_key": 134273954, 
+        "prop_key": "name"
+    }, 
     "-421775446": {
         "editor_type": "projectile_all", 
         "index_type": "object_editor", 
@@ -165,6 +171,12 @@
         "editor_type": "projectile_all", 
         "index_type": "object_editor", 
         "item_key": 134245358, 
+        "prop_key": "name"
+    }, 
+    "-352949989": {
+        "editor_type": "sound_all", 
+        "index_type": "object_editor", 
+        "item_key": 134270283, 
         "prop_key": "name"
     }, 
     "-350980042": {
