@@ -1426,7 +1426,7 @@
             "p_trigger_id": null, 
             "trigger_id": 268054531, 
             "trigger_name": "Attack 1", 
-            "valid": true
+            "valid": false
         }
     }, 
     "trigger_group_info": [
