@@ -14,7 +14,7 @@
             ], 
             "children": [], 
             "event_list": [], 
-            "image": 110020, 
+            "image": 134280971, 
             "name": "loading_background", 
             "open_adapter": true, 
             "pos": {
@@ -36,7 +36,7 @@
                 false, 
                 true, 
                 true, 
-                false, 
+                true, 
                 1038.0, 
                 30.0, 
                 38.0, 
@@ -62,10 +62,13 @@
                     3.3333333333333335
                 ]
             }, 
-            "size": [
-                1844.0, 
-                12.0
-            ], 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1844.0, 
+                    12.0
+                ]
+            }, 
             "type": 5, 
             "uid": "d499d639-48d1-43a5-b25c-a33920f95488"
         }, 
@@ -168,6 +171,59 @@
             }, 
             "type": 3, 
             "uid": "dd9f4908-e838-489a-a24a-c39a2c7dba92"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                true, 
+                true, 
+                false, 
+                995.0, 
+                49.0, 
+                1451.0, 
+                105.0
+            ], 
+            "children": [], 
+            "event_list": [], 
+            "font": {
+                "__tuple__": true, 
+                "items": [
+                    "", 
+                    36
+                ]
+            }, 
+            "name": "MapName", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1633.0, 
+                    67.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    85.05208333333333, 
+                    6.203703703703703
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    364.0, 
+                    36.0
+                ]
+            }, 
+            "text": {
+                "__tuple__": true, 
+                "items": [
+                    "\u9057\u8ff9\u2014\u2014\u5c71\u95f4\u4f11\u61a9\u533a", 
+                    false
+                ]
+            }, 
+            "type": 3, 
+            "uid": "19d5fbcd-8660-4d0e-b04e-5d1b370a8dea"
         }
     ], 
     "name": "LoadingPanel", 

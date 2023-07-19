@@ -28,7 +28,7 @@
     ]
    }
   ], 
-  "btn_visible": false
+  "btn_visible": true
  }, 
  {
   "name": "\u73a9\u5bb6\u51fa\u751f\u70b9", 
@@ -2788,7 +2788,7 @@
     ]
    }
   ], 
-  "btn_visible": false
+  "btn_visible": true
  }, 
  {
   "name": "\u91ce\u602a\u751f\u6210\u533a\u57df", 
